@@ -1,0 +1,39 @@
+{
+  "model": "research\\modern-convnext\\model-qdq-int8.onnx",
+  "images": 5,
+  "threshold": 0.65,
+  "tpr": 0.0,
+  "tnr": null,
+  "rows": [
+    {
+      "file": "benchmark-corebench\\fake\\0000-0.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.3229731619358063
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0001-1.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.5037006735801697
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0002-2.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.4962993562221527
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0003-3.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.3038652539253235
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0004-4.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.43014639616012573
+    }
+  ]
+}

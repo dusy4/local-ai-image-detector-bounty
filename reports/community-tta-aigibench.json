@@ -1,0 +1,3514 @@
+{
+  "dataset": "benchmark-aigibench",
+  "images": 500,
+  "center": {
+    "tpr": 0.904,
+    "tnr": 0.936
+  },
+  "max6": {
+    "tpr": 0.972,
+    "tnr": 0.884
+  },
+  "rows": [
+    {
+      "file": "benchmark-aigibench\\real\\0000-0.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7955208420753479,
+      "max6": 0.7955208420753479
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0001-2.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004811873659491539,
+      "max6": 0.06494878977537155
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0002-4.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03361472859978676,
+      "max6": 0.06643004715442657
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0003-6.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.32755792140960693,
+      "max6": 0.5880063772201538
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0004-8.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0010127451969310641,
+      "max6": 0.0025905382353812456
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0005-10.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0082209138199687,
+      "max6": 0.02649068459868431
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0006-12.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.04266561195254326,
+      "max6": 0.24410830438137054
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0007-14.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 7.331025699386373e-05,
+      "max6": 0.00190422881860286
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0008-16.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01958034373819828,
+      "max6": 0.04479758068919182
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0009-18.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0048399632796645164,
+      "max6": 0.5858219861984253
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0010-20.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7528944611549377,
+      "max6": 0.9620187282562256
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0011-22.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.5904409885406494,
+      "max6": 0.5904409885406494
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0012-24.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0011811997974291444,
+      "max6": 0.0022868032101541758
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0013-26.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.011220569722354412,
+      "max6": 0.07904431223869324
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0014-28.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.021632498130202293,
+      "max6": 0.06504902988672256
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0015-30.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0024748328141868114,
+      "max6": 0.2381303906440735
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0016-32.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.038726627826690674,
+      "max6": 0.06394699215888977
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0017-34.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.04106661304831505,
+      "max6": 0.20118094980716705
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0018-36.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.44493457674980164,
+      "max6": 0.6724798679351807
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0019-38.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.37499308586120605,
+      "max6": 0.37499308586120605
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0020-40.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.19919830560684204,
+      "max6": 0.5160753130912781
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0021-42.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.2747557461261749,
+      "max6": 0.31099721789360046
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0022-44.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.06187133863568306,
+      "max6": 0.344711035490036
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0023-46.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.208954319357872,
+      "max6": 0.208954319357872
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0024-48.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003418325213715434,
+      "max6": 0.003418325213715434
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0025-50.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.011128554120659828,
+      "max6": 0.011128554120659828
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0026-52.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03833408281207085,
+      "max6": 0.3653794229030609
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0027-54.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003010415006428957,
+      "max6": 0.0038742481265217066
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0028-56.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.2200620323419571,
+      "max6": 0.6241562962532043
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0029-58.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00081883545499295,
+      "max6": 0.005877712741494179
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0030-60.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7320764064788818,
+      "max6": 0.8411731123924255
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0031-62.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.010958253405988216,
+      "max6": 0.34306031465530396
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0032-64.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.49029257893562317,
+      "max6": 0.49029257893562317
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0033-66.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0006909012445248663,
+      "max6": 0.014414539560675621
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0034-68.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.002917039440944791,
+      "max6": 0.0030933923553675413
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0035-70.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01259299274533987,
+      "max6": 0.08379045128822327
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0036-72.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.18761193752288818,
+      "max6": 0.5785525441169739
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0037-74.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016035640146583319,
+      "max6": 0.024478202685713768
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0038-76.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.8496975898742676,
+      "max6": 0.8978172540664673
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0039-78.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004239970352500677,
+      "max6": 0.02090250514447689
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0040-80.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00019020646868739277,
+      "max6": 0.003052299376577139
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0041-82.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00040699171950109303,
+      "max6": 0.0016029372345656157
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0042-84.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.8822919726371765,
+      "max6": 0.951302170753479
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0043-86.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0032745134085416794,
+      "max6": 0.06678423285484314
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0044-88.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016590631566941738,
+      "max6": 0.07849561423063278
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0045-90.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.8221296668052673,
+      "max6": 0.8221296668052673
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0046-92.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.29898837208747864,
+      "max6": 0.47849059104919434
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0047-94.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.04426414147019386,
+      "max6": 0.1313498467206955
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0048-96.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.32219305634498596,
+      "max6": 0.34194377064704895
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0049-98.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.010742563754320145,
+      "max6": 0.026857780292630196
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0050-7300.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.48989149928092957,
+      "max6": 0.6479238867759705
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0051-7302.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.12546424567699432,
+      "max6": 0.27240854501724243
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0052-7304.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.5522121787071228,
+      "max6": 0.5876235365867615
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0053-7306.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03158418461680412,
+      "max6": 0.03158418461680412
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0054-7308.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.39249250292778015,
+      "max6": 0.39249250292778015
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0055-7310.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.002390820998698473,
+      "max6": 0.002390820998698473
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0056-7312.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.8892624378204346,
+      "max6": 0.9290937185287476
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0057-7314.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.012504087761044502,
+      "max6": 0.1136028990149498
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0058-7316.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01309447642415762,
+      "max6": 0.013699511997401714
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0059-7318.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00012446950131561607,
+      "max6": 0.0005881727556698024
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0060-7320.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.9728903770446777,
+      "max6": 0.9850666522979736
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0061-7322.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0062714917585253716,
+      "max6": 0.0062714917585253716
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0062-7324.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.11322639882564545,
+      "max6": 0.2852455675601959
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0063-7326.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0006563221686519682,
+      "max6": 0.00367187918163836
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0064-7328.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0006758003728464246,
+      "max6": 0.0045312270522117615
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0065-7330.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0013274020748212934,
+      "max6": 0.0031224091071635485
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0066-7332.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003962362185120583,
+      "max6": 0.31724563241004944
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0067-7334.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.007868959568440914,
+      "max6": 0.007868959568440914
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0068-7336.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.005539786070585251,
+      "max6": 0.008135090582072735
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0069-7338.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.015324253588914871,
+      "max6": 0.03308919817209244
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0070-7340.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.37739086151123047,
+      "max6": 0.48051702976226807
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0071-7342.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0021674474701285362,
+      "max6": 0.0021674474701285362
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0072-7344.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.6501383781433105,
+      "max6": 0.9755743741989136
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0073-7346.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.5367439389228821,
+      "max6": 0.5367439389228821
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0074-7348.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03962841257452965,
+      "max6": 0.0613100528717041
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0075-7350.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0007642963901162148,
+      "max6": 0.005624648183584213
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0076-7352.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.010641390457749367,
+      "max6": 0.06698884069919586
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0077-7354.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.015886541455984116,
+      "max6": 0.517024040222168
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0078-7356.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003044273005798459,
+      "max6": 0.0057525779120624065
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0079-7358.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0005077412934042513,
+      "max6": 0.0005077412934042513
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0080-7360.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016138056525960565,
+      "max6": 0.004907575435936451
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0081-7362.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.6650064587593079,
+      "max6": 0.7972662448883057
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0082-7364.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003980004694312811,
+      "max6": 0.027522439137101173
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0083-7366.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0017329107504338026,
+      "max6": 0.0071120485663414
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0084-7368.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.008566993288695812,
+      "max6": 0.06717979907989502
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0085-7370.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 3.536893200362101e-05,
+      "max6": 7.931876461952925e-05
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0086-7372.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.10201757401227951,
+      "max6": 0.3298066556453705
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0087-7374.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.05398142337799072,
+      "max6": 0.05398142337799072
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0088-7376.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0036701387725770473,
+      "max6": 0.007148522883653641
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0089-7378.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.027257323265075684,
+      "max6": 0.3915444612503052
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0090-7380.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.051814183592796326,
+      "max6": 0.051814183592796326
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0091-7382.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.009222867898643017,
+      "max6": 0.05951084569096565
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0092-7384.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0726325660943985,
+      "max6": 0.17770391702651978
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0093-7386.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0268071498721838,
+      "max6": 0.0268071498721838
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0094-7388.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004145308397710323,
+      "max6": 0.017886802554130554
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0095-7390.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0013732918305322528,
+      "max6": 0.003489129478111863
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0096-7392.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.564890444278717,
+      "max6": 0.6084063649177551
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0097-7394.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.000669133267365396,
+      "max6": 0.009463087655603886
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0098-7396.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.1815895140171051,
+      "max6": 0.21184158325195312
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0099-7398.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.008140744641423225,
+      "max6": 0.09906724095344543
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0100-14600.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.2265811264514923,
+      "max6": 0.3690902888774872
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0101-14602.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.012676062993705273,
+      "max6": 0.03776729851961136
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0102-14604.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.17426522076129913,
+      "max6": 0.7231432199478149
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0103-14606.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004283476620912552,
+      "max6": 0.05774068832397461
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0104-14608.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0108273820951581,
+      "max6": 0.04253522306680679
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0105-14610.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.10936901718378067,
+      "max6": 0.10936901718378067
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0106-14612.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0018325791461393237,
+      "max6": 0.00467434898018837
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0107-14614.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0063736396841704845,
+      "max6": 0.02526453137397766
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0108-14616.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004974370822310448,
+      "max6": 0.06553447246551514
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0109-14618.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.025609588250517845,
+      "max6": 0.0682913288474083
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0110-14620.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.9630821347236633,
+      "max6": 0.9844821691513062
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0111-14622.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03521181643009186,
+      "max6": 0.03720173239707947
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0112-14624.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.06852418929338455,
+      "max6": 0.3513822853565216
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0113-14626.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03399505466222763,
+      "max6": 0.0528118871152401
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0114-14628.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7156675457954407,
+      "max6": 0.9583937525749207
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0115-14630.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03412289172410965,
+      "max6": 0.171861931681633
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0116-14632.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.010639733634889126,
+      "max6": 0.07838600128889084
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0117-14634.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.023551343008875847,
+      "max6": 0.13309341669082642
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0118-14636.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.007159201893955469,
+      "max6": 0.035905562341213226
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0119-14638.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00022473027638625354,
+      "max6": 0.002369181951507926
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0120-14640.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.35589656233787537,
+      "max6": 0.35589656233787537
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0121-14642.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0002692069683689624,
+      "max6": 0.027695996686816216
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0122-14644.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.012049231678247452,
+      "max6": 0.012049231678247452
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0123-14646.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03143937140703201,
+      "max6": 0.3576138913631439
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0124-14648.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.06896226853132248,
+      "max6": 0.08592666685581207
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0125-14650.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.12106560915708542,
+      "max6": 0.8167669177055359
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0126-14652.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.4913688600063324,
+      "max6": 0.49606454372406006
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0127-14654.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02222672663629055,
+      "max6": 0.2896934747695923
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0128-14656.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03361714631319046,
+      "max6": 0.03445848450064659
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0129-14658.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.008482567965984344,
+      "max6": 0.018754422664642334
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0130-14660.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.11525969207286835,
+      "max6": 0.3129594027996063
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0131-14662.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004165014252066612,
+      "max6": 0.0045626843348145485
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0132-14664.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01027668360620737,
+      "max6": 0.02646150067448616
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0133-14666.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0009659164352342486,
+      "max6": 0.008625417947769165
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0134-14668.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.013137785717844963,
+      "max6": 0.10635321587324142
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0135-14670.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016594761982560158,
+      "max6": 0.016951125115156174
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0136-14672.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.2654218077659607,
+      "max6": 0.2654218077659607
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0137-14674.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.018599994480609894,
+      "max6": 0.060204941779375076
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0138-14676.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003822480561211705,
+      "max6": 0.012187047861516476
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0139-14678.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0030425467994064093,
+      "max6": 0.05195441097021103
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0140-14680.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0067140948958694935,
+      "max6": 0.03448467701673508
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0141-14682.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.14220817387104034,
+      "max6": 0.4464755654335022
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0142-14684.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.20571018755435944,
+      "max6": 0.20571018755435944
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0143-14686.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.025524981319904327,
+      "max6": 0.05247817188501358
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0144-14688.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0094827339053154,
+      "max6": 0.019292296841740608
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0145-14690.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0013674709480255842,
+      "max6": 0.007651397027075291
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0146-14692.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0113414591178298,
+      "max6": 0.9607680439949036
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0147-14694.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.011336706578731537,
+      "max6": 0.05000344291329384
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0148-14696.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00019355669792275876,
+      "max6": 0.09591589868068695
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0149-14698.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01243005320429802,
+      "max6": 0.07073669135570526
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0150-1900.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016376496059820056,
+      "max6": 0.0018533999100327492
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0151-1902.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.001491451170295477,
+      "max6": 0.04988384619355202
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0152-1904.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0010195071808993816,
+      "max6": 0.001920321024954319
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0153-1906.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03495192155241966,
+      "max6": 0.08719469606876373
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0154-1908.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0006713402108289301,
+      "max6": 0.01603439822793007
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0155-1910.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.005747992545366287,
+      "max6": 0.01698159985244274
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0156-1912.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7790598273277283,
+      "max6": 0.7790598273277283
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0157-1914.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.11386856436729431,
+      "max6": 0.32181689143180847
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0158-1916.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.007154556456953287,
+      "max6": 0.024347150698304176
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0159-1918.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.5071150064468384,
+      "max6": 0.5784788727760315
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0160-1920.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.05575547367334366,
+      "max6": 0.05575547367334366
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0161-1922.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.007336479611694813,
+      "max6": 0.017684170976281166
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0162-1924.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0028743192087858915,
+      "max6": 0.003962846007198095
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0163-1926.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.034497737884521484,
+      "max6": 0.06040750816464424
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0164-1928.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.27847790718078613,
+      "max6": 0.791049599647522
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0165-1930.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.002707012929022312,
+      "max6": 0.010673829354345798
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0166-1932.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.20850308239459991,
+      "max6": 0.2412983626127243
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0167-1934.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 6.693937757518142e-05,
+      "max6": 0.00016960098582785577
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0168-1936.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.3677690625190735,
+      "max6": 0.8109122514724731
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0169-1938.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00433420529589057,
+      "max6": 0.017186541110277176
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0170-1940.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.006357823498547077,
+      "max6": 0.04724758863449097
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0171-1942.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02205083705484867,
+      "max6": 0.9541897177696228
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0172-1944.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02417726255953312,
+      "max6": 0.11661435663700104
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0173-1946.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.013987655751407146,
+      "max6": 0.0190542284399271
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0174-1948.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.21384702622890472,
+      "max6": 0.5899980068206787
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0175-1950.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.04025648906826973,
+      "max6": 0.3734905421733856
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0176-1952.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.015224996954202652,
+      "max6": 0.015224996954202652
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0177-1954.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.019258521497249603,
+      "max6": 0.14170370995998383
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0178-1956.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01578519120812416,
+      "max6": 0.024355167523026466
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0179-1958.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.05302686244249344,
+      "max6": 0.05302686244249344
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0180-1960.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02270994707942009,
+      "max6": 0.1085738092660904
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0181-1962.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00409667706117034,
+      "max6": 0.005044004414230585
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0182-1964.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.007983000949025154,
+      "max6": 0.014601612463593483
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0183-1966.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004278806038200855,
+      "max6": 0.04450055956840515
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0184-1968.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.29207277297973633,
+      "max6": 0.8096479177474976
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0185-1970.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.07086730003356934,
+      "max6": 0.12808386981487274
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0186-1972.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.09271380305290222,
+      "max6": 0.38573747873306274
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0187-1974.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.016979316249489784,
+      "max6": 0.061179328709840775
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0188-1976.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.3331669867038727,
+      "max6": 0.8944289684295654
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0189-1978.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.014878842979669571,
+      "max6": 0.024484334513545036
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0190-1980.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.013259543105959892,
+      "max6": 0.13845086097717285
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0191-1982.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.054279621690511703,
+      "max6": 0.054279621690511703
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0192-1984.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.027275098487734795,
+      "max6": 0.1667376309633255
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0193-1986.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.35115039348602295,
+      "max6": 0.542514443397522
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0194-1988.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.010125616565346718,
+      "max6": 0.041410889476537704
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0195-1990.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.32192811369895935,
+      "max6": 0.32192811369895935
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0196-1992.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0014349718112498522,
+      "max6": 0.004130263347178698
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0197-1994.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.047415751963853836,
+      "max6": 0.047415751963853836
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0198-1996.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.027007760480046272,
+      "max6": 0.09667334705591202
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0199-1998.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0045946333557367325,
+      "max6": 0.008961516432464123
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0200-9200.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.22953742742538452,
+      "max6": 0.2914501428604126
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0201-9202.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.019704971462488174,
+      "max6": 0.7012171745300293
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0202-9204.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.18032285571098328,
+      "max6": 0.41353660821914673
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0203-9206.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02986690029501915,
+      "max6": 0.02986690029501915
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0204-9208.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.5351688265800476,
+      "max6": 0.8000021576881409
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0205-9210.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.7573932409286499,
+      "max6": 0.7573932409286499
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0206-9212.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003738683182746172,
+      "max6": 0.010283228009939194
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0207-9214.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.002973027527332306,
+      "max6": 0.005172930657863617
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0208-9216.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.6588798761367798,
+      "max6": 0.9111096858978271
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0209-9218.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0027201108168810606,
+      "max6": 0.006521702278405428
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0210-9220.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0013573813484981656,
+      "max6": 0.0022904311772435904
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0211-9222.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03304010629653931,
+      "max6": 0.0944538414478302
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0212-9224.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.48683470487594604,
+      "max6": 0.7849227786064148
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0213-9226.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016321719158440828,
+      "max6": 0.05088893324136734
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0214-9228.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.1105957180261612,
+      "max6": 0.1553994119167328
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0215-9230.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01764082722365856,
+      "max6": 0.11348313838243484
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0216-9232.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.02279137633740902,
+      "max6": 0.06831672787666321
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0217-9234.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.05749867856502533,
+      "max6": 0.05749867856502533
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0218-9236.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.143765389919281,
+      "max6": 0.28472644090652466
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0219-9238.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00015347691078204662,
+      "max6": 0.00737517885863781
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0220-9240.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.07980862259864807,
+      "max6": 0.4628710448741913
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0221-9242.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004900896921753883,
+      "max6": 0.014942774549126625
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0222-9244.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0023974573705345392,
+      "max6": 0.004598438274115324
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0223-9246.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0016042396891862154,
+      "max6": 0.003003292018547654
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0224-9248.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.14642027020454407,
+      "max6": 0.2751358151435852
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0225-9250.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03179900720715523,
+      "max6": 0.08802639693021774
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0226-9252.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.10118045657873154,
+      "max6": 0.20541749894618988
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0227-9254.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.003442977322265506,
+      "max6": 0.03544509410858154
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0228-9256.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.21108318865299225,
+      "max6": 0.4134352505207062
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0229-9258.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.025124160572886467,
+      "max6": 0.12178486585617065
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0230-9260.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.03749126195907593,
+      "max6": 0.16479596495628357
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0231-9262.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0006499168230220675,
+      "max6": 0.008054262027144432
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0232-9264.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.008865022100508213,
+      "max6": 0.010802376084029675
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0233-9266.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.023068755865097046,
+      "max6": 0.22089563310146332
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0234-9268.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.18020741641521454,
+      "max6": 0.22787395119667053
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0235-9270.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0004804423952009529,
+      "max6": 0.0004804423952009529
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0236-9272.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.004331014584749937,
+      "max6": 0.025669585913419724
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0237-9274.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.00019014770805370063,
+      "max6": 0.000709240383002907
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0238-9276.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.005782025400549173,
+      "max6": 0.048817265778779984
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0239-9278.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.8164563179016113,
+      "max6": 0.8901655673980713
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0240-9280.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.014036082662642002,
+      "max6": 0.01837642304599285
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0241-9282.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.18634487688541412,
+      "max6": 0.18634487688541412
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0242-9284.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.01406219881027937,
+      "max6": 0.0944308415055275
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0243-9286.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.08115272223949432,
+      "max6": 0.5635519027709961
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0244-9288.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.06479261815547943,
+      "max6": 0.23590154945850372
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0245-9290.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.008008121512830257,
+      "max6": 0.05399934947490692
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0246-9292.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.4464094638824463,
+      "max6": 0.4464094638824463
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0247-9294.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.0060880244709551334,
+      "max6": 0.017714131623506546
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0248-9296.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.6032096743583679,
+      "max6": 0.9760527014732361
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0249-9298.jpg",
+      "truth": 0,
+      "source": "real",
+      "center": 0.021778691560029984,
+      "max6": 0.046990226954221725
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0000-1.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9997101426124573,
+      "max6": 0.9999547004699707
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0001-3.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.47382408380508423,
+      "max6": 0.9849425554275513
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0002-5.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9984826445579529,
+      "max6": 0.9997772574424744
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0003-7.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9994764924049377,
+      "max6": 0.9996135830879211
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0004-9.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9993498921394348,
+      "max6": 0.9998538494110107
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0005-11.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999866485595703,
+      "max6": 0.9999949932098389
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0006-13.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9979907274246216,
+      "max6": 0.9996817111968994
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0007-15.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9971619844436646,
+      "max6": 0.9987409710884094
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0008-17.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.99993896484375,
+      "max6": 0.99993896484375
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0009-19.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9996360540390015,
+      "max6": 0.9999110698699951
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0010-21.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.999921441078186,
+      "max6": 0.9999425411224365
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0011-23.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9991051554679871,
+      "max6": 0.9996172189712524
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0012-25.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9960934519767761,
+      "max6": 0.9985918402671814
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0013-27.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9975672960281372,
+      "max6": 0.9998397827148438
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0014-29.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9527080655097961,
+      "max6": 0.9994812607765198
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0015-31.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9724827408790588,
+      "max6": 0.9963997602462769
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0016-33.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9991889595985413,
+      "max6": 0.99974125623703
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0017-35.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9134984612464905,
+      "max6": 0.9983543157577515
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0018-37.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.318026065826416,
+      "max6": 0.7451016306877136
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0019-39.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.906632661819458,
+      "max6": 0.9750555753707886
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0020-41.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999151229858398,
+      "max6": 0.9999369382858276
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0021-43.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9943034648895264,
+      "max6": 0.9975419044494629
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0022-45.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9942305088043213,
+      "max6": 0.9949160814285278
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0023-47.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.28875529766082764,
+      "max6": 0.9052331447601318
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0024-49.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9988208413124084,
+      "max6": 0.999822199344635
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0025-51.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9977290034294128,
+      "max6": 0.9998743534088135
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0026-53.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9510045051574707,
+      "max6": 0.9939056038856506
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0027-55.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.8002289533615112,
+      "max6": 0.9913676381111145
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0028-57.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.99909508228302,
+      "max6": 0.999769389629364
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0029-59.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9545661211013794,
+      "max6": 0.9967461824417114
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0030-61.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9985154271125793,
+      "max6": 0.9989451766014099
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0031-63.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.8368455767631531,
+      "max6": 0.9730548858642578
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0032-65.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9997699856758118,
+      "max6": 0.9999494552612305
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0033-67.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9971070885658264,
+      "max6": 0.9993005990982056
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0034-69.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.7276699542999268,
+      "max6": 0.9548428654670715
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0035-71.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9870490431785583,
+      "max6": 0.9996306896209717
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0036-73.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9963467717170715,
+      "max6": 0.9986943602561951
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0037-75.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.996522068977356,
+      "max6": 0.9998052716255188
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0038-77.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9713837504386902,
+      "max6": 0.996052086353302
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0039-79.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999629259109497,
+      "max6": 0.9999778270721436
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0040-81.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.717490017414093,
+      "max6": 0.9976000189781189
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0041-83.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9995428323745728,
+      "max6": 0.9998675584793091
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0042-85.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9931631088256836,
+      "max6": 0.9991242289543152
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0043-87.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9892951846122742,
+      "max6": 0.9987834095954895
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0044-89.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9996857643127441,
+      "max6": 0.9998528957366943
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0045-91.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9753835797309875,
+      "max6": 0.9956513047218323
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0046-93.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.2752417325973511,
+      "max6": 0.9854353666305542
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0047-95.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999120235443115,
+      "max6": 0.9999120235443115
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0048-97.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.999875545501709,
+      "max6": 0.999875545501709
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0049-99.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9993318915367126,
+      "max6": 0.9998699426651001
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0050-7301.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9940685033798218,
+      "max6": 0.9981151819229126
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0051-7303.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999717473983765,
+      "max6": 0.9999878406524658
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0052-7305.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9899157285690308,
+      "max6": 0.9988529682159424
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0053-7307.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999717473983765,
+      "max6": 0.9999984502792358
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0054-7309.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9964631199836731,
+      "max6": 0.9991063475608826
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0055-7311.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999972581863403,
+      "max6": 0.999997615814209
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0056-7313.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.56644207239151,
+      "max6": 0.9787397384643555
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0057-7315.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999988079071045,
+      "max6": 0.9999990463256836
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0058-7317.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9928447604179382,
+      "max6": 0.9983657002449036
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0059-7319.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.999861478805542,
+      "max6": 0.9999678134918213
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0060-7321.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999599456787109,
+      "max6": 0.9999599456787109
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0061-7323.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9994288086891174,
+      "max6": 0.9999024868011475
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0062-7325.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.996788740158081,
+      "max6": 0.9991000890731812
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0063-7327.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9984843134880066,
+      "max6": 0.9985089898109436
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0064-7329.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.8828678131103516,
+      "max6": 0.9947012662887573
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0065-7331.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999959468841553,
+      "max6": 0.999996542930603
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0066-7333.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9874680042266846,
+      "max6": 0.9985547661781311
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0067-7335.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9992035031318665,
+      "max6": 0.9997934699058533
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0068-7337.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9484014511108398,
+      "max6": 0.9983506202697754
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0069-7339.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9950537085533142,
+      "max6": 0.9954591989517212
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0070-7341.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9590194225311279,
+      "max6": 0.9959807395935059
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0071-7343.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999810457229614,
+      "max6": 0.99998939037323
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0072-7345.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.003449744312092662,
+      "max6": 0.06357073038816452
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0073-7347.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9976040720939636,
+      "max6": 0.9995892643928528
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0074-7349.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9936966300010681,
+      "max6": 0.9983987212181091
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0075-7351.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999035596847534,
+      "max6": 0.9999784231185913
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0076-7353.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.040321510285139084,
+      "max6": 0.15162190794944763
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0077-7355.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.99973064661026,
+      "max6": 0.9999715089797974
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0078-7357.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9995611310005188,
+      "max6": 0.9999295473098755
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0079-7359.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.998854398727417,
+      "max6": 0.9997408986091614
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0080-7361.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999231100082397,
+      "max6": 0.9999556541442871
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0081-7363.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.977581262588501,
+      "max6": 0.9944308400154114
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0082-7365.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9996201992034912,
+      "max6": 0.9996201992034912
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0083-7367.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9993552565574646,
+      "max6": 0.9997134804725647
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0084-7369.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.02854088507592678,
+      "max6": 0.7354243993759155
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0085-7371.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.7942409515380859,
+      "max6": 0.9935157299041748
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0086-7373.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998706579208374,
+      "max6": 0.9999301433563232
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0087-7375.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.913128137588501,
+      "max6": 0.9526840448379517
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0088-7377.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9896396398544312,
+      "max6": 0.9998071789741516
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0089-7379.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999977350234985,
+      "max6": 0.9999984502792358
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0090-7381.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9710794687271118,
+      "max6": 0.973334014415741
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0091-7383.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999804496765137,
+      "max6": 0.9999804496765137
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0092-7385.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9993199110031128,
+      "max6": 0.9999438524246216
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0093-7387.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999783039093018,
+      "max6": 0.9999783039093018
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0094-7389.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.411642462015152,
+      "max6": 0.9998766183853149
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0095-7391.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999853372573853,
+      "max6": 0.9999878406524658
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0096-7393.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9989582300186157,
+      "max6": 0.9989582300186157
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0097-7395.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999703168869019,
+      "max6": 0.9999703168869019
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0098-7397.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9987637996673584,
+      "max6": 0.9999728202819824
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0099-7399.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999749660491943,
+      "max6": 0.9999762773513794
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0100-14601.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.994707465171814,
+      "max6": 0.9975167512893677
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0101-14603.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.994468092918396,
+      "max6": 0.9997801184654236
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0102-14605.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9985805749893188,
+      "max6": 0.999365508556366
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0103-14607.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9997842907905579,
+      "max6": 0.9998031258583069
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0104-14609.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.7945497035980225,
+      "max6": 0.9778321385383606
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0105-14611.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.2650623321533203,
+      "max6": 0.8987691402435303
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0106-14613.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998766183853149,
+      "max6": 0.9999589920043945
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0107-14615.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999654293060303,
+      "max6": 0.9999891519546509
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0108-14617.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999649524688721,
+      "max6": 0.9999850988388062
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0109-14619.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9162039756774902,
+      "max6": 0.9986415505409241
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0110-14621.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9996148347854614,
+      "max6": 0.9998579025268555
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0111-14623.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999459981918335,
+      "max6": 0.9999459981918335
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0112-14625.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9966843724250793,
+      "max6": 0.9997153878211975
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0113-14627.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999774694442749,
+      "max6": 0.9999840259552002
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0114-14629.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9988906979560852,
+      "max6": 0.9991378784179688
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0115-14631.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999874830245972,
+      "max6": 0.9999933242797852
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0116-14633.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9996107220649719,
+      "max6": 0.9998807907104492
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0117-14635.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999864101409912,
+      "max6": 0.9999945163726807
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0118-14637.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9989433884620667,
+      "max6": 0.999650239944458
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0119-14639.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.920870304107666,
+      "max6": 0.9985687732696533
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0120-14641.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.6049755215644836,
+      "max6": 0.9704414010047913
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0121-14643.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.999931812286377,
+      "max6": 0.9999606609344482
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0122-14645.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9741067290306091,
+      "max6": 0.9979538917541504
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0123-14647.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.99870765209198,
+      "max6": 0.99870765209198
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0124-14649.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9976750016212463,
+      "max6": 0.9994619488716125
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0125-14651.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999974966049194,
+      "max6": 0.9999974966049194
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0126-14653.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999929666519165,
+      "max6": 0.9999963045120239
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0127-14655.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9973347187042236,
+      "max6": 0.9973347187042236
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0128-14657.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9997544884681702,
+      "max6": 0.9998482465744019
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0129-14659.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999415874481201,
+      "max6": 0.9999910593032837
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0130-14661.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.993744432926178,
+      "max6": 0.993744432926178
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0131-14663.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.7353910803794861,
+      "max6": 0.9894890189170837
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0132-14665.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9981719255447388,
+      "max6": 0.9997147917747498
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0133-14667.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9984118938446045,
+      "max6": 0.9998064637184143
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0134-14669.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.996997594833374,
+      "max6": 0.9997338652610779
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0135-14671.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.7262694239616394,
+      "max6": 0.9969347715377808
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0136-14673.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9788540601730347,
+      "max6": 0.9926909804344177
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0137-14675.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9888163805007935,
+      "max6": 0.9962976574897766
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0138-14677.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.921241044998169,
+      "max6": 0.9927037954330444
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0139-14679.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9901560544967651,
+      "max6": 0.9980412721633911
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0140-14681.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.8003765344619751,
+      "max6": 0.9980598092079163
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0141-14683.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.976123571395874,
+      "max6": 0.9829634428024292
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0142-14685.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.6676771640777588,
+      "max6": 0.9936864972114563
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0143-14687.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.20967595279216766,
+      "max6": 0.5412435531616211
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0144-14689.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9930250644683838,
+      "max6": 0.9997642636299133
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0145-14691.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9941923022270203,
+      "max6": 0.9993399977684021
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0146-14693.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.6987775564193726,
+      "max6": 0.6987775564193726
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0147-14695.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9070646166801453,
+      "max6": 0.9995666146278381
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0148-14697.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9607213735580444,
+      "max6": 0.9998444318771362
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0149-14699.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999885559082031,
+      "max6": 0.9999942779541016
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0150-1901.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998027682304382,
+      "max6": 0.9999257326126099
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0151-1903.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.999951958656311,
+      "max6": 0.9999555349349976
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0152-1905.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.584191083908081,
+      "max6": 0.584191083908081
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0153-1907.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999216794967651,
+      "max6": 0.9999790191650391
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0154-1909.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9053952097892761,
+      "max6": 0.9857928156852722
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0155-1911.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9994897842407227,
+      "max6": 0.9998503923416138
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0156-1913.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9996291399002075,
+      "max6": 0.999984622001648
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0157-1915.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999194145202637,
+      "max6": 0.9999948740005493
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0158-1917.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.7034973502159119,
+      "max6": 0.9235877990722656
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0159-1919.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9898170232772827,
+      "max6": 0.9984097480773926
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0160-1921.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.991447925567627,
+      "max6": 0.9955276846885681
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0161-1923.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9917110204696655,
+      "max6": 0.9917110204696655
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0162-1925.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9936482310295105,
+      "max6": 0.9996954202651978
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0163-1927.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.5161048769950867,
+      "max6": 0.9600510001182556
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0164-1929.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998303651809692,
+      "max6": 0.9998303651809692
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0165-1931.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.5873211622238159,
+      "max6": 0.7928411960601807
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0166-1933.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999186992645264,
+      "max6": 0.9999738931655884
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0167-1935.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9985544085502625,
+      "max6": 0.9985544085502625
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0168-1937.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999808073043823,
+      "max6": 0.9999905824661255
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0169-1939.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999608993530273,
+      "max6": 0.9999784231185913
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0170-1941.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9989191293716431,
+      "max6": 0.9990435242652893
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0171-1943.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.7694697380065918,
+      "max6": 0.9048154354095459
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0172-1945.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998732805252075,
+      "max6": 0.9999494552612305
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0173-1947.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9992576241493225,
+      "max6": 0.9997010827064514
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0174-1949.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999736547470093,
+      "max6": 0.9999858140945435
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0175-1951.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9434890151023865,
+      "max6": 0.9875845313072205
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0176-1953.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.8941224217414856,
+      "max6": 0.9761489033699036
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0177-1955.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.510832667350769,
+      "max6": 0.6309161186218262
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0178-1957.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.09860458970069885,
+      "max6": 0.5704718232154846
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0179-1959.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.14905324578285217,
+      "max6": 0.68265300989151
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0180-1961.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9991382360458374,
+      "max6": 0.9999250173568726
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0181-1963.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9275264143943787,
+      "max6": 0.9883984923362732
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0182-1965.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9965702295303345,
+      "max6": 0.998816967010498
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0183-1967.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.5777407288551331,
+      "max6": 0.8460997939109802
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0184-1969.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9988730549812317,
+      "max6": 0.9999656677246094
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0185-1971.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.918076753616333,
+      "max6": 0.968722939491272
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0186-1973.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999169111251831,
+      "max6": 0.9999169111251831
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0187-1975.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.6117079257965088,
+      "max6": 0.8696883916854858
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0188-1977.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9994338154792786,
+      "max6": 0.9997413754463196
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0189-1979.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9957237243652344,
+      "max6": 0.9994671940803528
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0190-1981.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999270439147949,
+      "max6": 0.9999270439147949
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0191-1983.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9706703424453735,
+      "max6": 0.9875754117965698
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0192-1985.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9630799293518066,
+      "max6": 0.9952280521392822
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0193-1987.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.8267673254013062,
+      "max6": 0.9978151321411133
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0194-1989.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.8565289378166199,
+      "max6": 0.9938981533050537
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0195-1991.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9742110371589661,
+      "max6": 0.997818112373352
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0196-1993.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.999940037727356,
+      "max6": 0.9999911785125732
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0197-1995.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999468326568604,
+      "max6": 0.9999570846557617
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0198-1997.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998247027397156,
+      "max6": 0.9998857975006104
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0199-1999.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9892117977142334,
+      "max6": 0.9918919801712036
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0200-9201.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.07119470089673996,
+      "max6": 0.8196988701820374
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0201-9203.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999862909317017,
+      "max6": 0.999988317489624
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0202-9205.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999924898147583,
+      "max6": 0.9999932050704956
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0203-9207.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999862909317017,
+      "max6": 0.9999948740005493
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0204-9209.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998623132705688,
+      "max6": 0.9999746084213257
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0205-9211.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999949932098389,
+      "max6": 0.9999972581863403
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0206-9213.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.7454989552497864,
+      "max6": 0.9971641898155212
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0207-9215.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999691247940063,
+      "max6": 0.9999691247940063
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0208-9217.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9990173578262329,
+      "max6": 0.9993116855621338
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0209-9219.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.06618394702672958,
+      "max6": 0.9071077704429626
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0210-9221.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.999982476234436,
+      "max6": 0.9999896287918091
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0211-9223.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.07417330890893936,
+      "max6": 0.3745591938495636
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0212-9225.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9727804660797119,
+      "max6": 0.9840595722198486
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0213-9227.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999657869338989,
+      "max6": 0.9999735355377197
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0214-9229.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.972978949546814,
+      "max6": 0.998580813407898
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0215-9231.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9745555520057678,
+      "max6": 0.9997108578681946
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0216-9233.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9950980544090271,
+      "max6": 0.9996852874755859
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0217-9235.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999985694885254,
+      "max6": 0.9999985694885254
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0218-9237.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9994450211524963,
+      "max6": 0.9997684359550476
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0219-9239.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999871253967285,
+      "max6": 0.9999871253967285
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0220-9241.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.5000622868537903,
+      "max6": 0.9899006485939026
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0221-9243.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999843835830688,
+      "max6": 0.9999966621398926
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0222-9245.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9642502665519714,
+      "max6": 0.9996634721755981
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0223-9247.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9967132806777954,
+      "max6": 0.9992150068283081
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0224-9249.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9984879493713379,
+      "max6": 0.9997524619102478
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0225-9251.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999529123306274,
+      "max6": 0.9999626874923706
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0226-9253.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9796020984649658,
+      "max6": 0.9967132806777954
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0227-9255.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.8832140564918518,
+      "max6": 0.9923891425132751
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0228-9257.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9998393058776855,
+      "max6": 0.9999501705169678
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0229-9259.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999983310699463,
+      "max6": 0.9999988079071045
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0230-9261.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9994679093360901,
+      "max6": 0.9998016953468323
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0231-9263.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9958513975143433,
+      "max6": 0.9999589920043945
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0232-9265.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9969224333763123,
+      "max6": 0.9997133612632751
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0233-9267.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9998408555984497,
+      "max6": 0.9999121427536011
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0234-9269.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9725599884986877,
+      "max6": 0.9889333248138428
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0235-9271.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9944019913673401,
+      "max6": 0.9996532201766968
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0236-9273.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.999212384223938,
+      "max6": 0.9996140599250793
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0237-9275.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9995092153549194,
+      "max6": 0.9999488592147827
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0238-9277.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9928470253944397,
+      "max6": 0.995751142501831
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0239-9279.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9961928129196167,
+      "max6": 0.9979767203330994
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0240-9281.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999704360961914,
+      "max6": 0.9999704360961914
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0241-9283.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9998929500579834,
+      "max6": 0.9999665021896362
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0242-9285.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9979122281074524,
+      "max6": 0.9979122281074524
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0243-9287.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.999956488609314,
+      "max6": 0.9999775886535645
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0244-9289.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9927675724029541,
+      "max6": 0.9970809817314148
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0245-9291.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9998444318771362,
+      "max6": 0.9999606609344482
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0246-9293.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9999369382858276,
+      "max6": 0.9999369382858276
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0247-9295.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999818801879883,
+      "max6": 0.9999935626983643
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0248-9297.jpg",
+      "truth": 1,
+      "source": "progan",
+      "center": 0.9991230368614197,
+      "max6": 0.9999421834945679
+    },
+    {
+      "file": "benchmark-aigibench\\fake\\0249-9299.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "center": 0.9999568462371826,
+      "max6": 0.9999899864196777
+    }
+  ]
+}

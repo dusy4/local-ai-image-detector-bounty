@@ -1,0 +1,2026 @@
+{
+  "model": "detector",
+  "dtype": "q4",
+  "manifest": "/benchmark-transforms/manifest.json",
+  "threshold": 0.65,
+  "images": 250,
+  "tpr": 0.528,
+  "tnr": 0.56,
+  "balancedAccuracy": 0.544,
+  "bySource": {
+    "real": {
+      "n": 125,
+      "accuracy": 0.56
+    },
+    "progan": {
+      "n": 65,
+      "accuracy": 0.8153846153846154
+    },
+    "sd14": {
+      "n": 60,
+      "accuracy": 0.21666666666666667
+    }
+  },
+  "rows": [
+    {
+      "path": "benchmark-transforms/real/000-0-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 0,
+      "transform": "jpeg80",
+      "score": 0.6446133255958557
+    },
+    {
+      "path": "benchmark-transforms/real/000-0-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 0,
+      "transform": "resize512",
+      "score": 0.637792706489563
+    },
+    {
+      "path": "benchmark-transforms/real/000-0-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 0,
+      "transform": "crop90",
+      "score": 0.6238728165626526
+    },
+    {
+      "path": "benchmark-transforms/real/000-0-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 0,
+      "transform": "blur",
+      "score": 0.6507415175437927
+    },
+    {
+      "path": "benchmark-transforms/real/000-0-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 0,
+      "transform": "contrast",
+      "score": 0.6336410045623779
+    },
+    {
+      "path": "benchmark-transforms/real/001-2-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 2,
+      "transform": "jpeg80",
+      "score": 0.5155029892921448
+    },
+    {
+      "path": "benchmark-transforms/real/001-2-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 2,
+      "transform": "resize512",
+      "score": 0.5127010345458984
+    },
+    {
+      "path": "benchmark-transforms/real/001-2-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 2,
+      "transform": "crop90",
+      "score": 0.5209170579910278
+    },
+    {
+      "path": "benchmark-transforms/real/001-2-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 2,
+      "transform": "blur",
+      "score": 0.508171796798706
+    },
+    {
+      "path": "benchmark-transforms/real/001-2-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 2,
+      "transform": "contrast",
+      "score": 0.5119182467460632
+    },
+    {
+      "path": "benchmark-transforms/real/002-4-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 4,
+      "transform": "jpeg80",
+      "score": 0.7265581488609314
+    },
+    {
+      "path": "benchmark-transforms/real/002-4-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 4,
+      "transform": "resize512",
+      "score": 0.7316854000091553
+    },
+    {
+      "path": "benchmark-transforms/real/002-4-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 4,
+      "transform": "crop90",
+      "score": 0.7533755302429199
+    },
+    {
+      "path": "benchmark-transforms/real/002-4-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 4,
+      "transform": "blur",
+      "score": 0.7151291966438293
+    },
+    {
+      "path": "benchmark-transforms/real/002-4-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 4,
+      "transform": "contrast",
+      "score": 0.7361617684364319
+    },
+    {
+      "path": "benchmark-transforms/real/003-6-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 6,
+      "transform": "jpeg80",
+      "score": 0.5731483697891235
+    },
+    {
+      "path": "benchmark-transforms/real/003-6-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 6,
+      "transform": "resize512",
+      "score": 0.5738242864608765
+    },
+    {
+      "path": "benchmark-transforms/real/003-6-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 6,
+      "transform": "crop90",
+      "score": 0.5504518747329712
+    },
+    {
+      "path": "benchmark-transforms/real/003-6-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 6,
+      "transform": "blur",
+      "score": 0.5761464238166809
+    },
+    {
+      "path": "benchmark-transforms/real/003-6-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 6,
+      "transform": "contrast",
+      "score": 0.577311635017395
+    },
+    {
+      "path": "benchmark-transforms/real/004-8-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 8,
+      "transform": "jpeg80",
+      "score": 0.7841866612434387
+    },
+    {
+      "path": "benchmark-transforms/real/004-8-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 8,
+      "transform": "resize512",
+      "score": 0.7756167054176331
+    },
+    {
+      "path": "benchmark-transforms/real/004-8-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 8,
+      "transform": "crop90",
+      "score": 0.7795183062553406
+    },
+    {
+      "path": "benchmark-transforms/real/004-8-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 8,
+      "transform": "blur",
+      "score": 0.766050398349762
+    },
+    {
+      "path": "benchmark-transforms/real/004-8-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 8,
+      "transform": "contrast",
+      "score": 0.778302788734436
+    },
+    {
+      "path": "benchmark-transforms/real/005-10-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 10,
+      "transform": "jpeg80",
+      "score": 0.6712687015533447
+    },
+    {
+      "path": "benchmark-transforms/real/005-10-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 10,
+      "transform": "resize512",
+      "score": 0.6687907576560974
+    },
+    {
+      "path": "benchmark-transforms/real/005-10-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 10,
+      "transform": "crop90",
+      "score": 0.6638311147689819
+    },
+    {
+      "path": "benchmark-transforms/real/005-10-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 10,
+      "transform": "blur",
+      "score": 0.6662559509277344
+    },
+    {
+      "path": "benchmark-transforms/real/005-10-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 10,
+      "transform": "contrast",
+      "score": 0.6643293499946594
+    },
+    {
+      "path": "benchmark-transforms/real/006-12-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 12,
+      "transform": "jpeg80",
+      "score": 0.6247032284736633
+    },
+    {
+      "path": "benchmark-transforms/real/006-12-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 12,
+      "transform": "resize512",
+      "score": 0.6271951198577881
+    },
+    {
+      "path": "benchmark-transforms/real/006-12-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 12,
+      "transform": "crop90",
+      "score": 0.6264524459838867
+    },
+    {
+      "path": "benchmark-transforms/real/006-12-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 12,
+      "transform": "blur",
+      "score": 0.6310651898384094
+    },
+    {
+      "path": "benchmark-transforms/real/006-12-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 12,
+      "transform": "contrast",
+      "score": 0.6291199326515198
+    },
+    {
+      "path": "benchmark-transforms/real/007-14-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 14,
+      "transform": "jpeg80",
+      "score": 0.5809230804443359
+    },
+    {
+      "path": "benchmark-transforms/real/007-14-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 14,
+      "transform": "resize512",
+      "score": 0.581595778465271
+    },
+    {
+      "path": "benchmark-transforms/real/007-14-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 14,
+      "transform": "crop90",
+      "score": 0.5781439542770386
+    },
+    {
+      "path": "benchmark-transforms/real/007-14-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 14,
+      "transform": "blur",
+      "score": 0.5825284719467163
+    },
+    {
+      "path": "benchmark-transforms/real/007-14-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 14,
+      "transform": "contrast",
+      "score": 0.5820803046226501
+    },
+    {
+      "path": "benchmark-transforms/real/008-16-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 16,
+      "transform": "jpeg80",
+      "score": 0.7053037285804749
+    },
+    {
+      "path": "benchmark-transforms/real/008-16-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 16,
+      "transform": "resize512",
+      "score": 0.6994293332099915
+    },
+    {
+      "path": "benchmark-transforms/real/008-16-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 16,
+      "transform": "crop90",
+      "score": 0.7304956316947937
+    },
+    {
+      "path": "benchmark-transforms/real/008-16-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 16,
+      "transform": "blur",
+      "score": 0.7066165804862976
+    },
+    {
+      "path": "benchmark-transforms/real/008-16-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 16,
+      "transform": "contrast",
+      "score": 0.7085134983062744
+    },
+    {
+      "path": "benchmark-transforms/real/009-18-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 18,
+      "transform": "jpeg80",
+      "score": 0.7104601860046387
+    },
+    {
+      "path": "benchmark-transforms/real/009-18-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 18,
+      "transform": "resize512",
+      "score": 0.7136368751525879
+    },
+    {
+      "path": "benchmark-transforms/real/009-18-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 18,
+      "transform": "crop90",
+      "score": 0.6818150281906128
+    },
+    {
+      "path": "benchmark-transforms/real/009-18-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 18,
+      "transform": "blur",
+      "score": 0.7011709213256836
+    },
+    {
+      "path": "benchmark-transforms/real/009-18-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 18,
+      "transform": "contrast",
+      "score": 0.7086204290390015
+    },
+    {
+      "path": "benchmark-transforms/real/010-20-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 20,
+      "transform": "jpeg80",
+      "score": 0.6795702576637268
+    },
+    {
+      "path": "benchmark-transforms/real/010-20-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 20,
+      "transform": "resize512",
+      "score": 0.6788634061813354
+    },
+    {
+      "path": "benchmark-transforms/real/010-20-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 20,
+      "transform": "crop90",
+      "score": 0.6837683320045471
+    },
+    {
+      "path": "benchmark-transforms/real/010-20-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 20,
+      "transform": "blur",
+      "score": 0.6738458871841431
+    },
+    {
+      "path": "benchmark-transforms/real/010-20-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 20,
+      "transform": "contrast",
+      "score": 0.676132082939148
+    },
+    {
+      "path": "benchmark-transforms/real/011-22-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 22,
+      "transform": "jpeg80",
+      "score": 0.6571677923202515
+    },
+    {
+      "path": "benchmark-transforms/real/011-22-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 22,
+      "transform": "resize512",
+      "score": 0.6510478854179382
+    },
+    {
+      "path": "benchmark-transforms/real/011-22-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 22,
+      "transform": "crop90",
+      "score": 0.6164636015892029
+    },
+    {
+      "path": "benchmark-transforms/real/011-22-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 22,
+      "transform": "blur",
+      "score": 0.6449686884880066
+    },
+    {
+      "path": "benchmark-transforms/real/011-22-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 22,
+      "transform": "contrast",
+      "score": 0.6405588388442993
+    },
+    {
+      "path": "benchmark-transforms/real/012-24-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 24,
+      "transform": "jpeg80",
+      "score": 0.6190868020057678
+    },
+    {
+      "path": "benchmark-transforms/real/012-24-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 24,
+      "transform": "resize512",
+      "score": 0.6288052797317505
+    },
+    {
+      "path": "benchmark-transforms/real/012-24-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 24,
+      "transform": "crop90",
+      "score": 0.5994898676872253
+    },
+    {
+      "path": "benchmark-transforms/real/012-24-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 24,
+      "transform": "blur",
+      "score": 0.6231217980384827
+    },
+    {
+      "path": "benchmark-transforms/real/012-24-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 24,
+      "transform": "contrast",
+      "score": 0.6246501803398132
+    },
+    {
+      "path": "benchmark-transforms/real/013-26-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 26,
+      "transform": "jpeg80",
+      "score": 0.5813380479812622
+    },
+    {
+      "path": "benchmark-transforms/real/013-26-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 26,
+      "transform": "resize512",
+      "score": 0.5720481872558594
+    },
+    {
+      "path": "benchmark-transforms/real/013-26-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 26,
+      "transform": "crop90",
+      "score": 0.6119293570518494
+    },
+    {
+      "path": "benchmark-transforms/real/013-26-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 26,
+      "transform": "blur",
+      "score": 0.5568149089813232
+    },
+    {
+      "path": "benchmark-transforms/real/013-26-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 26,
+      "transform": "contrast",
+      "score": 0.5690718293190002
+    },
+    {
+      "path": "benchmark-transforms/real/014-28-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 28,
+      "transform": "jpeg80",
+      "score": 0.5919329524040222
+    },
+    {
+      "path": "benchmark-transforms/real/014-28-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 28,
+      "transform": "resize512",
+      "score": 0.5897236466407776
+    },
+    {
+      "path": "benchmark-transforms/real/014-28-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 28,
+      "transform": "crop90",
+      "score": 0.555994987487793
+    },
+    {
+      "path": "benchmark-transforms/real/014-28-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 28,
+      "transform": "blur",
+      "score": 0.569867730140686
+    },
+    {
+      "path": "benchmark-transforms/real/014-28-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 28,
+      "transform": "contrast",
+      "score": 0.5894448757171631
+    },
+    {
+      "path": "benchmark-transforms/real/015-30-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 30,
+      "transform": "jpeg80",
+      "score": 0.5398769378662109
+    },
+    {
+      "path": "benchmark-transforms/real/015-30-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 30,
+      "transform": "resize512",
+      "score": 0.5363768339157104
+    },
+    {
+      "path": "benchmark-transforms/real/015-30-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 30,
+      "transform": "crop90",
+      "score": 0.5731058120727539
+    },
+    {
+      "path": "benchmark-transforms/real/015-30-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 30,
+      "transform": "blur",
+      "score": 0.53970867395401
+    },
+    {
+      "path": "benchmark-transforms/real/015-30-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 30,
+      "transform": "contrast",
+      "score": 0.5426585078239441
+    },
+    {
+      "path": "benchmark-transforms/real/016-32-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 32,
+      "transform": "jpeg80",
+      "score": 0.6972045302391052
+    },
+    {
+      "path": "benchmark-transforms/real/016-32-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 32,
+      "transform": "resize512",
+      "score": 0.6980723142623901
+    },
+    {
+      "path": "benchmark-transforms/real/016-32-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 32,
+      "transform": "crop90",
+      "score": 0.7073999047279358
+    },
+    {
+      "path": "benchmark-transforms/real/016-32-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 32,
+      "transform": "blur",
+      "score": 0.6514434218406677
+    },
+    {
+      "path": "benchmark-transforms/real/016-32-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 32,
+      "transform": "contrast",
+      "score": 0.6969205141067505
+    },
+    {
+      "path": "benchmark-transforms/real/017-34-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 34,
+      "transform": "jpeg80",
+      "score": 0.6933658123016357
+    },
+    {
+      "path": "benchmark-transforms/real/017-34-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 34,
+      "transform": "resize512",
+      "score": 0.6995078921318054
+    },
+    {
+      "path": "benchmark-transforms/real/017-34-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 34,
+      "transform": "crop90",
+      "score": 0.690362811088562
+    },
+    {
+      "path": "benchmark-transforms/real/017-34-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 34,
+      "transform": "blur",
+      "score": 0.689489483833313
+    },
+    {
+      "path": "benchmark-transforms/real/017-34-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 34,
+      "transform": "contrast",
+      "score": 0.7127524614334106
+    },
+    {
+      "path": "benchmark-transforms/real/018-36-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 36,
+      "transform": "jpeg80",
+      "score": 0.6616809368133545
+    },
+    {
+      "path": "benchmark-transforms/real/018-36-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 36,
+      "transform": "resize512",
+      "score": 0.6678950786590576
+    },
+    {
+      "path": "benchmark-transforms/real/018-36-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 36,
+      "transform": "crop90",
+      "score": 0.6301997303962708
+    },
+    {
+      "path": "benchmark-transforms/real/018-36-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 36,
+      "transform": "blur",
+      "score": 0.6697057485580444
+    },
+    {
+      "path": "benchmark-transforms/real/018-36-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 36,
+      "transform": "contrast",
+      "score": 0.6676656603813171
+    },
+    {
+      "path": "benchmark-transforms/real/019-38-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 38,
+      "transform": "jpeg80",
+      "score": 0.5906086564064026
+    },
+    {
+      "path": "benchmark-transforms/real/019-38-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 38,
+      "transform": "resize512",
+      "score": 0.5953574776649475
+    },
+    {
+      "path": "benchmark-transforms/real/019-38-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 38,
+      "transform": "crop90",
+      "score": 0.5850191116333008
+    },
+    {
+      "path": "benchmark-transforms/real/019-38-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 38,
+      "transform": "blur",
+      "score": 0.57969069480896
+    },
+    {
+      "path": "benchmark-transforms/real/019-38-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 38,
+      "transform": "contrast",
+      "score": 0.5947951674461365
+    },
+    {
+      "path": "benchmark-transforms/real/020-40-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 40,
+      "transform": "jpeg80",
+      "score": 0.5735454559326172
+    },
+    {
+      "path": "benchmark-transforms/real/020-40-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 40,
+      "transform": "resize512",
+      "score": 0.5790835022926331
+    },
+    {
+      "path": "benchmark-transforms/real/020-40-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 40,
+      "transform": "crop90",
+      "score": 0.5661141872406006
+    },
+    {
+      "path": "benchmark-transforms/real/020-40-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 40,
+      "transform": "blur",
+      "score": 0.5747095346450806
+    },
+    {
+      "path": "benchmark-transforms/real/020-40-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 40,
+      "transform": "contrast",
+      "score": 0.5743556618690491
+    },
+    {
+      "path": "benchmark-transforms/real/021-42-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 42,
+      "transform": "jpeg80",
+      "score": 0.6524679660797119
+    },
+    {
+      "path": "benchmark-transforms/real/021-42-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 42,
+      "transform": "resize512",
+      "score": 0.6524001359939575
+    },
+    {
+      "path": "benchmark-transforms/real/021-42-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 42,
+      "transform": "crop90",
+      "score": 0.6719154715538025
+    },
+    {
+      "path": "benchmark-transforms/real/021-42-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 42,
+      "transform": "blur",
+      "score": 0.6481332182884216
+    },
+    {
+      "path": "benchmark-transforms/real/021-42-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 42,
+      "transform": "contrast",
+      "score": 0.6474770903587341
+    },
+    {
+      "path": "benchmark-transforms/real/022-44-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 44,
+      "transform": "jpeg80",
+      "score": 0.5501923561096191
+    },
+    {
+      "path": "benchmark-transforms/real/022-44-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 44,
+      "transform": "resize512",
+      "score": 0.5539101362228394
+    },
+    {
+      "path": "benchmark-transforms/real/022-44-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 44,
+      "transform": "crop90",
+      "score": 0.5378475785255432
+    },
+    {
+      "path": "benchmark-transforms/real/022-44-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 44,
+      "transform": "blur",
+      "score": 0.5535906553268433
+    },
+    {
+      "path": "benchmark-transforms/real/022-44-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 44,
+      "transform": "contrast",
+      "score": 0.5504755973815918
+    },
+    {
+      "path": "benchmark-transforms/real/023-46-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 46,
+      "transform": "jpeg80",
+      "score": 0.5797600150108337
+    },
+    {
+      "path": "benchmark-transforms/real/023-46-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 46,
+      "transform": "resize512",
+      "score": 0.5715691447257996
+    },
+    {
+      "path": "benchmark-transforms/real/023-46-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 46,
+      "transform": "crop90",
+      "score": 0.5910294651985168
+    },
+    {
+      "path": "benchmark-transforms/real/023-46-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 46,
+      "transform": "blur",
+      "score": 0.5685902833938599
+    },
+    {
+      "path": "benchmark-transforms/real/023-46-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 46,
+      "transform": "contrast",
+      "score": 0.571205198764801
+    },
+    {
+      "path": "benchmark-transforms/real/024-48-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 48,
+      "transform": "jpeg80",
+      "score": 0.6902590990066528
+    },
+    {
+      "path": "benchmark-transforms/real/024-48-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 48,
+      "transform": "resize512",
+      "score": 0.6900510787963867
+    },
+    {
+      "path": "benchmark-transforms/real/024-48-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 48,
+      "transform": "crop90",
+      "score": 0.6646368503570557
+    },
+    {
+      "path": "benchmark-transforms/real/024-48-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 48,
+      "transform": "blur",
+      "score": 0.6914752721786499
+    },
+    {
+      "path": "benchmark-transforms/real/024-48-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "row": 48,
+      "transform": "contrast",
+      "score": 0.6927909255027771
+    },
+    {
+      "path": "benchmark-transforms/fake/000-1-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 1,
+      "transform": "jpeg80",
+      "score": 0.6789318323135376
+    },
+    {
+      "path": "benchmark-transforms/fake/000-1-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 1,
+      "transform": "resize512",
+      "score": 0.6720972657203674
+    },
+    {
+      "path": "benchmark-transforms/fake/000-1-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 1,
+      "transform": "crop90",
+      "score": 0.6384012699127197
+    },
+    {
+      "path": "benchmark-transforms/fake/000-1-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 1,
+      "transform": "blur",
+      "score": 0.6808348298072815
+    },
+    {
+      "path": "benchmark-transforms/fake/000-1-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 1,
+      "transform": "contrast",
+      "score": 0.676777720451355
+    },
+    {
+      "path": "benchmark-transforms/fake/001-3-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 3,
+      "transform": "jpeg80",
+      "score": 0.6296294927597046
+    },
+    {
+      "path": "benchmark-transforms/fake/001-3-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 3,
+      "transform": "resize512",
+      "score": 0.6423071026802063
+    },
+    {
+      "path": "benchmark-transforms/fake/001-3-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 3,
+      "transform": "crop90",
+      "score": 0.615444004535675
+    },
+    {
+      "path": "benchmark-transforms/fake/001-3-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 3,
+      "transform": "blur",
+      "score": 0.6366416215896606
+    },
+    {
+      "path": "benchmark-transforms/fake/001-3-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 3,
+      "transform": "contrast",
+      "score": 0.6402131915092468
+    },
+    {
+      "path": "benchmark-transforms/fake/002-5-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 5,
+      "transform": "jpeg80",
+      "score": 0.555801272392273
+    },
+    {
+      "path": "benchmark-transforms/fake/002-5-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 5,
+      "transform": "resize512",
+      "score": 0.5700178742408752
+    },
+    {
+      "path": "benchmark-transforms/fake/002-5-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 5,
+      "transform": "crop90",
+      "score": 0.6257866621017456
+    },
+    {
+      "path": "benchmark-transforms/fake/002-5-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 5,
+      "transform": "blur",
+      "score": 0.5706871151924133
+    },
+    {
+      "path": "benchmark-transforms/fake/002-5-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 5,
+      "transform": "contrast",
+      "score": 0.5758894681930542
+    },
+    {
+      "path": "benchmark-transforms/fake/003-7-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 7,
+      "transform": "jpeg80",
+      "score": 0.604597806930542
+    },
+    {
+      "path": "benchmark-transforms/fake/003-7-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 7,
+      "transform": "resize512",
+      "score": 0.5999782085418701
+    },
+    {
+      "path": "benchmark-transforms/fake/003-7-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 7,
+      "transform": "crop90",
+      "score": 0.6271556615829468
+    },
+    {
+      "path": "benchmark-transforms/fake/003-7-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 7,
+      "transform": "blur",
+      "score": 0.6002981662750244
+    },
+    {
+      "path": "benchmark-transforms/fake/003-7-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 7,
+      "transform": "contrast",
+      "score": 0.5887312889099121
+    },
+    {
+      "path": "benchmark-transforms/fake/004-9-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 9,
+      "transform": "jpeg80",
+      "score": 0.7298533320426941
+    },
+    {
+      "path": "benchmark-transforms/fake/004-9-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 9,
+      "transform": "resize512",
+      "score": 0.7349036931991577
+    },
+    {
+      "path": "benchmark-transforms/fake/004-9-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 9,
+      "transform": "crop90",
+      "score": 0.7094194293022156
+    },
+    {
+      "path": "benchmark-transforms/fake/004-9-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 9,
+      "transform": "blur",
+      "score": 0.7300053834915161
+    },
+    {
+      "path": "benchmark-transforms/fake/004-9-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 9,
+      "transform": "contrast",
+      "score": 0.7464517951011658
+    },
+    {
+      "path": "benchmark-transforms/fake/005-11-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 11,
+      "transform": "jpeg80",
+      "score": 0.6263328790664673
+    },
+    {
+      "path": "benchmark-transforms/fake/005-11-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 11,
+      "transform": "resize512",
+      "score": 0.6311129331588745
+    },
+    {
+      "path": "benchmark-transforms/fake/005-11-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 11,
+      "transform": "crop90",
+      "score": 0.6539480686187744
+    },
+    {
+      "path": "benchmark-transforms/fake/005-11-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 11,
+      "transform": "blur",
+      "score": 0.6185289621353149
+    },
+    {
+      "path": "benchmark-transforms/fake/005-11-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 11,
+      "transform": "contrast",
+      "score": 0.6366260647773743
+    },
+    {
+      "path": "benchmark-transforms/fake/006-13-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 13,
+      "transform": "jpeg80",
+      "score": 0.7882552742958069
+    },
+    {
+      "path": "benchmark-transforms/fake/006-13-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 13,
+      "transform": "resize512",
+      "score": 0.7955962419509888
+    },
+    {
+      "path": "benchmark-transforms/fake/006-13-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 13,
+      "transform": "crop90",
+      "score": 0.7864996194839478
+    },
+    {
+      "path": "benchmark-transforms/fake/006-13-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 13,
+      "transform": "blur",
+      "score": 0.7974839806556702
+    },
+    {
+      "path": "benchmark-transforms/fake/006-13-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 13,
+      "transform": "contrast",
+      "score": 0.7976124286651611
+    },
+    {
+      "path": "benchmark-transforms/fake/007-15-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 15,
+      "transform": "jpeg80",
+      "score": 0.6672577857971191
+    },
+    {
+      "path": "benchmark-transforms/fake/007-15-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 15,
+      "transform": "resize512",
+      "score": 0.6839140057563782
+    },
+    {
+      "path": "benchmark-transforms/fake/007-15-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 15,
+      "transform": "crop90",
+      "score": 0.6964436769485474
+    },
+    {
+      "path": "benchmark-transforms/fake/007-15-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 15,
+      "transform": "blur",
+      "score": 0.6878984570503235
+    },
+    {
+      "path": "benchmark-transforms/fake/007-15-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 15,
+      "transform": "contrast",
+      "score": 0.7056377530097961
+    },
+    {
+      "path": "benchmark-transforms/fake/008-17-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 17,
+      "transform": "jpeg80",
+      "score": 0.7139659523963928
+    },
+    {
+      "path": "benchmark-transforms/fake/008-17-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 17,
+      "transform": "resize512",
+      "score": 0.7144702076911926
+    },
+    {
+      "path": "benchmark-transforms/fake/008-17-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 17,
+      "transform": "crop90",
+      "score": 0.7342497110366821
+    },
+    {
+      "path": "benchmark-transforms/fake/008-17-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 17,
+      "transform": "blur",
+      "score": 0.7099974751472473
+    },
+    {
+      "path": "benchmark-transforms/fake/008-17-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 17,
+      "transform": "contrast",
+      "score": 0.7129031419754028
+    },
+    {
+      "path": "benchmark-transforms/fake/009-19-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 19,
+      "transform": "jpeg80",
+      "score": 0.5275779962539673
+    },
+    {
+      "path": "benchmark-transforms/fake/009-19-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 19,
+      "transform": "resize512",
+      "score": 0.5335108637809753
+    },
+    {
+      "path": "benchmark-transforms/fake/009-19-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 19,
+      "transform": "crop90",
+      "score": 0.5598986744880676
+    },
+    {
+      "path": "benchmark-transforms/fake/009-19-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 19,
+      "transform": "blur",
+      "score": 0.5280300974845886
+    },
+    {
+      "path": "benchmark-transforms/fake/009-19-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 19,
+      "transform": "contrast",
+      "score": 0.5338202714920044
+    },
+    {
+      "path": "benchmark-transforms/fake/010-21-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 21,
+      "transform": "jpeg80",
+      "score": 0.7384886145591736
+    },
+    {
+      "path": "benchmark-transforms/fake/010-21-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 21,
+      "transform": "resize512",
+      "score": 0.7209897041320801
+    },
+    {
+      "path": "benchmark-transforms/fake/010-21-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 21,
+      "transform": "crop90",
+      "score": 0.6733324527740479
+    },
+    {
+      "path": "benchmark-transforms/fake/010-21-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 21,
+      "transform": "blur",
+      "score": 0.6887511610984802
+    },
+    {
+      "path": "benchmark-transforms/fake/010-21-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 21,
+      "transform": "contrast",
+      "score": 0.7135310173034668
+    },
+    {
+      "path": "benchmark-transforms/fake/011-23-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 23,
+      "transform": "jpeg80",
+      "score": 0.620951235294342
+    },
+    {
+      "path": "benchmark-transforms/fake/011-23-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 23,
+      "transform": "resize512",
+      "score": 0.6225690841674805
+    },
+    {
+      "path": "benchmark-transforms/fake/011-23-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 23,
+      "transform": "crop90",
+      "score": 0.641029417514801
+    },
+    {
+      "path": "benchmark-transforms/fake/011-23-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 23,
+      "transform": "blur",
+      "score": 0.6180873513221741
+    },
+    {
+      "path": "benchmark-transforms/fake/011-23-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 23,
+      "transform": "contrast",
+      "score": 0.6218751072883606
+    },
+    {
+      "path": "benchmark-transforms/fake/012-25-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 25,
+      "transform": "jpeg80",
+      "score": 0.6540156602859497
+    },
+    {
+      "path": "benchmark-transforms/fake/012-25-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 25,
+      "transform": "resize512",
+      "score": 0.6616201996803284
+    },
+    {
+      "path": "benchmark-transforms/fake/012-25-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 25,
+      "transform": "crop90",
+      "score": 0.6867343783378601
+    },
+    {
+      "path": "benchmark-transforms/fake/012-25-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 25,
+      "transform": "blur",
+      "score": 0.6430410146713257
+    },
+    {
+      "path": "benchmark-transforms/fake/012-25-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 25,
+      "transform": "contrast",
+      "score": 0.6734310388565063
+    },
+    {
+      "path": "benchmark-transforms/fake/013-27-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 27,
+      "transform": "jpeg80",
+      "score": 0.6143004298210144
+    },
+    {
+      "path": "benchmark-transforms/fake/013-27-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 27,
+      "transform": "resize512",
+      "score": 0.6174871325492859
+    },
+    {
+      "path": "benchmark-transforms/fake/013-27-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 27,
+      "transform": "crop90",
+      "score": 0.6113436222076416
+    },
+    {
+      "path": "benchmark-transforms/fake/013-27-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 27,
+      "transform": "blur",
+      "score": 0.6148543953895569
+    },
+    {
+      "path": "benchmark-transforms/fake/013-27-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 27,
+      "transform": "contrast",
+      "score": 0.612559974193573
+    },
+    {
+      "path": "benchmark-transforms/fake/014-29-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 29,
+      "transform": "jpeg80",
+      "score": 0.6706803441047668
+    },
+    {
+      "path": "benchmark-transforms/fake/014-29-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 29,
+      "transform": "resize512",
+      "score": 0.6669192910194397
+    },
+    {
+      "path": "benchmark-transforms/fake/014-29-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 29,
+      "transform": "crop90",
+      "score": 0.6838915348052979
+    },
+    {
+      "path": "benchmark-transforms/fake/014-29-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 29,
+      "transform": "blur",
+      "score": 0.655192494392395
+    },
+    {
+      "path": "benchmark-transforms/fake/014-29-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 29,
+      "transform": "contrast",
+      "score": 0.658794641494751
+    },
+    {
+      "path": "benchmark-transforms/fake/015-31-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 31,
+      "transform": "jpeg80",
+      "score": 0.6441095471382141
+    },
+    {
+      "path": "benchmark-transforms/fake/015-31-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 31,
+      "transform": "resize512",
+      "score": 0.6447051167488098
+    },
+    {
+      "path": "benchmark-transforms/fake/015-31-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 31,
+      "transform": "crop90",
+      "score": 0.6365879774093628
+    },
+    {
+      "path": "benchmark-transforms/fake/015-31-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 31,
+      "transform": "blur",
+      "score": 0.6368914842605591
+    },
+    {
+      "path": "benchmark-transforms/fake/015-31-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 31,
+      "transform": "contrast",
+      "score": 0.6507472395896912
+    },
+    {
+      "path": "benchmark-transforms/fake/016-33-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 33,
+      "transform": "jpeg80",
+      "score": 0.6995424032211304
+    },
+    {
+      "path": "benchmark-transforms/fake/016-33-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 33,
+      "transform": "resize512",
+      "score": 0.6963860392570496
+    },
+    {
+      "path": "benchmark-transforms/fake/016-33-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 33,
+      "transform": "crop90",
+      "score": 0.7330448627471924
+    },
+    {
+      "path": "benchmark-transforms/fake/016-33-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 33,
+      "transform": "blur",
+      "score": 0.6972825527191162
+    },
+    {
+      "path": "benchmark-transforms/fake/016-33-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 33,
+      "transform": "contrast",
+      "score": 0.7134079337120056
+    },
+    {
+      "path": "benchmark-transforms/fake/017-35-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 35,
+      "transform": "jpeg80",
+      "score": 0.6693964004516602
+    },
+    {
+      "path": "benchmark-transforms/fake/017-35-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 35,
+      "transform": "resize512",
+      "score": 0.6791233420372009
+    },
+    {
+      "path": "benchmark-transforms/fake/017-35-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 35,
+      "transform": "crop90",
+      "score": 0.6759885549545288
+    },
+    {
+      "path": "benchmark-transforms/fake/017-35-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 35,
+      "transform": "blur",
+      "score": 0.6584421992301941
+    },
+    {
+      "path": "benchmark-transforms/fake/017-35-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 35,
+      "transform": "contrast",
+      "score": 0.6740459203720093
+    },
+    {
+      "path": "benchmark-transforms/fake/018-37-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 37,
+      "transform": "jpeg80",
+      "score": 0.5757209062576294
+    },
+    {
+      "path": "benchmark-transforms/fake/018-37-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 37,
+      "transform": "resize512",
+      "score": 0.5958712100982666
+    },
+    {
+      "path": "benchmark-transforms/fake/018-37-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 37,
+      "transform": "crop90",
+      "score": 0.5911688804626465
+    },
+    {
+      "path": "benchmark-transforms/fake/018-37-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 37,
+      "transform": "blur",
+      "score": 0.5900183320045471
+    },
+    {
+      "path": "benchmark-transforms/fake/018-37-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 37,
+      "transform": "contrast",
+      "score": 0.5833801031112671
+    },
+    {
+      "path": "benchmark-transforms/fake/019-39-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 39,
+      "transform": "jpeg80",
+      "score": 0.6282546520233154
+    },
+    {
+      "path": "benchmark-transforms/fake/019-39-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 39,
+      "transform": "resize512",
+      "score": 0.6349138021469116
+    },
+    {
+      "path": "benchmark-transforms/fake/019-39-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 39,
+      "transform": "crop90",
+      "score": 0.6228064298629761
+    },
+    {
+      "path": "benchmark-transforms/fake/019-39-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 39,
+      "transform": "blur",
+      "score": 0.6315325498580933
+    },
+    {
+      "path": "benchmark-transforms/fake/019-39-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 39,
+      "transform": "contrast",
+      "score": 0.63506019115448
+    },
+    {
+      "path": "benchmark-transforms/fake/020-41-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 41,
+      "transform": "jpeg80",
+      "score": 0.705763041973114
+    },
+    {
+      "path": "benchmark-transforms/fake/020-41-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 41,
+      "transform": "resize512",
+      "score": 0.6910250186920166
+    },
+    {
+      "path": "benchmark-transforms/fake/020-41-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 41,
+      "transform": "crop90",
+      "score": 0.6817730069160461
+    },
+    {
+      "path": "benchmark-transforms/fake/020-41-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 41,
+      "transform": "blur",
+      "score": 0.7004972100257874
+    },
+    {
+      "path": "benchmark-transforms/fake/020-41-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 41,
+      "transform": "contrast",
+      "score": 0.7029529809951782
+    },
+    {
+      "path": "benchmark-transforms/fake/021-43-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 43,
+      "transform": "jpeg80",
+      "score": 0.6247624754905701
+    },
+    {
+      "path": "benchmark-transforms/fake/021-43-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 43,
+      "transform": "resize512",
+      "score": 0.6283240914344788
+    },
+    {
+      "path": "benchmark-transforms/fake/021-43-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 43,
+      "transform": "crop90",
+      "score": 0.5831553936004639
+    },
+    {
+      "path": "benchmark-transforms/fake/021-43-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 43,
+      "transform": "blur",
+      "score": 0.6208149194717407
+    },
+    {
+      "path": "benchmark-transforms/fake/021-43-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 43,
+      "transform": "contrast",
+      "score": 0.630603551864624
+    },
+    {
+      "path": "benchmark-transforms/fake/022-45-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 45,
+      "transform": "jpeg80",
+      "score": 0.7809877991676331
+    },
+    {
+      "path": "benchmark-transforms/fake/022-45-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 45,
+      "transform": "resize512",
+      "score": 0.7801828384399414
+    },
+    {
+      "path": "benchmark-transforms/fake/022-45-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 45,
+      "transform": "crop90",
+      "score": 0.778631329536438
+    },
+    {
+      "path": "benchmark-transforms/fake/022-45-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 45,
+      "transform": "blur",
+      "score": 0.7851604223251343
+    },
+    {
+      "path": "benchmark-transforms/fake/022-45-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 45,
+      "transform": "contrast",
+      "score": 0.7778193354606628
+    },
+    {
+      "path": "benchmark-transforms/fake/023-47-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 47,
+      "transform": "jpeg80",
+      "score": 0.6363903880119324
+    },
+    {
+      "path": "benchmark-transforms/fake/023-47-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 47,
+      "transform": "resize512",
+      "score": 0.6333845257759094
+    },
+    {
+      "path": "benchmark-transforms/fake/023-47-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 47,
+      "transform": "crop90",
+      "score": 0.6509383916854858
+    },
+    {
+      "path": "benchmark-transforms/fake/023-47-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 47,
+      "transform": "blur",
+      "score": 0.6317566633224487
+    },
+    {
+      "path": "benchmark-transforms/fake/023-47-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "row": 47,
+      "transform": "contrast",
+      "score": 0.6275854706764221
+    },
+    {
+      "path": "benchmark-transforms/fake/024-49-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 49,
+      "transform": "jpeg80",
+      "score": 0.6929208636283875
+    },
+    {
+      "path": "benchmark-transforms/fake/024-49-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 49,
+      "transform": "resize512",
+      "score": 0.6913623809814453
+    },
+    {
+      "path": "benchmark-transforms/fake/024-49-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 49,
+      "transform": "crop90",
+      "score": 0.713826060295105
+    },
+    {
+      "path": "benchmark-transforms/fake/024-49-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 49,
+      "transform": "blur",
+      "score": 0.6825101375579834
+    },
+    {
+      "path": "benchmark-transforms/fake/024-49-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "row": 49,
+      "transform": "contrast",
+      "score": 0.6919650435447693
+    }
+  ]
+}

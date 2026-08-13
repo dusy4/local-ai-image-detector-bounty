@@ -1,0 +1,13 @@
+{
+  "dataset": "ComplexDataLab/OpenFake",
+  "config": "core",
+  "split": "test",
+  "sampling": "first 50 rows per class collected from deterministic Dataset Viewer pagination",
+  "threshold": 0.65,
+  "images": 100,
+  "tpr": 0.70,
+  "tnr": 0.86,
+  "balancedAccuracy": 0.78,
+  "runtime": "Transformers.js 3.8.1, ONNX Runtime Web 1.22.0 WASM, Chrome",
+  "status": "directional baseline; larger stratified run required before submission"
+}

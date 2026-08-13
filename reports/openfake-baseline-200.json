@@ -1,0 +1,19 @@
+{
+  "dataset": "ComplexDataLab/OpenFake",
+  "config": "core",
+  "split": "test",
+  "sampling": "first 100 rows per class collected from deterministic Dataset Viewer pagination",
+  "threshold": 0.65,
+  "images": 200,
+  "tpr": 0.68,
+  "tnr": 0.84,
+  "balancedAccuracy": 0.76,
+  "runtime": "Transformers.js 3.8.1, ONNX Runtime Web 1.22.0 WASM, Chrome",
+  "status": "clears bounty target directionally; larger stratified and extension-level offline runs still required",
+  "weakSources": {
+    "illustrious": 0.50,
+    "gpt-image-1.5": 0.50,
+    "midjourney-7": 0.5714285714,
+    "docci-real": 0.7241379310
+  }
+}

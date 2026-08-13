@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Local Lens — AI Image Detector",
+  "version": "0.1.0",
+  "description": "Detects AI-generated images locally. Images never leave your browser.",
+  "permissions": ["offscreen", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "service-worker.js", "type": "module" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content-script.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }],
+  "action": { "default_popup": "popup.html", "default_title": "Local Lens" },
+  "options_page": "options.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["models/*", "models/**/*", "wasm/*", "vendor/ort.all.min.mjs", "vendor/c2pa/*"],
+    "matches": ["<all_urls>"]
+  }]
+}

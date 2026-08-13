@@ -1,0 +1,1332 @@
+{
+  "method": "independent RGB residual phase coherence",
+  "imageSize": 512,
+  "trainingImages": [
+    "fixtures\\openai-fresh\\fake\\lowentropy-black-square.png",
+    "fixtures\\openai-fresh\\fake\\lowentropy-blank-paper.png",
+    "fixtures\\openai-fresh\\fake\\lowentropy-red-ball.png",
+    "fixtures\\openai-fresh\\fake\\lowentropy-sky-cloud.png",
+    "fixtures\\openai-fresh\\fake\\lowentropy-yellow-circle.png"
+  ],
+  "heldOutPositive": [
+    {
+      "file": "fixtures\\openai-fresh\\fake\\bicycle-workshop.png",
+      "score": 0.46132567524909973
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\ceramic-lamp.png",
+      "score": 0.5276744365692139
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\floating-library.png",
+      "score": 0.48952218890190125
+    }
+  ],
+  "negative": [
+    {
+      "file": "benchmark\\real\\000-1.jpg",
+      "score": 0.5006773471832275
+    },
+    {
+      "file": "benchmark\\real\\001-2.jpg",
+      "score": 0.5264552235603333
+    },
+    {
+      "file": "benchmark\\real\\002-3.jpg",
+      "score": 0.5153699517250061
+    },
+    {
+      "file": "benchmark\\real\\003-4.jpg",
+      "score": 0.4628164768218994
+    },
+    {
+      "file": "benchmark\\real\\004-6.jpg",
+      "score": 0.4788130819797516
+    },
+    {
+      "file": "benchmark\\real\\005-10.jpg",
+      "score": 0.47003501653671265
+    },
+    {
+      "file": "benchmark\\real\\006-11.jpg",
+      "score": 0.43356722593307495
+    },
+    {
+      "file": "benchmark\\real\\007-12.jpg",
+      "score": 0.46262219548225403
+    },
+    {
+      "file": "benchmark\\real\\008-15.jpg",
+      "score": 0.49548208713531494
+    },
+    {
+      "file": "benchmark\\real\\009-16.jpg",
+      "score": 0.5443052053451538
+    },
+    {
+      "file": "benchmark\\real\\010-18.jpg",
+      "score": 0.39756065607070923
+    },
+    {
+      "file": "benchmark\\real\\011-21.jpg",
+      "score": 0.4655393362045288
+    },
+    {
+      "file": "benchmark\\real\\012-23.jpg",
+      "score": 0.616117000579834
+    },
+    {
+      "file": "benchmark\\real\\013-26.jpg",
+      "score": 0.49685853719711304
+    },
+    {
+      "file": "benchmark\\real\\014-28.jpg",
+      "score": 0.45748868584632874
+    },
+    {
+      "file": "benchmark\\real\\015-31.jpg",
+      "score": 0.5553159713745117
+    },
+    {
+      "file": "benchmark\\real\\016-33.jpg",
+      "score": 0.5647976398468018
+    },
+    {
+      "file": "benchmark\\real\\017-35.jpg",
+      "score": 0.44793885946273804
+    },
+    {
+      "file": "benchmark\\real\\018-38.jpg",
+      "score": 0.470941424369812
+    },
+    {
+      "file": "benchmark\\real\\019-40.jpg",
+      "score": 0.5574617981910706
+    },
+    {
+      "file": "benchmark\\real\\020-42.jpg",
+      "score": 0.49491387605667114
+    },
+    {
+      "file": "benchmark\\real\\021-43.jpg",
+      "score": 0.5409325361251831
+    },
+    {
+      "file": "benchmark\\real\\022-45.jpg",
+      "score": 0.48686492443084717
+    },
+    {
+      "file": "benchmark\\real\\023-46.jpg",
+      "score": 0.47255465388298035
+    },
+    {
+      "file": "benchmark\\real\\024-48.jpg",
+      "score": 0.4844987690448761
+    },
+    {
+      "file": "benchmark\\real\\025-49.jpg",
+      "score": 0.5667627453804016
+    },
+    {
+      "file": "benchmark\\real\\026-51.jpg",
+      "score": 0.4659169316291809
+    },
+    {
+      "file": "benchmark\\real\\027-54.jpg",
+      "score": 0.48929664492607117
+    },
+    {
+      "file": "benchmark\\real\\028-55.jpg",
+      "score": 0.4893849492073059
+    },
+    {
+      "file": "benchmark\\real\\029-57.jpg",
+      "score": 0.5628147721290588
+    },
+    {
+      "file": "benchmark\\real\\030-59.jpg",
+      "score": 0.5568418502807617
+    },
+    {
+      "file": "benchmark\\real\\031-64.jpg",
+      "score": 0.5212011337280273
+    },
+    {
+      "file": "benchmark\\real\\032-65.jpg",
+      "score": 0.48626255989074707
+    },
+    {
+      "file": "benchmark\\real\\033-66.jpg",
+      "score": 0.4560767412185669
+    },
+    {
+      "file": "benchmark\\real\\034-72.jpg",
+      "score": 0.5598231554031372
+    },
+    {
+      "file": "benchmark\\real\\035-73.jpg",
+      "score": 0.5787429809570312
+    },
+    {
+      "file": "benchmark\\real\\036-74.jpg",
+      "score": 0.5144267082214355
+    },
+    {
+      "file": "benchmark\\real\\037-76.jpg",
+      "score": 0.4325141906738281
+    },
+    {
+      "file": "benchmark\\real\\038-77.jpg",
+      "score": 0.5505959987640381
+    },
+    {
+      "file": "benchmark\\real\\039-79.jpg",
+      "score": 0.5075860023498535
+    },
+    {
+      "file": "benchmark\\real\\040-80.jpg",
+      "score": 0.5724183320999146
+    },
+    {
+      "file": "benchmark\\real\\041-83.jpg",
+      "score": 0.5085510015487671
+    },
+    {
+      "file": "benchmark\\real\\042-84.jpg",
+      "score": 0.5324283242225647
+    },
+    {
+      "file": "benchmark\\real\\043-86.jpg",
+      "score": 0.5303643345832825
+    },
+    {
+      "file": "benchmark\\real\\044-87.jpg",
+      "score": 0.500739336013794
+    },
+    {
+      "file": "benchmark\\real\\045-88.jpg",
+      "score": 0.4914860129356384
+    },
+    {
+      "file": "benchmark\\real\\046-89.jpg",
+      "score": 0.5324429273605347
+    },
+    {
+      "file": "benchmark\\real\\047-94.jpg",
+      "score": 0.5662356019020081
+    },
+    {
+      "file": "benchmark\\real\\048-96.jpg",
+      "score": 0.5356169939041138
+    },
+    {
+      "file": "benchmark\\real\\049-97.jpg",
+      "score": 0.5117714405059814
+    },
+    {
+      "file": "benchmark\\real\\050-99.jpg",
+      "score": 0.4592980742454529
+    },
+    {
+      "file": "benchmark\\real\\051-100.jpg",
+      "score": 0.5154743194580078
+    },
+    {
+      "file": "benchmark\\real\\052-105.jpg",
+      "score": 0.41106116771698
+    },
+    {
+      "file": "benchmark\\real\\053-106.jpg",
+      "score": 0.49689364433288574
+    },
+    {
+      "file": "benchmark\\real\\054-107.jpg",
+      "score": 0.47733232378959656
+    },
+    {
+      "file": "benchmark\\real\\055-109.jpg",
+      "score": 0.4760989844799042
+    },
+    {
+      "file": "benchmark\\real\\056-112.jpg",
+      "score": 0.5027362108230591
+    },
+    {
+      "file": "benchmark\\real\\057-117.jpg",
+      "score": 0.515021562576294
+    },
+    {
+      "file": "benchmark\\real\\058-121.jpg",
+      "score": 0.45994648337364197
+    },
+    {
+      "file": "benchmark\\real\\059-123.jpg",
+      "score": 0.46101537346839905
+    },
+    {
+      "file": "benchmark\\real\\060-125.jpg",
+      "score": 0.5729284286499023
+    },
+    {
+      "file": "benchmark\\real\\061-126.jpg",
+      "score": 0.49773088097572327
+    },
+    {
+      "file": "benchmark\\real\\062-129.jpg",
+      "score": 0.5021021366119385
+    },
+    {
+      "file": "benchmark\\real\\063-133.jpg",
+      "score": 0.45761558413505554
+    },
+    {
+      "file": "benchmark\\real\\064-134.jpg",
+      "score": 0.5486553907394409
+    },
+    {
+      "file": "benchmark\\real\\065-135.jpg",
+      "score": 0.5277085304260254
+    },
+    {
+      "file": "benchmark\\real\\066-136.jpg",
+      "score": 0.42632877826690674
+    },
+    {
+      "file": "benchmark\\real\\067-137.jpg",
+      "score": 0.5187797546386719
+    },
+    {
+      "file": "benchmark\\real\\068-141.jpg",
+      "score": 0.5687033534049988
+    },
+    {
+      "file": "benchmark\\real\\069-142.jpg",
+      "score": 0.607033908367157
+    },
+    {
+      "file": "benchmark\\real\\070-143.jpg",
+      "score": 0.47681981325149536
+    },
+    {
+      "file": "benchmark\\real\\071-144.jpg",
+      "score": 0.4652045965194702
+    },
+    {
+      "file": "benchmark\\real\\072-145.jpg",
+      "score": 0.519103467464447
+    },
+    {
+      "file": "benchmark\\real\\073-146.jpg",
+      "score": 0.4725705087184906
+    },
+    {
+      "file": "benchmark\\real\\074-150.jpg",
+      "score": 0.48462215065956116
+    },
+    {
+      "file": "benchmark\\real\\075-151.jpg",
+      "score": 0.4548574388027191
+    },
+    {
+      "file": "benchmark\\real\\076-152.jpg",
+      "score": 0.5190500020980835
+    },
+    {
+      "file": "benchmark\\real\\077-154.jpg",
+      "score": 0.46216267347335815
+    },
+    {
+      "file": "benchmark\\real\\078-155.jpg",
+      "score": 0.5409067869186401
+    },
+    {
+      "file": "benchmark\\real\\079-156.jpg",
+      "score": 0.4582015872001648
+    },
+    {
+      "file": "benchmark\\real\\080-157.jpg",
+      "score": 0.44173598289489746
+    },
+    {
+      "file": "benchmark\\real\\081-161.jpg",
+      "score": 0.5135819911956787
+    },
+    {
+      "file": "benchmark\\real\\082-163.jpg",
+      "score": 0.5030126571655273
+    },
+    {
+      "file": "benchmark\\real\\083-165.jpg",
+      "score": 0.4344695806503296
+    },
+    {
+      "file": "benchmark\\real\\084-166.jpg",
+      "score": 0.46089446544647217
+    },
+    {
+      "file": "benchmark\\real\\085-167.jpg",
+      "score": 0.503182053565979
+    },
+    {
+      "file": "benchmark\\real\\086-168.jpg",
+      "score": 0.5089536309242249
+    },
+    {
+      "file": "benchmark\\real\\087-171.jpg",
+      "score": 0.5872644782066345
+    },
+    {
+      "file": "benchmark\\real\\088-177.jpg",
+      "score": 0.4531468451023102
+    },
+    {
+      "file": "benchmark\\real\\089-181.jpg",
+      "score": 0.48631802201271057
+    },
+    {
+      "file": "benchmark\\real\\090-182.jpg",
+      "score": 0.5180261135101318
+    },
+    {
+      "file": "benchmark\\real\\091-183.jpg",
+      "score": 0.49669861793518066
+    },
+    {
+      "file": "benchmark\\real\\092-187.jpg",
+      "score": 0.505699098110199
+    },
+    {
+      "file": "benchmark\\real\\093-189.jpg",
+      "score": 0.564452588558197
+    },
+    {
+      "file": "benchmark\\real\\094-190.jpg",
+      "score": 0.523173451423645
+    },
+    {
+      "file": "benchmark\\real\\095-192.jpg",
+      "score": 0.4859086573123932
+    },
+    {
+      "file": "benchmark\\real\\096-193.jpg",
+      "score": 0.4585263431072235
+    },
+    {
+      "file": "benchmark\\real\\097-194.jpg",
+      "score": 0.47265809774398804
+    },
+    {
+      "file": "benchmark\\real\\098-196.jpg",
+      "score": 0.5297766327857971
+    },
+    {
+      "file": "benchmark\\real\\099-197.jpg",
+      "score": 0.4734606146812439
+    }
+  ],
+  "summary": {
+    "positiveMean": 0.4928407669067383,
+    "positiveMin": 0.46132567524909973,
+    "negativeMean": 0.5019713398814202,
+    "negativeP95": 0.572443836927414,
+    "negativeMax": 0.616117000579834
+  },
+  "carriers": [
+    {
+      "fy": 0,
+      "fx": 44,
+      "channel": 0,
+      "coherence": 0.957188606262207,
+      "phase": 0.2892345190048218
+    },
+    {
+      "fy": 1,
+      "fx": 44,
+      "channel": 1,
+      "coherence": 0.947794497013092,
+      "phase": -2.787409782409668
+    },
+    {
+      "fy": 0,
+      "fx": 46,
+      "channel": 2,
+      "coherence": 0.9316349029541016,
+      "phase": -3.0716075897216797
+    },
+    {
+      "fy": 1,
+      "fx": 44,
+      "channel": 0,
+      "coherence": 0.9422706961631775,
+      "phase": -2.77276611328125
+    },
+    {
+      "fy": -1,
+      "fx": 44,
+      "channel": 2,
+      "coherence": 0.956432580947876,
+      "phase": -2.790214776992798
+    },
+    {
+      "fy": 0,
+      "fx": 46,
+      "channel": 1,
+      "coherence": 0.9176852703094482,
+      "phase": -3.0988752841949463
+    },
+    {
+      "fy": 0,
+      "fx": 55,
+      "channel": 1,
+      "coherence": 0.9619051814079285,
+      "phase": 0.160583034157753
+    },
+    {
+      "fy": 1,
+      "fx": 46,
+      "channel": 2,
+      "coherence": 0.9236718416213989,
+      "phase": 0.10649613291025162
+    },
+    {
+      "fy": -53,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.9144472479820251,
+      "phase": -0.7841769456863403
+    },
+    {
+      "fy": 53,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.9144472479820251,
+      "phase": 0.7841769456863403
+    },
+    {
+      "fy": -48,
+      "fx": 21,
+      "channel": 1,
+      "coherence": 0.9752523899078369,
+      "phase": -0.8993614315986633
+    },
+    {
+      "fy": 0,
+      "fx": 44,
+      "channel": 1,
+      "coherence": 0.8516641855239868,
+      "phase": 0.4500080645084381
+    },
+    {
+      "fy": 1,
+      "fx": 55,
+      "channel": 1,
+      "coherence": 0.9661366939544678,
+      "phase": -2.8427178859710693
+    },
+    {
+      "fy": -3,
+      "fx": 29,
+      "channel": 1,
+      "coherence": 0.9857867956161499,
+      "phase": 0.00931457057595253
+    },
+    {
+      "fy": -1,
+      "fx": 55,
+      "channel": 1,
+      "coherence": 0.9667131900787354,
+      "phase": -2.869452714920044
+    },
+    {
+      "fy": 38,
+      "fx": 1,
+      "channel": 1,
+      "coherence": 0.9440308809280396,
+      "phase": -0.014523478224873543
+    },
+    {
+      "fy": -1,
+      "fx": 44,
+      "channel": 0,
+      "coherence": 0.8830534219741821,
+      "phase": -2.7170441150665283
+    },
+    {
+      "fy": -80,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.8549851775169373,
+      "phase": 2.7787206172943115
+    },
+    {
+      "fy": 80,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.8549851775169373,
+      "phase": -2.7787206172943115
+    },
+    {
+      "fy": 0,
+      "fx": 55,
+      "channel": 0,
+      "coherence": 0.9592769145965576,
+      "phase": 0.3216592073440552
+    },
+    {
+      "fy": 9,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.944733202457428,
+      "phase": -2.757268190383911
+    },
+    {
+      "fy": -9,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.944733202457428,
+      "phase": 2.757268190383911
+    },
+    {
+      "fy": -1,
+      "fx": 66,
+      "channel": 1,
+      "coherence": 0.8895601034164429,
+      "phase": 0.09719999134540558
+    },
+    {
+      "fy": -46,
+      "fx": 5,
+      "channel": 0,
+      "coherence": 0.9701334834098816,
+      "phase": -0.4637843370437622
+    },
+    {
+      "fy": 35,
+      "fx": 32,
+      "channel": 0,
+      "coherence": 0.99917072057724,
+      "phase": 0.2924583852291107
+    },
+    {
+      "fy": -48,
+      "fx": 22,
+      "channel": 1,
+      "coherence": 0.9568458199501038,
+      "phase": 2.5394091606140137
+    },
+    {
+      "fy": 0,
+      "fx": 66,
+      "channel": 2,
+      "coherence": 0.8386005163192749,
+      "phase": -2.2360658645629883
+    },
+    {
+      "fy": 35,
+      "fx": 54,
+      "channel": 1,
+      "coherence": 0.9882680177688599,
+      "phase": -2.6595730781555176
+    },
+    {
+      "fy": -48,
+      "fx": 23,
+      "channel": 1,
+      "coherence": 0.9717714190483093,
+      "phase": -0.6040765643119812
+    },
+    {
+      "fy": -45,
+      "fx": 8,
+      "channel": 0,
+      "coherence": 0.9585356712341309,
+      "phase": -0.3837500810623169
+    },
+    {
+      "fy": 45,
+      "fx": 54,
+      "channel": 1,
+      "coherence": 0.956785261631012,
+      "phase": -2.5365686416625977
+    },
+    {
+      "fy": 54,
+      "fx": 14,
+      "channel": 0,
+      "coherence": 0.9782464504241943,
+      "phase": 0.5182571411132812
+    },
+    {
+      "fy": 6,
+      "fx": 40,
+      "channel": 1,
+      "coherence": 0.9362714290618896,
+      "phase": -2.648148775100708
+    },
+    {
+      "fy": 27,
+      "fx": 19,
+      "channel": 1,
+      "coherence": 0.9325923323631287,
+      "phase": 2.8610291481018066
+    },
+    {
+      "fy": 25,
+      "fx": 26,
+      "channel": 1,
+      "coherence": 0.9343810677528381,
+      "phase": 2.8213987350463867
+    },
+    {
+      "fy": -5,
+      "fx": 58,
+      "channel": 1,
+      "coherence": 0.9573253989219666,
+      "phase": -3.1159353256225586
+    },
+    {
+      "fy": -9,
+      "fx": 1,
+      "channel": 1,
+      "coherence": 0.941204845905304,
+      "phase": -0.4093933403491974
+    },
+    {
+      "fy": 2,
+      "fx": 44,
+      "channel": 1,
+      "coherence": 0.9397290349006653,
+      "phase": 0.23672698438167572
+    },
+    {
+      "fy": 1,
+      "fx": 57,
+      "channel": 0,
+      "coherence": 0.8757066130638123,
+      "phase": 0.5495356917381287
+    },
+    {
+      "fy": 41,
+      "fx": 34,
+      "channel": 1,
+      "coherence": 0.9375430941581726,
+      "phase": 0.3028230667114258
+    },
+    {
+      "fy": 0,
+      "fx": 76,
+      "channel": 0,
+      "coherence": 0.8566741347312927,
+      "phase": -2.718183994293213
+    },
+    {
+      "fy": -9,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.9499694108963013,
+      "phase": 2.8475544452667236
+    },
+    {
+      "fy": 9,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.9499694108963013,
+      "phase": -2.8475544452667236
+    },
+    {
+      "fy": 26,
+      "fx": 20,
+      "channel": 0,
+      "coherence": 0.9470210671424866,
+      "phase": -3.0639195442199707
+    },
+    {
+      "fy": 1,
+      "fx": 55,
+      "channel": 0,
+      "coherence": 0.9549266695976257,
+      "phase": -2.7868239879608154
+    },
+    {
+      "fy": 23,
+      "fx": 4,
+      "channel": 0,
+      "coherence": 0.9713186025619507,
+      "phase": -2.9172959327697754
+    },
+    {
+      "fy": 23,
+      "fx": 41,
+      "channel": 0,
+      "coherence": 0.9569303393363953,
+      "phase": 2.9411873817443848
+    },
+    {
+      "fy": 46,
+      "fx": 20,
+      "channel": 0,
+      "coherence": 0.968730092048645,
+      "phase": 0.4766654968261719
+    },
+    {
+      "fy": -1,
+      "fx": 66,
+      "channel": 0,
+      "coherence": 0.8726351261138916,
+      "phase": 0.052145034074783325
+    },
+    {
+      "fy": 1,
+      "fx": 24,
+      "channel": 1,
+      "coherence": 0.9435626864433289,
+      "phase": -2.963160753250122
+    },
+    {
+      "fy": 52,
+      "fx": 52,
+      "channel": 1,
+      "coherence": 0.9998407363891602,
+      "phase": -2.7385966777801514
+    },
+    {
+      "fy": -2,
+      "fx": 58,
+      "channel": 1,
+      "coherence": 0.935028076171875,
+      "phase": 0.3049859404563904
+    },
+    {
+      "fy": 7,
+      "fx": 46,
+      "channel": 0,
+      "coherence": 0.9572997093200684,
+      "phase": 0.24042022228240967
+    },
+    {
+      "fy": -18,
+      "fx": 23,
+      "channel": 0,
+      "coherence": 0.9363279342651367,
+      "phase": 2.846632957458496
+    },
+    {
+      "fy": 28,
+      "fx": 58,
+      "channel": 0,
+      "coherence": 0.9639258980751038,
+      "phase": 0.24937769770622253
+    },
+    {
+      "fy": -14,
+      "fx": 26,
+      "channel": 1,
+      "coherence": 0.9588544368743896,
+      "phase": -0.3432164192199707
+    },
+    {
+      "fy": -43,
+      "fx": 30,
+      "channel": 0,
+      "coherence": 0.9453655481338501,
+      "phase": -0.39593949913978577
+    },
+    {
+      "fy": 30,
+      "fx": 44,
+      "channel": 1,
+      "coherence": 0.9251154661178589,
+      "phase": -2.969747304916382
+    },
+    {
+      "fy": 66,
+      "fx": 31,
+      "channel": 0,
+      "coherence": 0.9592321515083313,
+      "phase": 0.8949498534202576
+    },
+    {
+      "fy": 39,
+      "fx": 51,
+      "channel": 0,
+      "coherence": 0.9648203253746033,
+      "phase": 0.5055333971977234
+    },
+    {
+      "fy": 9,
+      "fx": 42,
+      "channel": 1,
+      "coherence": 0.9334282279014587,
+      "phase": -2.6322715282440186
+    },
+    {
+      "fy": -32,
+      "fx": 16,
+      "channel": 1,
+      "coherence": 0.9155583381652832,
+      "phase": -0.035806477069854736
+    },
+    {
+      "fy": 34,
+      "fx": 33,
+      "channel": 0,
+      "coherence": 0.9621899127960205,
+      "phase": 0.10679692029953003
+    },
+    {
+      "fy": -7,
+      "fx": 57,
+      "channel": 0,
+      "coherence": 0.94024258852005,
+      "phase": 0.16739584505558014
+    },
+    {
+      "fy": 9,
+      "fx": 1,
+      "channel": 1,
+      "coherence": 0.9231829643249512,
+      "phase": 0.41142529249191284
+    },
+    {
+      "fy": 53,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.850042462348938,
+      "phase": 0.5088288187980652
+    },
+    {
+      "fy": -53,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.850042462348938,
+      "phase": -0.5088288187980652
+    },
+    {
+      "fy": 66,
+      "fx": 32,
+      "channel": 0,
+      "coherence": 0.9564564824104309,
+      "phase": -2.2884521484375
+    },
+    {
+      "fy": 4,
+      "fx": 46,
+      "channel": 1,
+      "coherence": 0.9349794387817383,
+      "phase": -2.6445140838623047
+    },
+    {
+      "fy": 6,
+      "fx": 40,
+      "channel": 0,
+      "coherence": 0.9246711134910583,
+      "phase": -2.728635787963867
+    },
+    {
+      "fy": 0,
+      "fx": 66,
+      "channel": 0,
+      "coherence": 0.8190083503723145,
+      "phase": 3.1243503093719482
+    },
+    {
+      "fy": 46,
+      "fx": 5,
+      "channel": 0,
+      "coherence": 0.9380496740341187,
+      "phase": 0.7189408540725708
+    },
+    {
+      "fy": -54,
+      "fx": 11,
+      "channel": 0,
+      "coherence": 0.9778422117233276,
+      "phase": 2.7272517681121826
+    },
+    {
+      "fy": 4,
+      "fx": 46,
+      "channel": 0,
+      "coherence": 0.9587700963020325,
+      "phase": -2.9884510040283203
+    },
+    {
+      "fy": 7,
+      "fx": 60,
+      "channel": 0,
+      "coherence": 0.9343674182891846,
+      "phase": 0.4271453320980072
+    },
+    {
+      "fy": -1,
+      "fx": 44,
+      "channel": 1,
+      "coherence": 0.8297731280326843,
+      "phase": -2.678925037384033
+    },
+    {
+      "fy": 33,
+      "fx": 15,
+      "channel": 1,
+      "coherence": 0.914552628993988,
+      "phase": 0.37880557775497437
+    },
+    {
+      "fy": 72,
+      "fx": 25,
+      "channel": 1,
+      "coherence": 0.9506078958511353,
+      "phase": -2.9966225624084473
+    },
+    {
+      "fy": -11,
+      "fx": 5,
+      "channel": 0,
+      "coherence": 0.9687124490737915,
+      "phase": 3.0021071434020996
+    },
+    {
+      "fy": -14,
+      "fx": 26,
+      "channel": 0,
+      "coherence": 0.9356030821800232,
+      "phase": -0.21394702792167664
+    },
+    {
+      "fy": 29,
+      "fx": 58,
+      "channel": 0,
+      "coherence": 0.9837557673454285,
+      "phase": -2.962385416030884
+    },
+    {
+      "fy": -10,
+      "fx": 63,
+      "channel": 1,
+      "coherence": 0.9617065191268921,
+      "phase": 2.9895975589752197
+    },
+    {
+      "fy": -14,
+      "fx": 41,
+      "channel": 0,
+      "coherence": 0.9218339920043945,
+      "phase": 2.930591106414795
+    },
+    {
+      "fy": -11,
+      "fx": 4,
+      "channel": 0,
+      "coherence": 0.9830103516578674,
+      "phase": 0.12166869640350342
+    },
+    {
+      "fy": -43,
+      "fx": 19,
+      "channel": 1,
+      "coherence": 0.9643049836158752,
+      "phase": 2.916006088256836
+    },
+    {
+      "fy": -42,
+      "fx": 52,
+      "channel": 1,
+      "coherence": 0.9185205698013306,
+      "phase": 3.0187551975250244
+    },
+    {
+      "fy": -42,
+      "fx": 53,
+      "channel": 1,
+      "coherence": 0.9333325624465942,
+      "phase": -0.3059512972831726
+    },
+    {
+      "fy": 6,
+      "fx": 61,
+      "channel": 0,
+      "coherence": 0.9300410747528076,
+      "phase": 0.4953305423259735
+    },
+    {
+      "fy": 39,
+      "fx": 35,
+      "channel": 0,
+      "coherence": 0.9458606243133545,
+      "phase": -2.8313214778900146
+    },
+    {
+      "fy": -46,
+      "fx": 8,
+      "channel": 0,
+      "coherence": 0.9334626197814941,
+      "phase": 2.7155234813690186
+    },
+    {
+      "fy": -5,
+      "fx": 57,
+      "channel": 1,
+      "coherence": 0.9239404797554016,
+      "phase": 0.05677614361047745
+    },
+    {
+      "fy": -1,
+      "fx": 46,
+      "channel": 1,
+      "coherence": 0.846469521522522,
+      "phase": 0.41562551259994507
+    },
+    {
+      "fy": 33,
+      "fx": 34,
+      "channel": 0,
+      "coherence": 0.9523362517356873,
+      "phase": -0.07297102361917496
+    },
+    {
+      "fy": -53,
+      "fx": 1,
+      "channel": 1,
+      "coherence": 0.8626658320426941,
+      "phase": 2.6347289085388184
+    },
+    {
+      "fy": -1,
+      "fx": 55,
+      "channel": 0,
+      "coherence": 0.9270065426826477,
+      "phase": -2.7303216457366943
+    },
+    {
+      "fy": 8,
+      "fx": 43,
+      "channel": 1,
+      "coherence": 0.8993915915489197,
+      "phase": -2.87011456489563
+    },
+    {
+      "fy": 22,
+      "fx": 42,
+      "channel": 0,
+      "coherence": 0.9255956411361694,
+      "phase": 2.925985813140869
+    },
+    {
+      "fy": 33,
+      "fx": 14,
+      "channel": 1,
+      "coherence": 0.8948591351509094,
+      "phase": -2.7215399742126465
+    },
+    {
+      "fy": -38,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.8522402048110962,
+      "phase": 2.9368326663970947
+    },
+    {
+      "fy": 38,
+      "fx": 0,
+      "channel": 1,
+      "coherence": 0.8522402048110962,
+      "phase": -2.9368326663970947
+    },
+    {
+      "fy": -26,
+      "fx": 3,
+      "channel": 0,
+      "coherence": 0.9060261249542236,
+      "phase": 0.25986191630363464
+    },
+    {
+      "fy": -1,
+      "fx": 55,
+      "channel": 2,
+      "coherence": 0.921359658241272,
+      "phase": -2.777958393096924
+    },
+    {
+      "fy": 5,
+      "fx": 58,
+      "channel": 1,
+      "coherence": 0.9190692901611328,
+      "phase": -2.5964627265930176
+    },
+    {
+      "fy": -9,
+      "fx": 1,
+      "channel": 2,
+      "coherence": 0.9533790946006775,
+      "phase": -0.1943887323141098
+    },
+    {
+      "fy": 32,
+      "fx": 7,
+      "channel": 1,
+      "coherence": 0.9156945943832397,
+      "phase": 0.24216756224632263
+    },
+    {
+      "fy": 32,
+      "fx": 16,
+      "channel": 1,
+      "coherence": 0.8914164900779724,
+      "phase": 0.3780589997768402
+    },
+    {
+      "fy": 25,
+      "fx": 21,
+      "channel": 0,
+      "coherence": 0.913699746131897,
+      "phase": -2.9421823024749756
+    },
+    {
+      "fy": 2,
+      "fx": 57,
+      "channel": 0,
+      "coherence": 0.9192343354225159,
+      "phase": -2.707275629043579
+    },
+    {
+      "fy": 23,
+      "fx": 64,
+      "channel": 1,
+      "coherence": 0.9184166193008423,
+      "phase": 0.11318924278020859
+    },
+    {
+      "fy": 34,
+      "fx": 11,
+      "channel": 0,
+      "coherence": 0.9105352163314819,
+      "phase": 2.9026575088500977
+    },
+    {
+      "fy": 53,
+      "fx": 1,
+      "channel": 1,
+      "coherence": 0.8573658466339111,
+      "phase": -2.594320058822632
+    },
+    {
+      "fy": -54,
+      "fx": 48,
+      "channel": 1,
+      "coherence": 0.9546542167663574,
+      "phase": 2.550255060195923
+    },
+    {
+      "fy": 54,
+      "fx": 14,
+      "channel": 1,
+      "coherence": 0.9289964437484741,
+      "phase": 0.8647016286849976
+    },
+    {
+      "fy": 41,
+      "fx": 33,
+      "channel": 1,
+      "coherence": 0.9001688957214355,
+      "phase": -2.6690919399261475
+    },
+    {
+      "fy": -13,
+      "fx": 42,
+      "channel": 1,
+      "coherence": 0.9181901812553406,
+      "phase": 2.690455913543701
+    },
+    {
+      "fy": -8,
+      "fx": 58,
+      "channel": 1,
+      "coherence": 0.9687675833702087,
+      "phase": -0.023149024695158005
+    },
+    {
+      "fy": 38,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.8498086929321289,
+      "phase": -3.1312146186828613
+    },
+    {
+      "fy": -38,
+      "fx": 0,
+      "channel": 2,
+      "coherence": 0.8498086929321289,
+      "phase": 3.1312146186828613
+    },
+    {
+      "fy": 42,
+      "fx": 26,
+      "channel": 0,
+      "coherence": 0.9177295565605164,
+      "phase": 0.6990566849708557
+    },
+    {
+      "fy": -78,
+      "fx": 13,
+      "channel": 1,
+      "coherence": 0.9269273281097412,
+      "phase": -0.42946675419807434
+    },
+    {
+      "fy": -1,
+      "fx": 76,
+      "channel": 0,
+      "coherence": 0.8623655438423157,
+      "phase": 0.27587732672691345
+    },
+    {
+      "fy": -13,
+      "fx": 77,
+      "channel": 1,
+      "coherence": 0.9430966377258301,
+      "phase": -0.37194138765335083
+    },
+    {
+      "fy": -54,
+      "fx": 48,
+      "channel": 0,
+      "coherence": 0.9892890453338623,
+      "phase": 2.3704895973205566
+    },
+    {
+      "fy": 75,
+      "fx": 26,
+      "channel": 1,
+      "coherence": 0.9286981821060181,
+      "phase": 0.6985270977020264
+    },
+    {
+      "fy": 12,
+      "fx": 3,
+      "channel": 1,
+      "coherence": 0.9782680869102478,
+      "phase": 0.03604426607489586
+    },
+    {
+      "fy": -11,
+      "fx": 1,
+      "channel": 2,
+      "coherence": 0.9185672998428345,
+      "phase": 2.7988035678863525
+    },
+    {
+      "fy": 29,
+      "fx": 48,
+      "channel": 1,
+      "coherence": 0.9434963464736938,
+      "phase": 2.839857578277588
+    },
+    {
+      "fy": 11,
+      "fx": 43,
+      "channel": 0,
+      "coherence": 0.9428873658180237,
+      "phase": 0.22932685911655426
+    }
+  ]
+}

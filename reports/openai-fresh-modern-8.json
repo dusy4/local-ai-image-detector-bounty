@@ -1,0 +1,57 @@
+{
+  "model": "public\\models\\modern-convnext\\model.onnx",
+  "images": 8,
+  "threshold": 0.65,
+  "tpr": 1.0,
+  "tnr": null,
+  "rows": [
+    {
+      "file": "fixtures\\openai-fresh\\fake\\bicycle-workshop.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.9771784543991089
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\ceramic-lamp.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.9772149920463562
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\floating-library.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.972018837928772
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-black-square.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9769130945205688
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-blank-paper.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9744723439216614
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-red-ball.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.8921008706092834
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-sky-cloud.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9716877937316895
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-yellow-circle.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9756339192390442
+    }
+  ]
+}

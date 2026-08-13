@@ -1,0 +1,92 @@
+{
+  "baselineWeight": 2.0000000000000004,
+  "communityWeight": 0.2,
+  "bias": -0.9364705990742197,
+  "macro": 0.7967487569190356,
+  "floor": 0.6992869875222816,
+  "perDataset": {
+    "openfake": {
+      "images": 106,
+      "tpr": 0.41818181818181815,
+      "tnr": 0.9803921568627451,
+      "balancedAccuracy": 0.6992869875222816
+    },
+    "aigibench": {
+      "images": 151,
+      "tpr": 0.868421052631579,
+      "tnr": 0.92,
+      "balancedAccuracy": 0.8942105263157896
+    }
+  },
+  "test": {
+    "openfake": {
+      "images": 94,
+      "tpr": 0.28888888888888886,
+      "tnr": 1,
+      "balancedAccuracy": 0.6444444444444444
+    },
+    "aigibench": {
+      "images": 149,
+      "tpr": 0.8243243243243243,
+      "tnr": 0.9733333333333334,
+      "balancedAccuracy": 0.8988288288288289
+    }
+  },
+  "testMacro": 0.7716366366366366,
+  "baselines": {
+    "openfake": {
+      "active": {
+        "images": 94,
+        "tpr": 0.6666666666666666,
+        "tnr": 0.8571428571428571,
+        "balancedAccuracy": 0.7619047619047619
+      },
+      "community": {
+        "images": 94,
+        "tpr": 0.26666666666666666,
+        "tnr": 0.9795918367346939,
+        "balancedAccuracy": 0.6231292517006802
+      },
+      "monotonicOr": {
+        "images": 94,
+        "tpr": 0.8222222222222222,
+        "tnr": 0.8367346938775511,
+        "balancedAccuracy": 0.8294784580498866
+      }
+    },
+    "aigibench": {
+      "active": {
+        "images": 149,
+        "tpr": 0.47297297297297297,
+        "tnr": 0.7333333333333333,
+        "balancedAccuracy": 0.6031531531531531
+      },
+      "community": {
+        "images": 149,
+        "tpr": 0.918918918918919,
+        "tnr": 1,
+        "balancedAccuracy": 0.9594594594594594
+      },
+      "monotonicOr": {
+        "images": 149,
+        "tpr": 0.9594594594594594,
+        "tnr": 0.7333333333333333,
+        "balancedAccuracy": 0.8463963963963963
+      }
+    }
+  },
+  "fullDatasetOr": {
+    "openfake": {
+      "images": 200,
+      "tpr": 0.79,
+      "tnr": 0.83,
+      "balancedAccuracy": 0.81
+    },
+    "aigibench": {
+      "images": 300,
+      "tpr": 0.9466666666666667,
+      "tnr": 0.5933333333333334,
+      "balancedAccuracy": 0.77
+    }
+  }
+}

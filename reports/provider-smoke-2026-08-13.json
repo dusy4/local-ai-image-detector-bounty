@@ -1,0 +1,27 @@
+{
+  "threshold": 0.65,
+  "samples": [
+    {
+      "name": "Gemini attachment",
+      "modelAiScore": 0.6510780453681946,
+      "metadataSignals": [],
+      "experimentalSynthIdScore": 0.04164740424424926,
+      "experimentalSynthIdPhaseMatch": 0.623201163966153,
+      "finalAiScore": 0.6510780453681946,
+      "finalDecision": "AI"
+    },
+    {
+      "name": "OpenAI generated comparison",
+      "modelAiScore": 0.5450498461723328,
+      "metadataSignals": [
+        { "detail": "C2PA trained-algorithmic-media assertion", "score": 0.995 },
+        { "detail": "provider provenance metadata", "score": 0.94 }
+      ],
+      "experimentalSynthIdScore": 0.0424488990203318,
+      "experimentalSynthIdPhaseMatch": 0.6241960943852065,
+      "finalAiScore": 0.9998635149538517,
+      "finalDecision": "AI"
+    }
+  ],
+  "conclusion": "Both samples pass the full hybrid pipeline. The public experimental SynthID codebook detects neither and must not be relied upon without provider/model-specific calibration."
+}

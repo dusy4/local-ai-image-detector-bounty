@@ -1,0 +1,53 @@
+{
+  "images": 5,
+  "at0.5": {
+    "threshold": 0.5,
+    "tpr": 0.0,
+    "tnr": null,
+    "balancedAccuracy": 0.0
+  },
+  "at0.65": {
+    "threshold": 0.65,
+    "tpr": 0.0,
+    "tnr": null,
+    "balancedAccuracy": 0.0
+  },
+  "bestInSample": {
+    "threshold": 0.00036247255047783256,
+    "tpr": 1.0,
+    "tnr": null,
+    "balancedAccuracy": 1.0
+  },
+  "rows": [
+    {
+      "file": "fake/0000-0.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.017625514417886734
+    },
+    {
+      "file": "fake/0001-1.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.0005442854017019272
+    },
+    {
+      "file": "fake/0002-2.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.001434589852578938
+    },
+    {
+      "file": "fake/0003-3.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.00036247255047783256
+    },
+    {
+      "file": "fake/0004-4.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.004697955213487148
+    }
+  ]
+}

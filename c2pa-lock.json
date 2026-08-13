@@ -1,0 +1,17 @@
+{
+  "package": "@contentauth/c2pa-web",
+  "version": "0.13.4",
+  "license": "MIT",
+  "bundle": {
+    "bytes": 35061,
+    "sha256": "85d8bf122ec8c8f9cb90bb19c90ae8e9ebdcf3a221972fbda18e4a2fd13800b0"
+  },
+  "worker": {
+    "bytes": 43829,
+    "sha256": "49032ee72ef64b7cb200f3934ebdc12fc702d00fb304618b679f1f34b3c46202"
+  },
+  "wasm": {
+    "bytes": 8201418,
+    "sha256": "8c6289a68ba2d21dc0620ed17501719f79a1a1a5c707143c8579548f0afc1cd3"
+  }
+}

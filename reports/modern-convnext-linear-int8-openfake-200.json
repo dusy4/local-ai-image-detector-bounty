@@ -1,0 +1,1209 @@
+{
+  "model": "research\\modern-convnext\\model-linear-int8.onnx",
+  "images": 200,
+  "threshold": 0.65,
+  "tpr": 0.68,
+  "tnr": 0.91,
+  "rows": [
+    {
+      "file": "benchmark\\real\\000-1.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02405528910458088
+    },
+    {
+      "file": "benchmark\\real\\001-2.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.025991711765527725
+    },
+    {
+      "file": "benchmark\\real\\002-3.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.02552230842411518
+    },
+    {
+      "file": "benchmark\\real\\003-4.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9677735567092896
+    },
+    {
+      "file": "benchmark\\real\\004-6.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.03038804419338703
+    },
+    {
+      "file": "benchmark\\real\\005-10.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023779340088367462
+    },
+    {
+      "file": "benchmark\\real\\006-11.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024140827357769012
+    },
+    {
+      "file": "benchmark\\real\\007-12.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.039491817355155945
+    },
+    {
+      "file": "benchmark\\real\\008-15.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02395363710820675
+    },
+    {
+      "file": "benchmark\\real\\009-16.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023795785382390022
+    },
+    {
+      "file": "benchmark\\real\\010-18.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.03474970534443855
+    },
+    {
+      "file": "benchmark\\real\\011-21.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.0252610445022583
+    },
+    {
+      "file": "benchmark\\real\\012-23.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9711899161338806
+    },
+    {
+      "file": "benchmark\\real\\013-26.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9527415037155151
+    },
+    {
+      "file": "benchmark\\real\\014-28.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02935304492712021
+    },
+    {
+      "file": "benchmark\\real\\015-31.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.026014527305960655
+    },
+    {
+      "file": "benchmark\\real\\016-33.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02800680510699749
+    },
+    {
+      "file": "benchmark\\real\\017-35.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.03803209960460663
+    },
+    {
+      "file": "benchmark\\real\\018-38.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024186555296182632
+    },
+    {
+      "file": "benchmark\\real\\019-40.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024076374247670174
+    },
+    {
+      "file": "benchmark\\real\\020-42.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.025421317666769028
+    },
+    {
+      "file": "benchmark\\real\\021-43.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.0241122767329216
+    },
+    {
+      "file": "benchmark\\real\\022-45.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02299872599542141
+    },
+    {
+      "file": "benchmark\\real\\023-46.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024085838347673416
+    },
+    {
+      "file": "benchmark\\real\\024-48.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023512013256549835
+    },
+    {
+      "file": "benchmark\\real\\025-49.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.03582269325852394
+    },
+    {
+      "file": "benchmark\\real\\026-51.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.025254476815462112
+    },
+    {
+      "file": "benchmark\\real\\027-54.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024252569302916527
+    },
+    {
+      "file": "benchmark\\real\\028-55.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02486352249979973
+    },
+    {
+      "file": "benchmark\\real\\029-57.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.02493928000330925
+    },
+    {
+      "file": "benchmark\\real\\030-59.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02304341271519661
+    },
+    {
+      "file": "benchmark\\real\\031-64.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02267509326338768
+    },
+    {
+      "file": "benchmark\\real\\032-65.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02456684783101082
+    },
+    {
+      "file": "benchmark\\real\\033-66.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02245636098086834
+    },
+    {
+      "file": "benchmark\\real\\034-72.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.0248660147190094
+    },
+    {
+      "file": "benchmark\\real\\035-73.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02784072607755661
+    },
+    {
+      "file": "benchmark\\real\\036-74.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.0266377255320549
+    },
+    {
+      "file": "benchmark\\real\\037-76.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.031715378165245056
+    },
+    {
+      "file": "benchmark\\real\\038-77.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02549317106604576
+    },
+    {
+      "file": "benchmark\\real\\039-79.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.08641412854194641
+    },
+    {
+      "file": "benchmark\\real\\040-80.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024439215660095215
+    },
+    {
+      "file": "benchmark\\real\\041-83.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02593258209526539
+    },
+    {
+      "file": "benchmark\\real\\042-84.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.025194592773914337
+    },
+    {
+      "file": "benchmark\\real\\043-86.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02660095877945423
+    },
+    {
+      "file": "benchmark\\real\\044-87.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02530021406710148
+    },
+    {
+      "file": "benchmark\\real\\045-88.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.022973557934165
+    },
+    {
+      "file": "benchmark\\real\\046-89.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.966100811958313
+    },
+    {
+      "file": "benchmark\\real\\047-94.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.024401329457759857
+    },
+    {
+      "file": "benchmark\\real\\048-96.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.04355478659272194
+    },
+    {
+      "file": "benchmark\\real\\049-97.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023341765627264977
+    },
+    {
+      "file": "benchmark\\real\\050-99.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.026114391162991524
+    },
+    {
+      "file": "benchmark\\real\\051-100.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.4673585891723633
+    },
+    {
+      "file": "benchmark\\real\\052-105.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.339946448802948
+    },
+    {
+      "file": "benchmark\\real\\053-106.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02433120645582676
+    },
+    {
+      "file": "benchmark\\real\\054-107.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9546615481376648
+    },
+    {
+      "file": "benchmark\\real\\055-109.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024612504988908768
+    },
+    {
+      "file": "benchmark\\real\\056-112.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02243056707084179
+    },
+    {
+      "file": "benchmark\\real\\057-117.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023700743913650513
+    },
+    {
+      "file": "benchmark\\real\\058-121.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.038467396050691605
+    },
+    {
+      "file": "benchmark\\real\\059-123.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.42535892128944397
+    },
+    {
+      "file": "benchmark\\real\\060-125.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024545524269342422
+    },
+    {
+      "file": "benchmark\\real\\061-126.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.36645928025245667
+    },
+    {
+      "file": "benchmark\\real\\062-129.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.06739979982376099
+    },
+    {
+      "file": "benchmark\\real\\063-133.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.0340384915471077
+    },
+    {
+      "file": "benchmark\\real\\064-134.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.027396097779273987
+    },
+    {
+      "file": "benchmark\\real\\065-135.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.02587849274277687
+    },
+    {
+      "file": "benchmark\\real\\066-136.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.033382248133420944
+    },
+    {
+      "file": "benchmark\\real\\067-137.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024586068466305733
+    },
+    {
+      "file": "benchmark\\real\\068-141.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.914081871509552
+    },
+    {
+      "file": "benchmark\\real\\069-142.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02678496576845646
+    },
+    {
+      "file": "benchmark\\real\\070-143.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.022941406816244125
+    },
+    {
+      "file": "benchmark\\real\\071-144.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.023527368903160095
+    },
+    {
+      "file": "benchmark\\real\\072-145.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.05841902643442154
+    },
+    {
+      "file": "benchmark\\real\\073-146.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.04326549544930458
+    },
+    {
+      "file": "benchmark\\real\\074-150.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.029142074286937714
+    },
+    {
+      "file": "benchmark\\real\\075-151.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.029430674389004707
+    },
+    {
+      "file": "benchmark\\real\\076-152.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024334628134965897
+    },
+    {
+      "file": "benchmark\\real\\077-154.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024453168734908104
+    },
+    {
+      "file": "benchmark\\real\\078-155.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024282513186335564
+    },
+    {
+      "file": "benchmark\\real\\079-156.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02470928058028221
+    },
+    {
+      "file": "benchmark\\real\\080-157.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.028245611116290092
+    },
+    {
+      "file": "benchmark\\real\\081-161.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9507200717926025
+    },
+    {
+      "file": "benchmark\\real\\082-163.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02264919877052307
+    },
+    {
+      "file": "benchmark\\real\\083-165.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024597615003585815
+    },
+    {
+      "file": "benchmark\\real\\084-166.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.041614048182964325
+    },
+    {
+      "file": "benchmark\\real\\085-167.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.04282567277550697
+    },
+    {
+      "file": "benchmark\\real\\086-168.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.1527763307094574
+    },
+    {
+      "file": "benchmark\\real\\087-171.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02327917329967022
+    },
+    {
+      "file": "benchmark\\real\\088-177.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02563992142677307
+    },
+    {
+      "file": "benchmark\\real\\089-181.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.024821393191814423
+    },
+    {
+      "file": "benchmark\\real\\090-182.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02729967050254345
+    },
+    {
+      "file": "benchmark\\real\\091-183.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.024145521223545074
+    },
+    {
+      "file": "benchmark\\real\\092-187.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.022644497454166412
+    },
+    {
+      "file": "benchmark\\real\\093-189.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.02464931830763817
+    },
+    {
+      "file": "benchmark\\real\\094-190.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9525366425514221
+    },
+    {
+      "file": "benchmark\\real\\095-192.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02323220670223236
+    },
+    {
+      "file": "benchmark\\real\\096-193.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.02427436038851738
+    },
+    {
+      "file": "benchmark\\real\\097-194.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.022040536627173424
+    },
+    {
+      "file": "benchmark\\real\\098-196.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "score": 0.024924397468566895
+    },
+    {
+      "file": "benchmark\\real\\099-197.jpg",
+      "truth": 0,
+      "source": "docci",
+      "score": 0.9791352152824402
+    },
+    {
+      "file": "benchmark\\fake\\000-0.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9780575633049011
+    },
+    {
+      "file": "benchmark\\fake\\001-5.jpg",
+      "truth": 1,
+      "source": "wan-video-2.5",
+      "score": 0.9732393622398376
+    },
+    {
+      "file": "benchmark\\fake\\002-7.jpg",
+      "truth": 1,
+      "source": "sora-2",
+      "score": 0.9777852296829224
+    },
+    {
+      "file": "benchmark\\fake\\003-8.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.028582531958818436
+    },
+    {
+      "file": "benchmark\\fake\\004-9.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9779664278030396
+    },
+    {
+      "file": "benchmark\\fake\\005-13.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9667822122573853
+    },
+    {
+      "file": "benchmark\\fake\\006-14.jpg",
+      "truth": 1,
+      "source": "ideogram-2.0",
+      "score": 0.9765592813491821
+    },
+    {
+      "file": "benchmark\\fake\\007-17.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9788935780525208
+    },
+    {
+      "file": "benchmark\\fake\\008-19.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9790343642234802
+    },
+    {
+      "file": "benchmark\\fake\\009-20.jpg",
+      "truth": 1,
+      "source": "seedream-v5.0",
+      "score": 0.9320645332336426
+    },
+    {
+      "file": "benchmark\\fake\\010-22.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9712718725204468
+    },
+    {
+      "file": "benchmark\\fake\\011-24.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9758584499359131
+    },
+    {
+      "file": "benchmark\\fake\\012-25.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9782721996307373
+    },
+    {
+      "file": "benchmark\\fake\\013-27.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9739807844161987
+    },
+    {
+      "file": "benchmark\\fake\\014-29.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.032770927995443344
+    },
+    {
+      "file": "benchmark\\fake\\015-30.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9743923544883728
+    },
+    {
+      "file": "benchmark\\fake\\016-32.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.978553056716919
+    },
+    {
+      "file": "benchmark\\fake\\017-34.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.973076343536377
+    },
+    {
+      "file": "benchmark\\fake\\018-36.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9697766900062561
+    },
+    {
+      "file": "benchmark\\fake\\019-37.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9733452796936035
+    },
+    {
+      "file": "benchmark\\fake\\020-39.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.044901274144649506
+    },
+    {
+      "file": "benchmark\\fake\\021-41.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.07040531933307648
+    },
+    {
+      "file": "benchmark\\fake\\022-44.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9783812761306763
+    },
+    {
+      "file": "benchmark\\fake\\023-47.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.6201467514038086
+    },
+    {
+      "file": "benchmark\\fake\\024-50.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.0714714303612709
+    },
+    {
+      "file": "benchmark\\fake\\025-52.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.035816632211208344
+    },
+    {
+      "file": "benchmark\\fake\\026-53.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.025797918438911438
+    },
+    {
+      "file": "benchmark\\fake\\027-56.jpg",
+      "truth": 1,
+      "source": "wan-video-2.5",
+      "score": 0.03680361062288284
+    },
+    {
+      "file": "benchmark\\fake\\028-58.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9775935411453247
+    },
+    {
+      "file": "benchmark\\fake\\029-60.jpg",
+      "truth": 1,
+      "source": "ernie-image-turbo",
+      "score": 0.9776208996772766
+    },
+    {
+      "file": "benchmark\\fake\\030-61.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9751359224319458
+    },
+    {
+      "file": "benchmark\\fake\\031-62.jpg",
+      "truth": 1,
+      "source": "wan-video-2.5",
+      "score": 0.9775627851486206
+    },
+    {
+      "file": "benchmark\\fake\\032-63.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.08781060576438904
+    },
+    {
+      "file": "benchmark\\fake\\033-67.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.020128509029746056
+    },
+    {
+      "file": "benchmark\\fake\\034-68.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.9792337417602539
+    },
+    {
+      "file": "benchmark\\fake\\035-69.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.06941346824169159
+    },
+    {
+      "file": "benchmark\\fake\\036-70.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9658809900283813
+    },
+    {
+      "file": "benchmark\\fake\\037-71.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9781382083892822
+    },
+    {
+      "file": "benchmark\\fake\\038-75.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.03783651813864708
+    },
+    {
+      "file": "benchmark\\fake\\039-78.jpg",
+      "truth": 1,
+      "source": "ernie-image-turbo",
+      "score": 0.9770954847335815
+    },
+    {
+      "file": "benchmark\\fake\\040-81.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9687719345092773
+    },
+    {
+      "file": "benchmark\\fake\\041-82.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9780365824699402
+    },
+    {
+      "file": "benchmark\\fake\\042-85.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9786044359207153
+    },
+    {
+      "file": "benchmark\\fake\\043-90.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9743481874465942
+    },
+    {
+      "file": "benchmark\\fake\\044-91.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9714714288711548
+    },
+    {
+      "file": "benchmark\\fake\\045-92.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.03386474773287773
+    },
+    {
+      "file": "benchmark\\fake\\046-93.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.026079237461090088
+    },
+    {
+      "file": "benchmark\\fake\\047-95.jpg",
+      "truth": 1,
+      "source": "nano-banana-pro",
+      "score": 0.9746321439743042
+    },
+    {
+      "file": "benchmark\\fake\\048-98.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.02610267885029316
+    },
+    {
+      "file": "benchmark\\fake\\049-101.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9690677523612976
+    },
+    {
+      "file": "benchmark\\fake\\050-102.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9772576689720154
+    },
+    {
+      "file": "benchmark\\fake\\051-103.jpg",
+      "truth": 1,
+      "source": "wan-video-2.5",
+      "score": 0.9786466956138611
+    },
+    {
+      "file": "benchmark\\fake\\052-104.jpg",
+      "truth": 1,
+      "source": "recraft-v3",
+      "score": 0.024887870997190475
+    },
+    {
+      "file": "benchmark\\fake\\053-108.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9723993539810181
+    },
+    {
+      "file": "benchmark\\fake\\054-110.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.9791815280914307
+    },
+    {
+      "file": "benchmark\\fake\\055-111.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.18457923829555511
+    },
+    {
+      "file": "benchmark\\fake\\056-113.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9793274998664856
+    },
+    {
+      "file": "benchmark\\fake\\057-114.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.5532744526863098
+    },
+    {
+      "file": "benchmark\\fake\\058-115.jpg",
+      "truth": 1,
+      "source": "veo-3",
+      "score": 0.9721900820732117
+    },
+    {
+      "file": "benchmark\\fake\\059-116.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9781192541122437
+    },
+    {
+      "file": "benchmark\\fake\\060-118.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9719290733337402
+    },
+    {
+      "file": "benchmark\\fake\\061-119.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.9783239960670471
+    },
+    {
+      "file": "benchmark\\fake\\062-120.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.026247220113873482
+    },
+    {
+      "file": "benchmark\\fake\\063-122.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9761613011360168
+    },
+    {
+      "file": "benchmark\\fake\\064-124.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9772595167160034
+    },
+    {
+      "file": "benchmark\\fake\\065-127.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.9775350093841553
+    },
+    {
+      "file": "benchmark\\fake\\066-128.jpg",
+      "truth": 1,
+      "source": "ernie-image",
+      "score": 0.9780896306037903
+    },
+    {
+      "file": "benchmark\\fake\\067-130.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.029965415596961975
+    },
+    {
+      "file": "benchmark\\fake\\068-131.jpg",
+      "truth": 1,
+      "source": "veo-3",
+      "score": 0.9727793335914612
+    },
+    {
+      "file": "benchmark\\fake\\069-132.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9703298211097717
+    },
+    {
+      "file": "benchmark\\fake\\070-138.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.969031572341919
+    },
+    {
+      "file": "benchmark\\fake\\071-139.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9770511984825134
+    },
+    {
+      "file": "benchmark\\fake\\072-140.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.02757001295685768
+    },
+    {
+      "file": "benchmark\\fake\\073-147.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9771237969398499
+    },
+    {
+      "file": "benchmark\\fake\\074-148.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.9252942204475403
+    },
+    {
+      "file": "benchmark\\fake\\075-149.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.978942334651947
+    },
+    {
+      "file": "benchmark\\fake\\076-153.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.025651132687926292
+    },
+    {
+      "file": "benchmark\\fake\\077-158.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.024470938369631767
+    },
+    {
+      "file": "benchmark\\fake\\078-159.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9692390561103821
+    },
+    {
+      "file": "benchmark\\fake\\079-160.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.951790452003479
+    },
+    {
+      "file": "benchmark\\fake\\080-162.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9766125679016113
+    },
+    {
+      "file": "benchmark\\fake\\081-164.jpg",
+      "truth": 1,
+      "source": "recraft-v2",
+      "score": 0.978569746017456
+    },
+    {
+      "file": "benchmark\\fake\\082-169.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.035510413348674774
+    },
+    {
+      "file": "benchmark\\fake\\083-170.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9784042239189148
+    },
+    {
+      "file": "benchmark\\fake\\084-172.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9664161205291748
+    },
+    {
+      "file": "benchmark\\fake\\085-173.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.978078305721283
+    },
+    {
+      "file": "benchmark\\fake\\086-174.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.028937308117747307
+    },
+    {
+      "file": "benchmark\\fake\\087-175.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.6228941082954407
+    },
+    {
+      "file": "benchmark\\fake\\088-176.jpg",
+      "truth": 1,
+      "source": "z-image-turbo",
+      "score": 0.9467936754226685
+    },
+    {
+      "file": "benchmark\\fake\\089-178.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9792671203613281
+    },
+    {
+      "file": "benchmark\\fake\\090-179.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.975142776966095
+    },
+    {
+      "file": "benchmark\\fake\\091-180.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9757859110832214
+    },
+    {
+      "file": "benchmark\\fake\\092-184.jpg",
+      "truth": 1,
+      "source": "illustrious",
+      "score": 0.9694936871528625
+    },
+    {
+      "file": "benchmark\\fake\\093-185.jpg",
+      "truth": 1,
+      "source": "recraft-v3",
+      "score": 0.024815484881401062
+    },
+    {
+      "file": "benchmark\\fake\\094-186.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.05189413204789162
+    },
+    {
+      "file": "benchmark\\fake\\095-188.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.9707905650138855
+    },
+    {
+      "file": "benchmark\\fake\\096-191.jpg",
+      "truth": 1,
+      "source": "veo-3",
+      "score": 0.9765085577964783
+    },
+    {
+      "file": "benchmark\\fake\\097-195.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "score": 0.03315816447138786
+    },
+    {
+      "file": "benchmark\\fake\\098-198.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "score": 0.026532825082540512
+    },
+    {
+      "file": "benchmark\\fake\\099-199.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "score": 0.06211045756936073
+    }
+  ]
+}

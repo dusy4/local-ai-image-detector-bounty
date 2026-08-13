@@ -1,0 +1,1823 @@
+{
+  "images": 300,
+  "at0.5": {
+    "threshold": 0.5,
+    "tpr": 0.9533333333333334,
+    "tnr": 0.9066666666666666,
+    "balancedAccuracy": 0.9299999999999999
+  },
+  "at0.65": {
+    "threshold": 0.65,
+    "tpr": 0.9066666666666666,
+    "tnr": 0.9333333333333333,
+    "balancedAccuracy": 0.9199999999999999
+  },
+  "bestInSample": {
+    "threshold": 0.5088928937911987,
+    "tpr": 0.9533333333333334,
+    "tnr": 0.9066666666666666,
+    "balancedAccuracy": 0.9299999999999999
+  },
+  "rows": [
+    {
+      "file": "real/0000-0.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.795520007610321
+    },
+    {
+      "file": "real/0001-2.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0030914577655494213
+    },
+    {
+      "file": "real/0002-4.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0336146354675293
+    },
+    {
+      "file": "real/0003-6.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.05300105735659599
+    },
+    {
+      "file": "real/0004-8.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010127442656084895
+    },
+    {
+      "file": "real/0005-10.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004382293205708265
+    },
+    {
+      "file": "real/0006-12.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04266563057899475
+    },
+    {
+      "file": "real/0007-14.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 3.4849243093049154e-05
+    },
+    {
+      "file": "real/0008-16.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.01958029717206955
+    },
+    {
+      "file": "real/0009-18.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016690990887582302
+    },
+    {
+      "file": "real/0010-20.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.7528931498527527
+    },
+    {
+      "file": "real/0011-22.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6002771854400635
+    },
+    {
+      "file": "real/0012-24.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0011812009615823627
+    },
+    {
+      "file": "real/0013-26.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002326893387362361
+    },
+    {
+      "file": "real/0014-28.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.02163255400955677
+    },
+    {
+      "file": "real/0015-30.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0004445005033630878
+    },
+    {
+      "file": "real/0016-32.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0387268140912056
+    },
+    {
+      "file": "real/0017-34.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.021914776414632797
+    },
+    {
+      "file": "real/0018-36.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4449336528778076
+    },
+    {
+      "file": "real/0019-38.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.24745863676071167
+    },
+    {
+      "file": "real/0020-40.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.19919747114181519
+    },
+    {
+      "file": "real/0021-42.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0668945163488388
+    },
+    {
+      "file": "real/0022-44.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0618717260658741
+    },
+    {
+      "file": "real/0023-46.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010429169051349163
+    },
+    {
+      "file": "real/0024-48.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003418315201997757
+    },
+    {
+      "file": "real/0025-50.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016119758365675807
+    },
+    {
+      "file": "real/0026-52.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.038334257900714874
+    },
+    {
+      "file": "real/0027-54.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016832470428198576
+    },
+    {
+      "file": "real/0028-56.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.2200622409582138
+    },
+    {
+      "file": "real/0029-58.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00016429524112027138
+    },
+    {
+      "file": "real/0030-60.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.7320765852928162
+    },
+    {
+      "file": "real/0031-62.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0012742704711854458
+    },
+    {
+      "file": "real/0032-64.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.49029257893562317
+    },
+    {
+      "file": "real/0033-66.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 9.005374158732593e-05
+    },
+    {
+      "file": "real/0034-68.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002917057368904352
+    },
+    {
+      "file": "real/0035-70.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0017775129526853561
+    },
+    {
+      "file": "real/0036-72.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.18761128187179565
+    },
+    {
+      "file": "real/0037-74.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.000703335041180253
+    },
+    {
+      "file": "real/0038-76.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.8496972322463989
+    },
+    {
+      "file": "real/0039-78.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.005401486996561289
+    },
+    {
+      "file": "real/0040-80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00019020629406441003
+    },
+    {
+      "file": "real/0041-82.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0002193531399825588
+    },
+    {
+      "file": "real/0042-84.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.8822911381721497
+    },
+    {
+      "file": "real/0043-86.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00023849781427998096
+    },
+    {
+      "file": "real/0044-88.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016590639716014266
+    },
+    {
+      "file": "real/0045-90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.5647503733634949
+    },
+    {
+      "file": "real/0046-92.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.29898977279663086
+    },
+    {
+      "file": "real/0047-94.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03604612872004509
+    },
+    {
+      "file": "real/0048-96.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.3221932053565979
+    },
+    {
+      "file": "real/0049-98.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0037588211707770824
+    },
+    {
+      "file": "real/0050-7300.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4898921847343445
+    },
+    {
+      "file": "real/0051-7302.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.011110574938356876
+    },
+    {
+      "file": "real/0052-7304.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.5522110462188721
+    },
+    {
+      "file": "real/0053-7306.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.013127262704074383
+    },
+    {
+      "file": "real/0054-7308.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.39249569177627563
+    },
+    {
+      "file": "real/0055-7310.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0008456389186903834
+    },
+    {
+      "file": "real/0056-7312.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.8892632722854614
+    },
+    {
+      "file": "real/0057-7314.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010168387088924646
+    },
+    {
+      "file": "real/0058-7316.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.013094376772642136
+    },
+    {
+      "file": "real/0059-7318.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 3.8246249459916726e-05
+    },
+    {
+      "file": "real/0060-7320.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.9728903770446777
+    },
+    {
+      "file": "real/0061-7322.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0018367497250437737
+    },
+    {
+      "file": "real/0062-7324.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.11322915554046631
+    },
+    {
+      "file": "real/0063-7326.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00012330753088463098
+    },
+    {
+      "file": "real/0064-7328.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0006758058443665504
+    },
+    {
+      "file": "real/0065-7330.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0003526626096572727
+    },
+    {
+      "file": "real/0066-7332.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003962388727813959
+    },
+    {
+      "file": "real/0067-7334.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0013928223634138703
+    },
+    {
+      "file": "real/0068-7336.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.005539725534617901
+    },
+    {
+      "file": "real/0069-7338.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00390795711427927
+    },
+    {
+      "file": "real/0070-7340.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.3773916959762573
+    },
+    {
+      "file": "real/0071-7342.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0009959120070561767
+    },
+    {
+      "file": "real/0072-7344.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.650131106376648
+    },
+    {
+      "file": "real/0073-7346.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0538240447640419
+    },
+    {
+      "file": "real/0074-7348.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03962858393788338
+    },
+    {
+      "file": "real/0075-7350.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00028102350188419223
+    },
+    {
+      "file": "real/0076-7352.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010641209781169891
+    },
+    {
+      "file": "real/0077-7354.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002137401606887579
+    },
+    {
+      "file": "real/0078-7356.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0030443205032497644
+    },
+    {
+      "file": "real/0079-7358.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.000227681128308177
+    },
+    {
+      "file": "real/0080-7360.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016138063510879874
+    },
+    {
+      "file": "real/0081-7362.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.31194302439689636
+    },
+    {
+      "file": "real/0082-7364.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003980055917054415
+    },
+    {
+      "file": "real/0083-7366.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016315325628966093
+    },
+    {
+      "file": "real/0084-7368.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.008567062206566334
+    },
+    {
+      "file": "real/0085-7370.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 3.0131961466395296e-05
+    },
+    {
+      "file": "real/0086-7372.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.10201726853847504
+    },
+    {
+      "file": "real/0087-7374.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03474807366728783
+    },
+    {
+      "file": "real/0088-7376.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0036701159551739693
+    },
+    {
+      "file": "real/0089-7378.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.008256696164608002
+    },
+    {
+      "file": "real/0090-7380.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.051814161241054535
+    },
+    {
+      "file": "real/0091-7382.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0009151087724603713
+    },
+    {
+      "file": "real/0092-7384.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.07263236492872238
+    },
+    {
+      "file": "real/0093-7386.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.05304813012480736
+    },
+    {
+      "file": "real/0094-7388.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0041453223675489426
+    },
+    {
+      "file": "real/0095-7390.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0006803211872465909
+    },
+    {
+      "file": "real/0096-7392.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.5648912787437439
+    },
+    {
+      "file": "real/0097-7394.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0002808890421874821
+    },
+    {
+      "file": "real/0098-7396.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.1815900206565857
+    },
+    {
+      "file": "real/0099-7398.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.005190365016460419
+    },
+    {
+      "file": "real/0100-14600.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.22658061981201172
+    },
+    {
+      "file": "real/0101-14602.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0070383427664637566
+    },
+    {
+      "file": "real/0102-14604.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.17426584661006927
+    },
+    {
+      "file": "real/0103-14606.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010739844292402267
+    },
+    {
+      "file": "real/0104-14608.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010827546007931232
+    },
+    {
+      "file": "real/0105-14610.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03597510978579521
+    },
+    {
+      "file": "real/0106-14612.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0018325879937037826
+    },
+    {
+      "file": "real/0107-14614.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004382594488561153
+    },
+    {
+      "file": "real/0108-14616.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004974342882633209
+    },
+    {
+      "file": "real/0109-14618.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010570628568530083
+    },
+    {
+      "file": "real/0110-14620.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.9630824327468872
+    },
+    {
+      "file": "real/0111-14622.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.006072728428989649
+    },
+    {
+      "file": "real/0112-14624.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.06852352619171143
+    },
+    {
+      "file": "real/0113-14626.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.009131002239882946
+    },
+    {
+      "file": "real/0114-14628.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.7156660556793213
+    },
+    {
+      "file": "real/0115-14630.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.012105139903724194
+    },
+    {
+      "file": "real/0116-14632.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010639794170856476
+    },
+    {
+      "file": "real/0117-14634.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.006814447697252035
+    },
+    {
+      "file": "real/0118-14636.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00715920515358448
+    },
+    {
+      "file": "real/0119-14638.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00016395673446822912
+    },
+    {
+      "file": "real/0120-14640.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.3558974862098694
+    },
+    {
+      "file": "real/0121-14642.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 6.257829227251932e-05
+    },
+    {
+      "file": "real/0122-14644.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.012049282900989056
+    },
+    {
+      "file": "real/0123-14646.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.005519464146345854
+    },
+    {
+      "file": "real/0124-14648.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.06896235048770905
+    },
+    {
+      "file": "real/0125-14650.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.032300639897584915
+    },
+    {
+      "file": "real/0126-14652.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4913703501224518
+    },
+    {
+      "file": "real/0127-14654.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010325034148991108
+    },
+    {
+      "file": "real/0128-14656.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.033617131412029266
+    },
+    {
+      "file": "real/0129-14658.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0007553494651801884
+    },
+    {
+      "file": "real/0130-14660.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.11525939404964447
+    },
+    {
+      "file": "real/0131-14662.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0027295879554003477
+    },
+    {
+      "file": "real/0132-14664.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010276771150529385
+    },
+    {
+      "file": "real/0133-14666.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0005722653586417437
+    },
+    {
+      "file": "real/0134-14668.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.013137755915522575
+    },
+    {
+      "file": "real/0135-14670.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0013841110048815608
+    },
+    {
+      "file": "real/0136-14672.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.26542025804519653
+    },
+    {
+      "file": "real/0137-14674.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.006987117696553469
+    },
+    {
+      "file": "real/0138-14676.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0038224728778004646
+    },
+    {
+      "file": "real/0139-14678.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.000985919963568449
+    },
+    {
+      "file": "real/0140-14680.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.006714069750159979
+    },
+    {
+      "file": "real/0141-14682.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002819641726091504
+    },
+    {
+      "file": "real/0142-14684.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.20571406185626984
+    },
+    {
+      "file": "real/0143-14686.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.011138182133436203
+    },
+    {
+      "file": "real/0144-14688.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00948293600231409
+    },
+    {
+      "file": "real/0145-14690.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0006761779077351093
+    },
+    {
+      "file": "real/0146-14692.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.011341453529894352
+    },
+    {
+      "file": "real/0147-14694.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003922954201698303
+    },
+    {
+      "file": "real/0148-14696.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00019355725089553744
+    },
+    {
+      "file": "real/0149-14698.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.007105007767677307
+    },
+    {
+      "file": "fake/0000-1.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9997101426124573
+    },
+    {
+      "file": "fake/0001-3.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.5447748899459839
+    },
+    {
+      "file": "fake/0002-5.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9984826445579529
+    },
+    {
+      "file": "fake/0003-7.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998805522918701
+    },
+    {
+      "file": "fake/0004-9.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9993498921394348
+    },
+    {
+      "file": "fake/0005-11.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999920129776001
+    },
+    {
+      "file": "fake/0006-13.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9979907274246216
+    },
+    {
+      "file": "fake/0007-15.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9991466999053955
+    },
+    {
+      "file": "fake/0008-17.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.99993896484375
+    },
+    {
+      "file": "fake/0009-19.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9997498393058777
+    },
+    {
+      "file": "fake/0010-21.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.999921441078186
+    },
+    {
+      "file": "fake/0011-23.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9993744492530823
+    },
+    {
+      "file": "fake/0012-25.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9960934519767761
+    },
+    {
+      "file": "fake/0013-27.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9984252452850342
+    },
+    {
+      "file": "fake/0014-29.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9527074098587036
+    },
+    {
+      "file": "fake/0015-31.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9941679239273071
+    },
+    {
+      "file": "fake/0016-33.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9991889595985413
+    },
+    {
+      "file": "fake/0017-35.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9825714230537415
+    },
+    {
+      "file": "fake/0018-37.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.31802400946617126
+    },
+    {
+      "file": "fake/0019-39.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9744000434875488
+    },
+    {
+      "file": "fake/0020-41.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999151229858398
+    },
+    {
+      "file": "fake/0021-43.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9952162504196167
+    },
+    {
+      "file": "fake/0022-45.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9942303895950317
+    },
+    {
+      "file": "fake/0023-47.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.54434734582901
+    },
+    {
+      "file": "fake/0024-49.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9988208413124084
+    },
+    {
+      "file": "fake/0025-51.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995918869972229
+    },
+    {
+      "file": "fake/0026-53.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9510040283203125
+    },
+    {
+      "file": "fake/0027-55.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9727699756622314
+    },
+    {
+      "file": "fake/0028-57.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.99909508228302
+    },
+    {
+      "file": "fake/0029-59.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.991547167301178
+    },
+    {
+      "file": "fake/0030-61.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9985154271125793
+    },
+    {
+      "file": "fake/0031-63.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9222613573074341
+    },
+    {
+      "file": "fake/0032-65.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9997699856758118
+    },
+    {
+      "file": "fake/0033-67.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9972643852233887
+    },
+    {
+      "file": "fake/0034-69.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.7276713252067566
+    },
+    {
+      "file": "fake/0035-71.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9950724244117737
+    },
+    {
+      "file": "fake/0036-73.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9963467717170715
+    },
+    {
+      "file": "fake/0037-75.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9987809062004089
+    },
+    {
+      "file": "fake/0038-77.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9713838696479797
+    },
+    {
+      "file": "fake/0039-79.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999572038650513
+    },
+    {
+      "file": "fake/0040-81.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.717491090297699
+    },
+    {
+      "file": "fake/0041-83.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9997418522834778
+    },
+    {
+      "file": "fake/0042-85.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9931631088256836
+    },
+    {
+      "file": "fake/0043-87.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9967657327651978
+    },
+    {
+      "file": "fake/0044-89.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996857643127441
+    },
+    {
+      "file": "fake/0045-91.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9876378774642944
+    },
+    {
+      "file": "fake/0046-93.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.2752401530742645
+    },
+    {
+      "file": "fake/0047-95.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999113082885742
+    },
+    {
+      "file": "fake/0048-97.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.999875545501709
+    },
+    {
+      "file": "fake/0049-99.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9997496008872986
+    },
+    {
+      "file": "fake/0050-7301.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9940685033798218
+    },
+    {
+      "file": "fake/0051-7303.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999878406524658
+    },
+    {
+      "file": "fake/0052-7305.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9899157285690308
+    },
+    {
+      "file": "fake/0053-7307.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999880790710449
+    },
+    {
+      "file": "fake/0054-7309.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9964631199836731
+    },
+    {
+      "file": "fake/0055-7311.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999980926513672
+    },
+    {
+      "file": "fake/0056-7313.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.5664392113685608
+    },
+    {
+      "file": "fake/0057-7315.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999983310699463
+    },
+    {
+      "file": "fake/0058-7317.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9928448796272278
+    },
+    {
+      "file": "fake/0059-7319.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999270439147949
+    },
+    {
+      "file": "fake/0060-7321.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999599456787109
+    },
+    {
+      "file": "fake/0061-7323.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9996931552886963
+    },
+    {
+      "file": "fake/0062-7325.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9967888593673706
+    },
+    {
+      "file": "fake/0063-7327.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995799660682678
+    },
+    {
+      "file": "fake/0064-7329.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.8828672170639038
+    },
+    {
+      "file": "fake/0065-7331.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999933242797852
+    },
+    {
+      "file": "fake/0066-7333.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9874681234359741
+    },
+    {
+      "file": "fake/0067-7335.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9992064833641052
+    },
+    {
+      "file": "fake/0068-7337.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9484022855758667
+    },
+    {
+      "file": "fake/0069-7339.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9973018169403076
+    },
+    {
+      "file": "fake/0070-7341.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9590190649032593
+    },
+    {
+      "file": "fake/0071-7343.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999873638153076
+    },
+    {
+      "file": "fake/0072-7345.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.0034496034495532513
+    },
+    {
+      "file": "fake/0073-7347.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.996241569519043
+    },
+    {
+      "file": "fake/0074-7349.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9936966300010681
+    },
+    {
+      "file": "fake/0075-7351.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999945878982544
+    },
+    {
+      "file": "fake/0076-7353.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.04032258689403534
+    },
+    {
+      "file": "fake/0077-7355.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999936580657959
+    },
+    {
+      "file": "fake/0078-7357.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9995611310005188
+    },
+    {
+      "file": "fake/0079-7359.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995893836021423
+    },
+    {
+      "file": "fake/0080-7361.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999231100082397
+    },
+    {
+      "file": "fake/0081-7363.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.993618369102478
+    },
+    {
+      "file": "fake/0082-7365.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996201992034912
+    },
+    {
+      "file": "fake/0083-7367.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9993971586227417
+    },
+    {
+      "file": "fake/0084-7369.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.028540397062897682
+    },
+    {
+      "file": "fake/0085-7371.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.5724475979804993
+    },
+    {
+      "file": "fake/0086-7373.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998706579208374
+    },
+    {
+      "file": "fake/0087-7375.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.8942835927009583
+    },
+    {
+      "file": "fake/0088-7377.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.989639401435852
+    },
+    {
+      "file": "fake/0089-7379.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999964237213135
+    },
+    {
+      "file": "fake/0090-7381.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9710798263549805
+    },
+    {
+      "file": "fake/0091-7383.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999981164932251
+    },
+    {
+      "file": "fake/0092-7385.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9993199110031128
+    },
+    {
+      "file": "fake/0093-7387.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999886751174927
+    },
+    {
+      "file": "fake/0094-7389.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.4116440713405609
+    },
+    {
+      "file": "fake/0095-7391.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999878406524658
+    },
+    {
+      "file": "fake/0096-7393.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9989582300186157
+    },
+    {
+      "file": "fake/0097-7395.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999573230743408
+    },
+    {
+      "file": "fake/0098-7397.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9987637996673584
+    },
+    {
+      "file": "fake/0099-7399.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999855756759644
+    },
+    {
+      "file": "fake/0100-14601.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9947075843811035
+    },
+    {
+      "file": "fake/0101-14603.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9955540299415588
+    },
+    {
+      "file": "fake/0102-14605.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9985806941986084
+    },
+    {
+      "file": "fake/0103-14607.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998733997344971
+    },
+    {
+      "file": "fake/0104-14609.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.794549286365509
+    },
+    {
+      "file": "fake/0105-14611.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.576706051826477
+    },
+    {
+      "file": "fake/0106-14613.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998766183853149
+    },
+    {
+      "file": "fake/0107-14615.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999974250793457
+    },
+    {
+      "file": "fake/0108-14617.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999649524688721
+    },
+    {
+      "file": "fake/0109-14619.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9841586351394653
+    },
+    {
+      "file": "fake/0110-14621.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996148347854614
+    },
+    {
+      "file": "fake/0111-14623.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999533891677856
+    },
+    {
+      "file": "fake/0112-14625.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9966843724250793
+    },
+    {
+      "file": "fake/0113-14627.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999575614929199
+    },
+    {
+      "file": "fake/0114-14629.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9988906979560852
+    },
+    {
+      "file": "fake/0115-14631.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999994158744812
+    },
+    {
+      "file": "fake/0116-14633.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996107220649719
+    },
+    {
+      "file": "fake/0117-14635.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999934434890747
+    },
+    {
+      "file": "fake/0118-14637.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9989433884620667
+    },
+    {
+      "file": "fake/0119-14639.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9053283929824829
+    },
+    {
+      "file": "fake/0120-14641.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.6049798130989075
+    },
+    {
+      "file": "fake/0121-14643.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999687671661377
+    },
+    {
+      "file": "fake/0122-14645.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9741066694259644
+    },
+    {
+      "file": "fake/0123-14647.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9985369443893433
+    },
+    {
+      "file": "fake/0124-14649.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9976748824119568
+    },
+    {
+      "file": "fake/0125-14651.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999971389770508
+    },
+    {
+      "file": "fake/0126-14653.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999929666519165
+    },
+    {
+      "file": "fake/0127-14655.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9987945556640625
+    },
+    {
+      "file": "fake/0128-14657.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9997544884681702
+    },
+    {
+      "file": "fake/0129-14659.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999619722366333
+    },
+    {
+      "file": "fake/0130-14661.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.993744432926178
+    },
+    {
+      "file": "fake/0131-14663.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9242566823959351
+    },
+    {
+      "file": "fake/0132-14665.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9981719255447388
+    },
+    {
+      "file": "fake/0133-14667.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9988679885864258
+    },
+    {
+      "file": "fake/0134-14669.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9969977140426636
+    },
+    {
+      "file": "fake/0135-14671.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.5088928937911987
+    },
+    {
+      "file": "fake/0136-14673.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9788540601730347
+    },
+    {
+      "file": "fake/0137-14675.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9860963225364685
+    },
+    {
+      "file": "fake/0138-14677.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9212381839752197
+    },
+    {
+      "file": "fake/0139-14679.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9829577803611755
+    },
+    {
+      "file": "fake/0140-14681.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.8003790378570557
+    },
+    {
+      "file": "fake/0141-14683.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9891931414604187
+    },
+    {
+      "file": "fake/0142-14685.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.6676755547523499
+    },
+    {
+      "file": "fake/0143-14687.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.29243966937065125
+    },
+    {
+      "file": "fake/0144-14689.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9930250644683838
+    },
+    {
+      "file": "fake/0145-14691.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9843540191650391
+    },
+    {
+      "file": "fake/0146-14693.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.6987760066986084
+    },
+    {
+      "file": "fake/0147-14695.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.995344340801239
+    },
+    {
+      "file": "fake/0148-14697.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9607212543487549
+    },
+    {
+      "file": "fake/0149-14699.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999938011169434
+    }
+  ]
+}

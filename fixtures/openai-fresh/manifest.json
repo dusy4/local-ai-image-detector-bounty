@@ -1,0 +1,54 @@
+{
+  "dataset": "OpenAI built-in image generation",
+  "created": "2026-08-13",
+  "samples": [
+    {
+      "path": "fixtures/openai-fresh/fake/bicycle-workshop.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A candid documentary photograph of a bicycle repair mechanic working in a small neighborhood workshop, surrounded by tools, spare wheels, and natural clutter."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/floating-library.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A richly detailed editorial illustration of a floating library city above an ocean, with bridges connecting book-shaped buildings and tiny airships traveling between them."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/ceramic-lamp.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A studio catalog photograph of a handmade teal ceramic desk lamp with a pleated cream shade on a pale stone surface, accompanied by one small wooden tray and a pencil."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-red-ball.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "A single matte red rubber ball centered on a seamless pure white studio backdrop."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-black-square.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "One solid black square centered on a uniform light gray field."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-sky-cloud.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "An empty pale blue sky with one small white cloud near the center."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-blank-paper.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "One blank sheet of white paper lying flat on a uniform beige tabletop."
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-yellow-circle.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "A small pale yellow circle centered on a uniform deep navy background."
+    }
+  ]
+}

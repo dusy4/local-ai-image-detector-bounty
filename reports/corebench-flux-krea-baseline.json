@@ -1,0 +1,53 @@
+{
+  "model": "detector",
+  "dtype": "q4",
+  "manifest": "/benchmark-corebench/manifest.json",
+  "threshold": 0.65,
+  "images": 5,
+  "tpr": 0.4,
+  "tnr": null,
+  "balancedAccuracy": null,
+  "bySource": {
+    "FLUX.1-Krea-dev": {
+      "n": 5,
+      "accuracy": 0.4
+    }
+  },
+  "rows": [
+    {
+      "path": "benchmark-corebench/fake/0000-0.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "row": 0,
+      "score": 0.6035760045051575
+    },
+    {
+      "path": "benchmark-corebench/fake/0001-1.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "row": 1,
+      "score": 0.6095037460327148
+    },
+    {
+      "path": "benchmark-corebench/fake/0002-2.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "row": 2,
+      "score": 0.6787506341934204
+    },
+    {
+      "path": "benchmark-corebench/fake/0003-3.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "row": 3,
+      "score": 0.7054783701896667
+    },
+    {
+      "path": "benchmark-corebench/fake/0004-4.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "row": 4,
+      "score": 0.5472952127456665
+    }
+  ]
+}

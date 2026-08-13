@@ -1,0 +1,46 @@
+{
+  "openfake": {
+    "baselineCommunity": {
+      "tpr": 0.79,
+      "tnr": 0.83,
+      "balancedAccuracy": 0.81
+    },
+    "baselineModern": {
+      "tpr": 0.89,
+      "tnr": 0.75,
+      "balancedAccuracy": 0.8200000000000001
+    },
+    "communityModern": {
+      "tpr": 0.71,
+      "tnr": 0.9,
+      "balancedAccuracy": 0.8049999999999999
+    },
+    "all": {
+      "tpr": 0.89,
+      "tnr": 0.74,
+      "balancedAccuracy": 0.815
+    }
+  },
+  "aigibench": {
+    "baselineCommunity": {
+      "tpr": 0.9466666666666667,
+      "tnr": 0.5933333333333334,
+      "balancedAccuracy": 0.77
+    },
+    "baselineModern": {
+      "tpr": 0.7133333333333334,
+      "tnr": 0.5466666666666666,
+      "balancedAccuracy": 0.63
+    },
+    "communityModern": {
+      "tpr": 0.9466666666666667,
+      "tnr": 0.8066666666666666,
+      "balancedAccuracy": 0.8766666666666667
+    },
+    "all": {
+      "tpr": 0.9666666666666667,
+      "tnr": 0.5333333333333333,
+      "balancedAccuracy": 0.75
+    }
+  }
+}

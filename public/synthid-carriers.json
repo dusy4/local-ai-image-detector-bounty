@@ -1,0 +1,7 @@
+{
+  "version": "mit-1",
+  "imageSize": 512,
+  "sets": [],
+  "calibration": { "center": 0.78, "steepness": 20, "minimumReportScore": 0.65 },
+  "note": "Populate with validated provider-specific carrier data."
+}

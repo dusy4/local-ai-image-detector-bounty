@@ -1,0 +1,96 @@
+{
+  "threshold": 0.65,
+  "images": 8,
+  "tpr": 0.75,
+  "tnr": null,
+  "rows": [
+    {
+      "path": "fixtures/openai-fresh/fake/bicycle-workshop.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A candid documentary photograph of a bicycle repair mechanic working in a small neighborhood workshop, surrounded by tools, spare wheels, and natural clutter.",
+      "score": 0.8433792110298182,
+      "baseline": 0.6631754040718079,
+      "community": 0.2291702926158905,
+      "modern": 0.9771784543991089,
+      "predicted": 1
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/floating-library.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A richly detailed editorial illustration of a floating library city above an ocean, with bridges connecting book-shaped buildings and tiny airships traveling between them.",
+      "score": 0.6180091074888326,
+      "baseline": 0.5362033843994141,
+      "community": 0.02141876332461834,
+      "modern": 0.972018837928772,
+      "predicted": 0
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/ceramic-lamp.png",
+      "truth": 1,
+      "source": "openai-current",
+      "prompt": "A studio catalog photograph of a handmade teal ceramic desk lamp with a pleated cream shade on a pale stone surface, accompanied by one small wooden tray and a pencil.",
+      "score": 0.8754168808624478,
+      "baseline": 0.5923804640769958,
+      "community": 0.8741346597671509,
+      "modern": 0.9772149920463562,
+      "predicted": 1
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-red-ball.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "A single matte red rubber ball centered on a seamless pure white studio backdrop.",
+      "score": 0.5664303797125172,
+      "baseline": 0.6053435206413269,
+      "community": 0.005756364203989506,
+      "modern": 0.8921008706092834,
+      "predicted": 0
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-black-square.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "One solid black square centered on a uniform light gray field.",
+      "score": 0.9526963319268349,
+      "baseline": 0.668255090713501,
+      "community": 0.9948185086250305,
+      "modern": 0.9769130945205688,
+      "predicted": 1
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-sky-cloud.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "An empty pale blue sky with one small white cloud near the center.",
+      "score": 0.8801281932075512,
+      "baseline": 0.5634232759475708,
+      "community": 0.9566013813018799,
+      "modern": 0.9716877937316895,
+      "predicted": 1
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-blank-paper.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "One blank sheet of white paper lying flat on a uniform beige tabletop.",
+      "score": 0.9162539120238271,
+      "baseline": 0.5943300724029541,
+      "community": 0.9855127930641174,
+      "modern": 0.9744723439216614,
+      "predicted": 1
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/lowentropy-yellow-circle.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "prompt": "A small pale yellow circle centered on a uniform deep navy background.",
+      "score": 0.9195178822985101,
+      "baseline": 0.694002091884613,
+      "community": 0.8540438413619995,
+      "modern": 0.9756339192390442,
+      "predicted": 1
+    }
+  ]
+}

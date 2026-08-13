@@ -1,0 +1,38 @@
+{
+  "baselineWeight": 1.2,
+  "communityWeight": 0.2,
+  "modernWeight": 0.2,
+  "bias": 0.36182409415728856,
+  "floor": 0.8167557932263815,
+  "macro": 0.8218866685430153,
+  "calibration": {
+    "openfake": {
+      "images": 106,
+      "tpr": 0.6727272727272727,
+      "tnr": 0.9607843137254902,
+      "balancedAccuracy": 0.8167557932263815
+    },
+    "aigibench": {
+      "images": 151,
+      "tpr": 0.9473684210526315,
+      "tnr": 0.7066666666666667,
+      "balancedAccuracy": 0.8270175438596491
+    }
+  },
+  "test": {
+    "openfake": {
+      "images": 94,
+      "tpr": 0.6666666666666666,
+      "tnr": 0.9591836734693877,
+      "balancedAccuracy": 0.8129251700680271
+    },
+    "aigibench": {
+      "images": 149,
+      "tpr": 0.9459459459459459,
+      "tnr": 0.9466666666666667,
+      "balancedAccuracy": 0.9463063063063063
+    }
+  },
+  "testFloor": 0.8129251700680271,
+  "testMacro": 0.8796157381871668
+}

@@ -1,0 +1,71 @@
+{
+  "images": 8,
+  "at0.5": {
+    "threshold": 0.5,
+    "tpr": 0.625,
+    "tnr": null,
+    "balancedAccuracy": 0.625
+  },
+  "at0.65": {
+    "threshold": 0.65,
+    "tpr": 0.625,
+    "tnr": null,
+    "balancedAccuracy": 0.625
+  },
+  "bestInSample": {
+    "threshold": 0.005756364203989506,
+    "tpr": 1.0,
+    "tnr": null,
+    "balancedAccuracy": 1.0
+  },
+  "rows": [
+    {
+      "file": "fake/bicycle-workshop.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.2291702926158905
+    },
+    {
+      "file": "fake/ceramic-lamp.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.8741346597671509
+    },
+    {
+      "file": "fake/floating-library.png",
+      "truth": 1,
+      "source": "openai-current",
+      "score": 0.02141876332461834
+    },
+    {
+      "file": "fake/lowentropy-black-square.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9948185086250305
+    },
+    {
+      "file": "fake/lowentropy-blank-paper.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9855127930641174
+    },
+    {
+      "file": "fake/lowentropy-red-ball.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.005756364203989506
+    },
+    {
+      "file": "fake/lowentropy-sky-cloud.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.9566013813018799
+    },
+    {
+      "file": "fake/lowentropy-yellow-circle.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "score": 0.8540438413619995
+    }
+  ]
+}

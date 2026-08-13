@@ -1,0 +1,14 @@
+{
+  "repo": "Ouxiang-Li/SAFE",
+  "revision": "4e998724651b227def64f5be0cd60c0aa1552c35",
+  "checkpoint": {
+    "bytes": 5840638,
+    "sha256": "b3f5ecfb46a154ed553aaaf4bf3ba59182310726ddb0cbb1fe42bd0e22d2f20e"
+  },
+  "onnx": {
+    "bytes": 5744181,
+    "sha256": "8e951e3889175b22270647fd9fb62db21017e33983703142a748954d69b9d885",
+    "input": "bior1.3 diagonal high-frequency band, float32 NCHW 1x3x256x256",
+    "output": "real and synthetic logits"
+  }
+}

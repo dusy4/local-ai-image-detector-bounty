@@ -1,0 +1,15 @@
+{
+  "repo": "OwensLab/commfor-model-224",
+  "revision": "26afc31e6b40c312c3fd42c05a758be62446215b",
+  "license": "MIT",
+  "checkpoint": {
+    "bytes": 86678644,
+    "sha256": "a6cc439d5a6d2dfadd60c77d27a2838ad55b34e601ecd30f46ad97266d6ac4e0"
+  },
+  "onnx": {
+    "bytes": 86772072,
+    "sha256": "05008fe24bd8cf05c7c1721bb7b2e191364930a5e9a321cced98f2ea29fec5ce",
+    "input": "ImageNet-normalized float32 NCHW 1x3x224x224",
+    "output": "single synthetic-image logit"
+  }
+}

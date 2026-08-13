@@ -1,0 +1,90 @@
+{
+  "threshold": 0.65,
+  "bySource": {
+    "docci": {
+      "n": 29,
+      "truth": "real",
+      "accuracy": 0.896551724137931
+    },
+    "ernie-image": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "ernie-image-turbo": {
+      "n": 2,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "flux.2-klein-9b": {
+      "n": 25,
+      "truth": "AI",
+      "accuracy": 0.4
+    },
+    "gpt-image-1.5": {
+      "n": 10,
+      "truth": "AI",
+      "accuracy": 0.8
+    },
+    "ideogram-2.0": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "illustrious": {
+      "n": 12,
+      "truth": "AI",
+      "accuracy": 0.9166666666666666
+    },
+    "imagenet": {
+      "n": 71,
+      "truth": "real",
+      "accuracy": 0.9859154929577465
+    },
+    "midjourney-7": {
+      "n": 7,
+      "truth": "AI",
+      "accuracy": 0.14285714285714285
+    },
+    "nano-banana-pro": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "recraft-v2": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "recraft-v3": {
+      "n": 2,
+      "truth": "AI",
+      "accuracy": 0
+    },
+    "seedream-v5.0": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "sora-2": {
+      "n": 1,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "veo-3": {
+      "n": 3,
+      "truth": "AI",
+      "accuracy": 1
+    },
+    "wan-video-2.5": {
+      "n": 4,
+      "truth": "AI",
+      "accuracy": 0.75
+    },
+    "z-image-turbo": {
+      "n": 29,
+      "truth": "AI",
+      "accuracy": 0.7931034482758621
+    }
+  }
+}

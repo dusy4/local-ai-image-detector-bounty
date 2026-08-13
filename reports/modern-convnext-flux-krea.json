@@ -1,0 +1,38 @@
+{
+  "images": 5,
+  "threshold": 0.65,
+  "tpr": 1.0,
+  "tnr": null,
+  "rows": [
+    {
+      "file": "benchmark-corebench\\fake\\0000-0.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.9413264393806458
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0001-1.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.9473456144332886
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0002-2.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.9739842414855957
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0003-3.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.9431123733520508
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0004-4.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.9455265998840332
+    }
+  ]
+}

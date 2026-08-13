@@ -1,0 +1,20 @@
+{
+  "verifiedAt": "2026-08-13",
+  "verifier": "https://openai.com/research/verify/",
+  "samples": [
+    {
+      "path": "fixtures/openai-fresh/fake/bicycle-workshop.png",
+      "result": "Generated with OpenAI tools",
+      "synthId": "detected",
+      "trustedC2pa": "not detected"
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/floating-library.png",
+      "result": "Generated with OpenAI tools"
+    },
+    {
+      "path": "fixtures/openai-fresh/fake/ceramic-lamp.png",
+      "result": "Generated with OpenAI tools"
+    }
+  ]
+}

@@ -1,0 +1,1523 @@
+{
+  "images": 250,
+  "at0.5": {
+    "threshold": 0.5,
+    "tpr": 0.952,
+    "tnr": 0.92,
+    "balancedAccuracy": 0.9359999999999999
+  },
+  "at0.65": {
+    "threshold": 0.65,
+    "tpr": 0.912,
+    "tnr": 0.952,
+    "balancedAccuracy": 0.9319999999999999
+  },
+  "bestInSample": {
+    "threshold": 0.9046852588653564,
+    "tpr": 0.888,
+    "tnr": 1.0,
+    "balancedAccuracy": 0.944
+  },
+  "rows": [
+    {
+      "file": "real/000-0-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.5036632418632507
+    },
+    {
+      "file": "real/000-0-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6872871518135071
+    },
+    {
+      "file": "real/000-0-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.23769639432430267
+    },
+    {
+      "file": "real/000-0-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6273370385169983
+    },
+    {
+      "file": "real/000-0-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6640435457229614
+    },
+    {
+      "file": "real/001-2-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016425279900431633
+    },
+    {
+      "file": "real/001-2-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003265752224251628
+    },
+    {
+      "file": "real/001-2-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.008747546002268791
+    },
+    {
+      "file": "real/001-2-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.006944633554667234
+    },
+    {
+      "file": "real/001-2-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0033156638965010643
+    },
+    {
+      "file": "real/002-4-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003101800102740526
+    },
+    {
+      "file": "real/002-4-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04828200861811638
+    },
+    {
+      "file": "real/002-4-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.025679301470518112
+    },
+    {
+      "file": "real/002-4-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.024030650034546852
+    },
+    {
+      "file": "real/002-4-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.02541343867778778
+    },
+    {
+      "file": "real/003-6-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.013764161616563797
+    },
+    {
+      "file": "real/003-6-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.18674270808696747
+    },
+    {
+      "file": "real/003-6-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.14172157645225525
+    },
+    {
+      "file": "real/003-6-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.043042413890361786
+    },
+    {
+      "file": "real/003-6-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.07402404397726059
+    },
+    {
+      "file": "real/004-8-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0003948936064261943
+    },
+    {
+      "file": "real/004-8-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.001220755628310144
+    },
+    {
+      "file": "real/004-8-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002785856369882822
+    },
+    {
+      "file": "real/004-8-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0007469409611076117
+    },
+    {
+      "file": "real/004-8-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0006837949040345848
+    },
+    {
+      "file": "real/005-10-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0035216391552239656
+    },
+    {
+      "file": "real/005-10-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004143130034208298
+    },
+    {
+      "file": "real/005-10-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.011238216422498226
+    },
+    {
+      "file": "real/005-10-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.009700841270387173
+    },
+    {
+      "file": "real/005-10-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.009384049102663994
+    },
+    {
+      "file": "real/006-12-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002031999174505472
+    },
+    {
+      "file": "real/006-12-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.027324456721544266
+    },
+    {
+      "file": "real/006-12-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.01626439392566681
+    },
+    {
+      "file": "real/006-12-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.02413308247923851
+    },
+    {
+      "file": "real/006-12-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.023633703589439392
+    },
+    {
+      "file": "real/007-14-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 3.5701981687452644e-05
+    },
+    {
+      "file": "real/007-14-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 4.8055415390990674e-05
+    },
+    {
+      "file": "real/007-14-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 2.2225167413125746e-05
+    },
+    {
+      "file": "real/007-14-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 3.1841151212574914e-05
+    },
+    {
+      "file": "real/007-14-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 5.1902447012253106e-05
+    },
+    {
+      "file": "real/008-16-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0009065220947377384
+    },
+    {
+      "file": "real/008-16-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.012313990853726864
+    },
+    {
+      "file": "real/008-16-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003951225895434618
+    },
+    {
+      "file": "real/008-16-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.005649741273373365
+    },
+    {
+      "file": "real/008-16-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.01138285268098116
+    },
+    {
+      "file": "real/009-18-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010521439835429192
+    },
+    {
+      "file": "real/009-18-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002817728789523244
+    },
+    {
+      "file": "real/009-18-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.15836992859840393
+    },
+    {
+      "file": "real/009-18-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0007897368632256985
+    },
+    {
+      "file": "real/009-18-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016755986725911498
+    },
+    {
+      "file": "real/010-20-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.18505600094795227
+    },
+    {
+      "file": "real/010-20-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.633264422416687
+    },
+    {
+      "file": "real/010-20-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4153369963169098
+    },
+    {
+      "file": "real/010-20-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6889864206314087
+    },
+    {
+      "file": "real/010-20-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.806013822555542
+    },
+    {
+      "file": "real/011-22-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.8367940783500671
+    },
+    {
+      "file": "real/011-22-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.38028472661972046
+    },
+    {
+      "file": "real/011-22-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04663638770580292
+    },
+    {
+      "file": "real/011-22-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.6489050984382629
+    },
+    {
+      "file": "real/011-22-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.7498124241828918
+    },
+    {
+      "file": "real/012-24-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0004079966456629336
+    },
+    {
+      "file": "real/012-24-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0013699529226869345
+    },
+    {
+      "file": "real/012-24-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.001476841396652162
+    },
+    {
+      "file": "real/012-24-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010907369432970881
+    },
+    {
+      "file": "real/012-24-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0010854509891942143
+    },
+    {
+      "file": "real/013-26-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0016990716103464365
+    },
+    {
+      "file": "real/013-26-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0022293641231954098
+    },
+    {
+      "file": "real/013-26-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002921200357377529
+    },
+    {
+      "file": "real/013-26-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002008619951084256
+    },
+    {
+      "file": "real/013-26-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0022976298350840807
+    },
+    {
+      "file": "real/014-28-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.00493276584893465
+    },
+    {
+      "file": "real/014-28-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.02158791571855545
+    },
+    {
+      "file": "real/014-28-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03966331481933594
+    },
+    {
+      "file": "real/014-28-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.025265321135520935
+    },
+    {
+      "file": "real/014-28-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0158555805683136
+    },
+    {
+      "file": "real/015-30-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0002719712210819125
+    },
+    {
+      "file": "real/015-30-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0006617835606448352
+    },
+    {
+      "file": "real/015-30-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04452676326036453
+    },
+    {
+      "file": "real/015-30-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0007884661317802966
+    },
+    {
+      "file": "real/015-30-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0005440950044430792
+    },
+    {
+      "file": "real/016-32-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.032854072749614716
+    },
+    {
+      "file": "real/016-32-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.030386025086045265
+    },
+    {
+      "file": "real/016-32-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.06257075071334839
+    },
+    {
+      "file": "real/016-32-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.060544680804014206
+    },
+    {
+      "file": "real/016-32-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.030716419219970703
+    },
+    {
+      "file": "real/017-34-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.01136690005660057
+    },
+    {
+      "file": "real/017-34-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04637870937585831
+    },
+    {
+      "file": "real/017-34-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.11449576169252396
+    },
+    {
+      "file": "real/017-34-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.027485281229019165
+    },
+    {
+      "file": "real/017-34-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.017933737486600876
+    },
+    {
+      "file": "real/018-36-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.012125549837946892
+    },
+    {
+      "file": "real/018-36-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4887251853942871
+    },
+    {
+      "file": "real/018-36-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.049107782542705536
+    },
+    {
+      "file": "real/018-36-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4141802489757538
+    },
+    {
+      "file": "real/018-36-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.30796894431114197
+    },
+    {
+      "file": "real/019-38-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.30098384618759155
+    },
+    {
+      "file": "real/019-38-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.2601010501384735
+    },
+    {
+      "file": "real/019-38-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.03898045793175697
+    },
+    {
+      "file": "real/019-38-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.4453917443752289
+    },
+    {
+      "file": "real/019-38-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.16239327192306519
+    },
+    {
+      "file": "real/020-40-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.12849564850330353
+    },
+    {
+      "file": "real/020-40-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.14111670851707458
+    },
+    {
+      "file": "real/020-40-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.2917526960372925
+    },
+    {
+      "file": "real/020-40-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.20918357372283936
+    },
+    {
+      "file": "real/020-40-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.12052427232265472
+    },
+    {
+      "file": "real/021-42-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.049257129430770874
+    },
+    {
+      "file": "real/021-42-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.046730756759643555
+    },
+    {
+      "file": "real/021-42-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.2555491626262665
+    },
+    {
+      "file": "real/021-42-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.05429254472255707
+    },
+    {
+      "file": "real/021-42-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.1055142879486084
+    },
+    {
+      "file": "real/022-44-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004096255172044039
+    },
+    {
+      "file": "real/022-44-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.07852735370397568
+    },
+    {
+      "file": "real/022-44-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0782531350851059
+    },
+    {
+      "file": "real/022-44-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.04707394167780876
+    },
+    {
+      "file": "real/022-44-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.06518557667732239
+    },
+    {
+      "file": "real/023-46-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003059570211917162
+    },
+    {
+      "file": "real/023-46-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.016823070123791695
+    },
+    {
+      "file": "real/023-46-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0012191039277240634
+    },
+    {
+      "file": "real/023-46-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.010465115308761597
+    },
+    {
+      "file": "real/023-46-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.016359783709049225
+    },
+    {
+      "file": "real/024-48-blur.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.004944514948874712
+    },
+    {
+      "file": "real/024-48-contrast.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.003896769369021058
+    },
+    {
+      "file": "real/024-48-crop90.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0033351376187056303
+    },
+    {
+      "file": "real/024-48-jpeg80.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002674023387953639
+    },
+    {
+      "file": "real/024-48-resize512.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.002486521378159523
+    },
+    {
+      "file": "fake/000-1-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9992461204528809
+    },
+    {
+      "file": "fake/000-1-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996891021728516
+    },
+    {
+      "file": "fake/000-1-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999265670776367
+    },
+    {
+      "file": "fake/000-1-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996517896652222
+    },
+    {
+      "file": "fake/000-1-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996379613876343
+    },
+    {
+      "file": "fake/001-3-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.5534811615943909
+    },
+    {
+      "file": "fake/001-3-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.4323202073574066
+    },
+    {
+      "file": "fake/001-3-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9873583912849426
+    },
+    {
+      "file": "fake/001-3-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.5592688918113708
+    },
+    {
+      "file": "fake/001-3-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.49258139729499817
+    },
+    {
+      "file": "fake/002-5-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9931983351707458
+    },
+    {
+      "file": "fake/002-5-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9952926635742188
+    },
+    {
+      "file": "fake/002-5-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9995844960212708
+    },
+    {
+      "file": "fake/002-5-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9979133009910583
+    },
+    {
+      "file": "fake/002-5-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9974199533462524
+    },
+    {
+      "file": "fake/003-7-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999043941497803
+    },
+    {
+      "file": "fake/003-7-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999748468399048
+    },
+    {
+      "file": "fake/003-7-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999788999557495
+    },
+    {
+      "file": "fake/003-7-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999066591262817
+    },
+    {
+      "file": "fake/003-7-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998263716697693
+    },
+    {
+      "file": "fake/004-9-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9974225759506226
+    },
+    {
+      "file": "fake/004-9-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9920416474342346
+    },
+    {
+      "file": "fake/004-9-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999254941940308
+    },
+    {
+      "file": "fake/004-9-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9985219836235046
+    },
+    {
+      "file": "fake/004-9-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9987244009971619
+    },
+    {
+      "file": "fake/005-11-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999990701675415
+    },
+    {
+      "file": "fake/005-11-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999966621398926
+    },
+    {
+      "file": "fake/005-11-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999915361404419
+    },
+    {
+      "file": "fake/005-11-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999876022338867
+    },
+    {
+      "file": "fake/005-11-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999912977218628
+    },
+    {
+      "file": "fake/006-13-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9850892424583435
+    },
+    {
+      "file": "fake/006-13-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9931118488311768
+    },
+    {
+      "file": "fake/006-13-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9981787204742432
+    },
+    {
+      "file": "fake/006-13-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.989582896232605
+    },
+    {
+      "file": "fake/006-13-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9957220554351807
+    },
+    {
+      "file": "fake/007-15-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995365142822266
+    },
+    {
+      "file": "fake/007-15-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9997323155403137
+    },
+    {
+      "file": "fake/007-15-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9960454106330872
+    },
+    {
+      "file": "fake/007-15-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9992098808288574
+    },
+    {
+      "file": "fake/007-15-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999284565448761
+    },
+    {
+      "file": "fake/008-17-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998595714569092
+    },
+    {
+      "file": "fake/008-17-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9996609687805176
+    },
+    {
+      "file": "fake/008-17-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999061822891235
+    },
+    {
+      "file": "fake/008-17-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998379945755005
+    },
+    {
+      "file": "fake/008-17-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999195337295532
+    },
+    {
+      "file": "fake/009-19-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998730421066284
+    },
+    {
+      "file": "fake/009-19-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999953031539917
+    },
+    {
+      "file": "fake/009-19-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999728202819824
+    },
+    {
+      "file": "fake/009-19-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999350309371948
+    },
+    {
+      "file": "fake/009-19-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998770952224731
+    },
+    {
+      "file": "fake/010-21-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999076128005981
+    },
+    {
+      "file": "fake/010-21-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998027682304382
+    },
+    {
+      "file": "fake/010-21-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999463558197021
+    },
+    {
+      "file": "fake/010-21-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998759031295776
+    },
+    {
+      "file": "fake/010-21-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998703002929688
+    },
+    {
+      "file": "fake/011-23-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995039701461792
+    },
+    {
+      "file": "fake/011-23-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9991580247879028
+    },
+    {
+      "file": "fake/011-23-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999340772628784
+    },
+    {
+      "file": "fake/011-23-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995259046554565
+    },
+    {
+      "file": "fake/011-23-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995179176330566
+    },
+    {
+      "file": "fake/012-25-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.977013885974884
+    },
+    {
+      "file": "fake/012-25-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9977577328681946
+    },
+    {
+      "file": "fake/012-25-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9992419481277466
+    },
+    {
+      "file": "fake/012-25-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9979064464569092
+    },
+    {
+      "file": "fake/012-25-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9928145408630371
+    },
+    {
+      "file": "fake/013-27-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9987354874610901
+    },
+    {
+      "file": "fake/013-27-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9998948574066162
+    },
+    {
+      "file": "fake/013-27-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9999324083328247
+    },
+    {
+      "file": "fake/013-27-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9995602965354919
+    },
+    {
+      "file": "fake/013-27-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9990423321723938
+    },
+    {
+      "file": "fake/014-29-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9933100938796997
+    },
+    {
+      "file": "fake/014-29-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.6726242899894714
+    },
+    {
+      "file": "fake/014-29-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9984968900680542
+    },
+    {
+      "file": "fake/014-29-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9636866450309753
+    },
+    {
+      "file": "fake/014-29-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9094676971435547
+    },
+    {
+      "file": "fake/015-31-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.999099612236023
+    },
+    {
+      "file": "fake/015-31-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.997837483882904
+    },
+    {
+      "file": "fake/015-31-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9986802935600281
+    },
+    {
+      "file": "fake/015-31-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9989457726478577
+    },
+    {
+      "file": "fake/015-31-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.996453046798706
+    },
+    {
+      "file": "fake/016-33-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9991762042045593
+    },
+    {
+      "file": "fake/016-33-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9940497875213623
+    },
+    {
+      "file": "fake/016-33-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9993045330047607
+    },
+    {
+      "file": "fake/016-33-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9968389272689819
+    },
+    {
+      "file": "fake/016-33-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9983624815940857
+    },
+    {
+      "file": "fake/017-35-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.986652672290802
+    },
+    {
+      "file": "fake/017-35-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9707406759262085
+    },
+    {
+      "file": "fake/017-35-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9046852588653564
+    },
+    {
+      "file": "fake/017-35-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9229274988174438
+    },
+    {
+      "file": "fake/017-35-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9823795557022095
+    },
+    {
+      "file": "fake/018-37-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.005646907724440098
+    },
+    {
+      "file": "fake/018-37-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.4288197457790375
+    },
+    {
+      "file": "fake/018-37-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.5051290392875671
+    },
+    {
+      "file": "fake/018-37-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.2808137536048889
+    },
+    {
+      "file": "fake/018-37-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.23015259206295013
+    },
+    {
+      "file": "fake/019-39-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9940365552902222
+    },
+    {
+      "file": "fake/019-39-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.968883752822876
+    },
+    {
+      "file": "fake/019-39-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.982798159122467
+    },
+    {
+      "file": "fake/019-39-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9324062466621399
+    },
+    {
+      "file": "fake/019-39-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9780800342559814
+    },
+    {
+      "file": "fake/020-41-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999120235443115
+    },
+    {
+      "file": "fake/020-41-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998458623886108
+    },
+    {
+      "file": "fake/020-41-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9997147917747498
+    },
+    {
+      "file": "fake/020-41-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9999412298202515
+    },
+    {
+      "file": "fake/020-41-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998760223388672
+    },
+    {
+      "file": "fake/021-43-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9984342455863953
+    },
+    {
+      "file": "fake/021-43-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9968173503875732
+    },
+    {
+      "file": "fake/021-43-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9963678121566772
+    },
+    {
+      "file": "fake/021-43-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9985918402671814
+    },
+    {
+      "file": "fake/021-43-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9977878332138062
+    },
+    {
+      "file": "fake/022-45-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9506961107254028
+    },
+    {
+      "file": "fake/022-45-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9865586757659912
+    },
+    {
+      "file": "fake/022-45-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9881567358970642
+    },
+    {
+      "file": "fake/022-45-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9759252071380615
+    },
+    {
+      "file": "fake/022-45-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9885636568069458
+    },
+    {
+      "file": "fake/023-47-blur.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.6795074939727783
+    },
+    {
+      "file": "fake/023-47-contrast.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.6324597597122192
+    },
+    {
+      "file": "fake/023-47-crop90.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.9776511788368225
+    },
+    {
+      "file": "fake/023-47-jpeg80.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.7087290287017822
+    },
+    {
+      "file": "fake/023-47-resize512.jpg",
+      "truth": 1,
+      "source": "sd14",
+      "score": 0.6374127864837646
+    },
+    {
+      "file": "fake/024-49-blur.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9842841625213623
+    },
+    {
+      "file": "fake/024-49-contrast.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9976556301116943
+    },
+    {
+      "file": "fake/024-49-crop90.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9998617172241211
+    },
+    {
+      "file": "fake/024-49-jpeg80.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9988897442817688
+    },
+    {
+      "file": "fake/024-49-resize512.jpg",
+      "truth": 1,
+      "source": "progan",
+      "score": 0.9973458647727966
+    }
+  ]
+}

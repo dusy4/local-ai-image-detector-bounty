@@ -1,0 +1,700 @@
+{
+  "model": "ash12321/flux-detector-vit",
+  "threshold": 0.65,
+  "labels": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "bySource": {
+    "docci": {
+      "n": 11,
+      "truth": "real",
+      "accuracy": 0.9090909090909091
+    },
+    "flux.2-klein-9b": {
+      "n": 25,
+      "truth": "AI",
+      "accuracy": 0.04
+    },
+    "gpt-image-1.5": {
+      "n": 10,
+      "truth": "AI",
+      "accuracy": 0.0
+    },
+    "imagenet": {
+      "n": 39,
+      "truth": "real",
+      "accuracy": 0.8974358974358975
+    },
+    "midjourney-7": {
+      "n": 7,
+      "truth": "AI",
+      "accuracy": 0.5714285714285714
+    },
+    "recraft-v3": {
+      "n": 2,
+      "truth": "AI",
+      "accuracy": 0.0
+    }
+  },
+  "rows": [
+    {
+      "path": "benchmark/fake/005-13.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 13,
+      "score": 0.36771252751350403
+    },
+    {
+      "path": "benchmark/fake/008-19.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 19,
+      "score": 0.03571426495909691
+    },
+    {
+      "path": "benchmark/fake/015-30.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 30,
+      "score": 0.11102312058210373
+    },
+    {
+      "path": "benchmark/fake/017-34.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 34,
+      "score": 0.13359054923057556
+    },
+    {
+      "path": "benchmark/fake/021-41.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 41,
+      "score": 0.32709750533103943
+    },
+    {
+      "path": "benchmark/fake/022-44.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 44,
+      "score": 0.04913400858640671
+    },
+    {
+      "path": "benchmark/fake/025-52.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 52,
+      "score": 0.19723312556743622
+    },
+    {
+      "path": "benchmark/fake/026-53.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 53,
+      "score": 0.9023744463920593
+    },
+    {
+      "path": "benchmark/fake/032-63.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 63,
+      "score": 0.06596531718969345
+    },
+    {
+      "path": "benchmark/fake/033-67.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 67,
+      "score": 0.8152773380279541
+    },
+    {
+      "path": "benchmark/fake/034-68.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 68,
+      "score": 0.05245009437203407
+    },
+    {
+      "path": "benchmark/fake/035-69.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 69,
+      "score": 0.9422308802604675
+    },
+    {
+      "path": "benchmark/fake/038-75.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 75,
+      "score": 0.09095931053161621
+    },
+    {
+      "path": "benchmark/fake/040-81.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 81,
+      "score": 0.11501297354698181
+    },
+    {
+      "path": "benchmark/fake/043-90.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 90,
+      "score": 0.06628864258527756
+    },
+    {
+      "path": "benchmark/fake/045-92.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 92,
+      "score": 0.05336582288146019
+    },
+    {
+      "path": "benchmark/fake/046-93.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 93,
+      "score": 0.04168391972780228
+    },
+    {
+      "path": "benchmark/fake/048-98.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 98,
+      "score": 0.15763066709041595
+    },
+    {
+      "path": "benchmark/fake/049-101.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 101,
+      "score": 0.062090031802654266
+    },
+    {
+      "path": "benchmark/fake/052-104.jpg",
+      "truth": 1,
+      "source": "recraft-v3",
+      "row": 104,
+      "score": 0.5861989855766296
+    },
+    {
+      "path": "benchmark/fake/054-110.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 110,
+      "score": 0.05355139449238777
+    },
+    {
+      "path": "benchmark/fake/060-118.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 118,
+      "score": 0.041607338935136795
+    },
+    {
+      "path": "benchmark/fake/061-119.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 119,
+      "score": 0.044485874474048615
+    },
+    {
+      "path": "benchmark/fake/062-120.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 120,
+      "score": 0.06364915519952774
+    },
+    {
+      "path": "benchmark/fake/063-122.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 122,
+      "score": 0.1249392107129097
+    },
+    {
+      "path": "benchmark/fake/065-127.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 127,
+      "score": 0.05310804769396782
+    },
+    {
+      "path": "benchmark/fake/067-130.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 130,
+      "score": 0.05241144075989723
+    },
+    {
+      "path": "benchmark/fake/069-132.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 132,
+      "score": 0.0904856026172638
+    },
+    {
+      "path": "benchmark/fake/070-138.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 138,
+      "score": 0.9340161085128784
+    },
+    {
+      "path": "benchmark/fake/074-148.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 148,
+      "score": 0.044506561011075974
+    },
+    {
+      "path": "benchmark/fake/075-149.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 149,
+      "score": 0.05842244252562523
+    },
+    {
+      "path": "benchmark/fake/076-153.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 153,
+      "score": 0.6308468580245972
+    },
+    {
+      "path": "benchmark/fake/077-158.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 158,
+      "score": 0.04672519490122795
+    },
+    {
+      "path": "benchmark/fake/078-159.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 159,
+      "score": 0.12851879000663757
+    },
+    {
+      "path": "benchmark/fake/082-169.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 169,
+      "score": 0.10503482818603516
+    },
+    {
+      "path": "benchmark/fake/086-174.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 174,
+      "score": 0.071648970246315
+    },
+    {
+      "path": "benchmark/fake/090-179.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 179,
+      "score": 0.18819542229175568
+    },
+    {
+      "path": "benchmark/fake/091-180.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 180,
+      "score": 0.06586037576198578
+    },
+    {
+      "path": "benchmark/fake/093-185.jpg",
+      "truth": 1,
+      "source": "recraft-v3",
+      "row": 185,
+      "score": 0.06334421783685684
+    },
+    {
+      "path": "benchmark/fake/094-186.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 186,
+      "score": 0.6966231465339661
+    },
+    {
+      "path": "benchmark/fake/095-188.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 188,
+      "score": 0.05994708463549614
+    },
+    {
+      "path": "benchmark/fake/097-195.jpg",
+      "truth": 1,
+      "source": "flux.2-klein-9b",
+      "row": 195,
+      "score": 0.33884045481681824
+    },
+    {
+      "path": "benchmark/fake/098-198.jpg",
+      "truth": 1,
+      "source": "midjourney-7",
+      "row": 198,
+      "score": 0.5669754147529602
+    },
+    {
+      "path": "benchmark/fake/099-199.jpg",
+      "truth": 1,
+      "source": "gpt-image-1.5",
+      "row": 199,
+      "score": 0.10036265850067139
+    },
+    {
+      "path": "benchmark/real/000-1.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 1,
+      "score": 0.06083124876022339
+    },
+    {
+      "path": "benchmark/real/001-2.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 2,
+      "score": 0.23882657289505005
+    },
+    {
+      "path": "benchmark/real/002-3.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 3,
+      "score": 0.08648468554019928
+    },
+    {
+      "path": "benchmark/real/003-4.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 4,
+      "score": 0.8043160438537598
+    },
+    {
+      "path": "benchmark/real/004-6.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 6,
+      "score": 0.15030555427074432
+    },
+    {
+      "path": "benchmark/real/005-10.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 10,
+      "score": 0.09175706654787064
+    },
+    {
+      "path": "benchmark/real/006-11.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 11,
+      "score": 0.054994188249111176
+    },
+    {
+      "path": "benchmark/real/007-12.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 12,
+      "score": 0.05145969241857529
+    },
+    {
+      "path": "benchmark/real/008-15.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 15,
+      "score": 0.3491193354129791
+    },
+    {
+      "path": "benchmark/real/009-16.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 16,
+      "score": 0.06331180036067963
+    },
+    {
+      "path": "benchmark/real/010-18.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 18,
+      "score": 0.6157823801040649
+    },
+    {
+      "path": "benchmark/real/011-21.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 21,
+      "score": 0.04621493071317673
+    },
+    {
+      "path": "benchmark/real/012-23.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 23,
+      "score": 0.053610336035490036
+    },
+    {
+      "path": "benchmark/real/013-26.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 26,
+      "score": 0.4281720519065857
+    },
+    {
+      "path": "benchmark/real/014-28.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 28,
+      "score": 0.3843902051448822
+    },
+    {
+      "path": "benchmark/real/015-31.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 31,
+      "score": 0.04637940600514412
+    },
+    {
+      "path": "benchmark/real/016-33.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 33,
+      "score": 0.1033392995595932
+    },
+    {
+      "path": "benchmark/real/017-35.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 35,
+      "score": 0.04069845378398895
+    },
+    {
+      "path": "benchmark/real/018-38.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 38,
+      "score": 0.07240181416273117
+    },
+    {
+      "path": "benchmark/real/019-40.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 40,
+      "score": 0.049656644463539124
+    },
+    {
+      "path": "benchmark/real/020-42.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 42,
+      "score": 0.0227205790579319
+    },
+    {
+      "path": "benchmark/real/021-43.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 43,
+      "score": 0.049724239856004715
+    },
+    {
+      "path": "benchmark/real/022-45.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 45,
+      "score": 0.3288746476173401
+    },
+    {
+      "path": "benchmark/real/023-46.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 46,
+      "score": 0.606456458568573
+    },
+    {
+      "path": "benchmark/real/024-48.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 48,
+      "score": 0.04179057478904724
+    },
+    {
+      "path": "benchmark/real/025-49.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 49,
+      "score": 0.11226344108581543
+    },
+    {
+      "path": "benchmark/real/026-51.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 51,
+      "score": 0.04148920997977257
+    },
+    {
+      "path": "benchmark/real/027-54.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 54,
+      "score": 0.049496717751026154
+    },
+    {
+      "path": "benchmark/real/028-55.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 55,
+      "score": 0.16965998709201813
+    },
+    {
+      "path": "benchmark/real/029-57.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 57,
+      "score": 0.3154389262199402
+    },
+    {
+      "path": "benchmark/real/030-59.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 59,
+      "score": 0.33503463864326477
+    },
+    {
+      "path": "benchmark/real/031-64.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 64,
+      "score": 0.0653989166021347
+    },
+    {
+      "path": "benchmark/real/032-65.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 65,
+      "score": 0.2864704430103302
+    },
+    {
+      "path": "benchmark/real/033-66.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 66,
+      "score": 0.6900293827056885
+    },
+    {
+      "path": "benchmark/real/034-72.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 72,
+      "score": 0.6513919234275818
+    },
+    {
+      "path": "benchmark/real/035-73.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 73,
+      "score": 0.07946695387363434
+    },
+    {
+      "path": "benchmark/real/036-74.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 74,
+      "score": 0.3475811183452606
+    },
+    {
+      "path": "benchmark/real/037-76.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 76,
+      "score": 0.44057804346084595
+    },
+    {
+      "path": "benchmark/real/038-77.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 77,
+      "score": 0.03133418411016464
+    },
+    {
+      "path": "benchmark/real/039-79.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 79,
+      "score": 0.04717925563454628
+    },
+    {
+      "path": "benchmark/real/040-80.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 80,
+      "score": 0.3128003478050232
+    },
+    {
+      "path": "benchmark/real/041-83.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 83,
+      "score": 0.13869507610797882
+    },
+    {
+      "path": "benchmark/real/042-84.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 84,
+      "score": 0.12946870923042297
+    },
+    {
+      "path": "benchmark/real/043-86.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 86,
+      "score": 0.0472659207880497
+    },
+    {
+      "path": "benchmark/real/044-87.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 87,
+      "score": 0.7100402116775513
+    },
+    {
+      "path": "benchmark/real/045-88.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 88,
+      "score": 0.06674925982952118
+    },
+    {
+      "path": "benchmark/real/046-89.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 89,
+      "score": 0.47119948267936707
+    },
+    {
+      "path": "benchmark/real/047-94.jpg",
+      "truth": 0,
+      "source": "docci",
+      "row": 94,
+      "score": 0.1985289603471756
+    },
+    {
+      "path": "benchmark/real/048-96.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 96,
+      "score": 0.7683354616165161
+    },
+    {
+      "path": "benchmark/real/049-97.jpg",
+      "truth": 0,
+      "source": "imagenet",
+      "row": 97,
+      "score": 0.45533737540245056
+    }
+  ]
+}

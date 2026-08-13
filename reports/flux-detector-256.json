@@ -1,0 +1,189 @@
+{
+  "size": 256,
+  "images": 30,
+  "threshold": 0.65,
+  "tpr": 0.0,
+  "tnr": 1.0,
+  "rows": [
+    {
+      "file": "benchmark-corebench\\fake\\0000-0.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.19830858707427979
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0001-1.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.20227909088134766
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0002-2.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.28910917043685913
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0003-3.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.10226291418075562
+    },
+    {
+      "file": "benchmark-corebench\\fake\\0004-4.jpg",
+      "truth": 1,
+      "source": "FLUX.1-Krea-dev",
+      "score": 0.2625564932823181
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0000-0.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.11176544427871704
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0001-2.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.10448825359344482
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0002-4.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.15105551481246948
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0003-6.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.19298547506332397
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0004-8.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.1591455340385437
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0005-10.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.2301797866821289
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0006-12.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.08984553813934326
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0007-14.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.10851132869720459
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0008-16.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.0916672945022583
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0009-18.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.12366408109664917
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0010-20.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.070412278175354
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0011-22.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.15221953392028809
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0012-24.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.12935364246368408
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0013-26.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.13596749305725098
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0014-28.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.09442788362503052
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0015-30.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.078280508518219
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0016-32.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.1349007487297058
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0017-34.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.11623233556747437
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0018-36.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.07129377126693726
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0019-38.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.3182258605957031
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0020-40.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.117714524269104
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0021-42.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.15245211124420166
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0022-44.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.09960293769836426
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0023-46.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.15565943717956543
+    },
+    {
+      "file": "benchmark-aigibench\\real\\0024-48.jpg",
+      "truth": 0,
+      "source": "real",
+      "score": 0.1330929398536682
+    }
+  ]
+}

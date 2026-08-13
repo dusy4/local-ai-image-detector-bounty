@@ -1,0 +1,21 @@
+import { createHash } from "node:crypto";
+import { createWriteStream } from "node:fs";
+import { mkdir, writeFile } from "node:fs/promises";
+import { Readable, Transform } from "node:stream";
+import { pipeline } from "node:stream/promises";
+
+const repo = "xRayon/convnext-ai-images-detector";
+const revision = "1b4d270be0590cde4320fa7503d68b44bb7ee77e";
+const file = "AI Images Detector/checkpoints/checkpoint_phase2.pth";
+const targetRoot = new URL("../research/modern-convnext/", import.meta.url);
+const target = new URL("checkpoint_phase2.pth", targetRoot);
+await mkdir(targetRoot, { recursive: true });
+const response = await fetch(`https://huggingface.co/${repo}/resolve/${revision}/${file.split(" ").join("%20")}?download=true`);
+if (!response.ok || !response.body) throw new Error(`Download failed: ${response.status}`);
+const hash = createHash("sha256");
+let bytes = 0;
+const meter = new Transform({ transform(chunk, _encoding, callback) { hash.update(chunk); bytes += chunk.length; callback(null, chunk); } });
+await pipeline(Readable.fromWeb(response.body), meter, createWriteStream(target));
+const lock = { repo, revision, file, bytes, sha256: hash.digest("hex") };
+await writeFile(new URL("../reports/modern-convnext-lock.json", import.meta.url), JSON.stringify(lock, null, 2) + "\n");
+console.log(JSON.stringify(lock));

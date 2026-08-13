@@ -1,0 +1,15 @@
+{
+  "repo": "xigua7105/FerretNet",
+  "revision": "e92796c1a2fb07ccc57ecd7e718e6dce067be5fa",
+  "architecture": "FerretNet-B-Median-3",
+  "checkpoint": {
+    "bytes": 4286585,
+    "sha256": "fe755d78370bb6547070329553572405b4ecebd23382c9a6cbb11c4ab85a82c2"
+  },
+  "onnx": {
+    "bytes": 4229830,
+    "sha256": "c778edc2e0047b1e7b56e1aa462529d8386cd6edc65bc2931c8555aa17d830e6",
+    "input": "masked-median residual, float32 NCHW 1x3x256x256",
+    "output": "single synthetic-image logit"
+  }
+}

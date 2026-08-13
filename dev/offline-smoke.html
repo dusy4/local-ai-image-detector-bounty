@@ -1,0 +1,4 @@
+<!doctype html><html><head><link rel="icon" href="data:,"></head><body><script>
+window.__prepared = fetch("/samples/gemini-capybara.png").then(response => response.blob()).then(blob => URL.createObjectURL(blob));
+window.__appendPrepared = async () => { const image = document.createElement("img"); image.width = 800; image.src = await window.__prepared; document.body.append(image); };
+</script></body></html>

@@ -1,0 +1,7 @@
+{
+    "source":  "xRayon/convnext-ai-images-detector",
+    "revision":  "1b4d270be0590cde4320fa7503d68b44bb7ee77e",
+    "variant":  "phase2 ONNX linear weight int8",
+    "bytes":  100375312,
+    "sha256":  "2b8b40817e30b1cc8b32dbb703cfad223255cb6657f4f12b792c166f6e9d3ab4"
+}

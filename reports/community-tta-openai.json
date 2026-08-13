@@ -1,0 +1,70 @@
+{
+  "dataset": "fixtures\\openai-fresh",
+  "images": 8,
+  "center": {
+    "tpr": 0.625,
+    "tnr": null
+  },
+  "max6": {
+    "tpr": 0.625,
+    "tnr": null
+  },
+  "rows": [
+    {
+      "file": "fixtures\\openai-fresh\\fake\\bicycle-workshop.png",
+      "truth": 1,
+      "source": "openai-current",
+      "center": 0.1458217352628708,
+      "max6": 0.4521036744117737
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\ceramic-lamp.png",
+      "truth": 1,
+      "source": "openai-current",
+      "center": 0.8179585337638855,
+      "max6": 0.8256166577339172
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\floating-library.png",
+      "truth": 1,
+      "source": "openai-current",
+      "center": 0.014142299070954323,
+      "max6": 0.15103451907634735
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-black-square.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "center": 0.9979897737503052,
+      "max6": 0.999239444732666
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-blank-paper.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "center": 0.9815526604652405,
+      "max6": 0.989287257194519
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-red-ball.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "center": 0.009279824793338776,
+      "max6": 0.08111388236284256
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-sky-cloud.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "center": 0.8694117665290833,
+      "max6": 0.9642694592475891
+    },
+    {
+      "file": "fixtures\\openai-fresh\\fake\\lowentropy-yellow-circle.png",
+      "truth": 1,
+      "source": "openai-current-low-entropy",
+      "center": 0.8649993538856506,
+      "max6": 0.9450892210006714
+    }
+  ]
+}

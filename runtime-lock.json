@@ -1,0 +1,14 @@
+{
+  "transformersJs": {
+    "version": "3.8.1",
+    "source": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/transformers.min.js",
+    "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa"
+  },
+  "onnxRuntimeWeb": {
+    "version": "1.22.0",
+    "source": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/ort-wasm-simd-threaded.jsep.wasm",
+    "sha256": "b45970d0632383a057c27ca5b660b216f8e00c17cf8db9f6207b5e4abc839368",
+    "moduleSource": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/ort.all.min.mjs",
+    "moduleSha256": "abd87226e2b3d80dbe1d4286781b5e949a8e81a0f361425f7b4937a2c599dc2b"
+  }
+}
